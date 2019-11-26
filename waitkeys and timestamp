@@ -1,0 +1,7 @@
+displaytime = win.flip() # flip everything to the window
+
+responseKey = event.waitKeys() # get participant response
+
+end = myClock.getTime() # get time for participant's response
+
+RT = (end - displaytime)*1000 # calculate response time
