@@ -1,0 +1,19 @@
+
+not spell-checked at all
+
+
+plots
+bibs
+highighting
+internal references
+make it look ncie and sharp
+
+we want some data so that we have something to work with, but the most important is learning how to use the tools etc
+
+"I dont care whether you have 2 real people and 20 madeup people"
+
+"dont spend days gathering data for the purpsoe of gathering data, spend those days making your report attractive and bug-free"
+
+
+Notes for final class
+you can use the org-babel thing in order to make slideshows, what id still like is for all of the team members up front, plugin the computers, this is handhy in R etc etc so that we can get our files combined
