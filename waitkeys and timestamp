@@ -1,7 +1,24 @@
-displaytime = win.flip() # flip everything to the window
+Determining when a key was pressed
 
-responseKey = event.waitKeys() # get participant response
+It can also be useful know the time that a keypress was made (such as in studies of reaction time, though care needs to be taken if precise time estimates are required). We can easily obtain this information by providing a timeStamped argument with a timing clock:
 
-end = myClock.getTime() # get time for participant's response
+import psychopy.visual
+import psychopy.event
+import psychopy.core
 
-RT = (end - displaytime)*1000 # calculate response time
+win = psychopy.visual.Window(
+    size=[400, 400],
+    units="pix",
+    fullscr=False
+)
+
+clock = psychopy.core.Clock()
+
+keys = psychopy.event.waitKeys(timeStamped=clock)
+
+print keys
+
+win.close()
+
+[('left', 0.5030858516693115)]
+
