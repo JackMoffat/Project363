@@ -51,7 +51,8 @@
 
 ;;; This keeps init.el cleaner by storing any edits made through M-x customize-variable in custom.el instead
 (when (file-readable-p "~/.emacs.d/custom.el")
-  (org-babel-load-file (expand-file-name "~/.emacs.d/custom.el")))
+  (setq custom-file "~/.emacs.d/custom.el")
+  (load custom-file))
 
 
 
