@@ -145,3 +145,15 @@ if 'escape' in keys:
 
 
 # https://discourse.psychopy.org/t/record-keypress-and-time/953/2
+
+# https://docs.python.org/3/library/csv.html
+# this link may help with csv writing- just a short tutorial on csv reading and writing that may spark some ideas
+
+# https://www.psychopy.org/api/logging.html
+# logging error messages and other messages in psychopy- may help with logging data
+
+# https://www.psychopy.org/coder/codeLogging.html
+# more on logging
+
+# https://www.psychopy.org/api/data.html
+# functions for storing/saving data from psychopy
