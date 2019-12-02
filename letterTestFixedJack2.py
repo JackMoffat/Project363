@@ -86,7 +86,7 @@ press_times = []  # List records the data
 # core.wait(3.5)
 
 # TODO  Find out how to display the last sentence in text_string
-text_string = "This is an N-Back task.  This task is a test of working memory.  You will be presented with a random series of letters, one by one.  For this task, you will press the spacebar if you see a letter that was repeated two letters back.  For example, if you see a sequence such as A, D, A, then you will have to press the spacebar.  You will be given a sequence of fifteen letters."
+text_string = "This is an N-Back task.  This task is a test of working memory.  You will be presented with a random series of letters, one by one.  For this task, you will press the spacebar if you see a letter that was repeated two letters back.  For example, if you see a sequence such as A, D, A, then you will have to press the spacebar.  You will be given a sequence of fifteen letters.  "
 textList = text_string.split("  ")
 for msg in textList:
     displayMsg = visual.TextStim(
@@ -116,8 +116,8 @@ for msg in textList:
 # mywin.flip()
 # core.wait(3.5)
 
-keys = event.waitKeys(keyList=[i for i in alphabet])
-print(keys)
+# keys = event.waitKeys(keyList=[i for i in alphabet])
+# print(keys)
 countdownMessage = visual.TextStim(
     mywin, text='The task will begin after this countdown.', pos=(0.5, 0))
 countdownMessage.autoDraw = True
@@ -161,6 +161,7 @@ for idx, char in enumerate(trial_list):
     mywin.flip()
     core.wait(1.3)
     keys = event.getKeys(keyList=["space"], timeStamped=True)
+    print(keys, message.text)
     # currently appending in tuple form list_stats = []  # list holding the character and positions it was matched at
     press_times.append((keys, message.text))
 
