@@ -128,14 +128,16 @@ for num in countdown:
 
 for idx, char in enumerate(trial_list):
 
-    txtDisplay = char
+    txtDisplay.text = char
     mywin.flip()
+    txtDisplay.draw()
     core.wait(ptt)
     keys = event.getKeys(keyList=["space"], timeStamped=False)
-    print(keys, txtDisplay)
-    press_times.append((keys, txtDisplay))
-    txtDisplay = "+"
+    print(keys, txtDisplay.text)
+    press_times.append((keys, txtDisplay.text))
+    txtDisplay.text = "+"
     mywin.flip()
+    txtDisplay.draw()
     core.wait(ptt)
     # currently appending in tuple form list_stats = []  # list holding the character and positions it was matched at
 
