@@ -64,7 +64,7 @@ verbose: Bool: prints information about the lists for immediate viewing
 
 
 trial_list = makeMatches(initial_letters,n_trials,
-                         match_frequency, keep_list_stats=False)
+                         threshold=match_frequency, keep_list_stats=False)
 
 
 ######################
@@ -109,23 +109,24 @@ if intro:
         mywin.flip()
         core.wait(2.0)
 
-    message = visual.TextStim(
-        mywin, text='5', alignHoriz='left', alignVert='center', pos=(0, 0))
-    message.autoDraw = True
-    mywin.flip()
-    core.wait(1.0)
-    message.text = '4'
-    mywin.flip()
-    core.wait(1.0)
-    message.text = '3'
-    mywin.flip()
-    core.wait(1.0)
-    message.text = '2'
-    mywin.flip()
-    core.wait(1.0)
-    message.text = '1'
-    mywin.flip()
-    core.wait(1.0)
+per_trial_time = 0.3
+ptt = per_trial_time
+message = visual.TextStim(mywin, text='5', alignHoriz='left', alignVert='center', pos=(0, 0))
+message.autoDraw = True
+mywin.flip()
+core.wait(ptt)
+message.text = '4'
+mywin.flip()
+core.wait(ptt)
+message.text = '3'
+mywin.flip()
+core.wait(ptt)
+message.text = '2'
+mywin.flip()
+core.wait(ptt)
+message.text = '1'
+mywin.flip()
+core.wait(ptt)
     
 
 ###################
@@ -136,13 +137,13 @@ for idx, char in enumerate(trial_list):
 
     message.text = char
     mywin.flip()
-    core.wait(1.3)
+    core.wait(ptt)
     keys = event.getKeys(keyList=["space"], timeStamped=False)
     print(keys, message.text)
     press_times.append((keys, message.text))
     message.text = "+"
     mywin.flip()
-    core.wait(1.3)
+    core.wait(ptt)
     # currently appending in tuple form list_stats = []  # list holding the character and positions it was matched at
 
 
