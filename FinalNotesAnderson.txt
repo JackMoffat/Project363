@@ -17,3 +17,9 @@ we want some data so that we have something to work with, but the most important
 
 Notes for final class
 you can use the org-babel thing in order to make slideshows, what id still like is for all of the team members up front, plugin the computers, this is handhy in R etc etc so that we can get our files combined
+
+
+
+*note on presentation*
+give data, give bib file, give org file, etc. everything for report to be reproduced
+- test whether any local variables have been stored, etc

@@ -1,3 +1,21 @@
+#+OPTIONS: ':t *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+OPTIONS: broken-links:nil c:nil creator:nil d:(not "LOGBOOK")
+#+OPTIONS: date:t e:t email:nil f:t inline:t num:t p:nil pri:nil
+#+OPTIONS: prop:nil stat:t tags:t tasks:t tex:t timestamp:t title:t
+#+OPTIONS: toc:nil
+#+TITLE: PresentationFile
+#+DATE: <2019-12-03 Tue>
+#+AUTHOR: Jackm
+#+EMAIL: jackm@jackm-Surface-Pro-4
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 27.0.50 (Org mode 9.1.9)
+
+
+
+
+
 * N - Back Test
 By
 - Max Su
@@ -11,15 +29,64 @@ Used psychopy to create an n-back test, based off of [[https://osf.io/ewu5m/]["M
 
 
 ** What we want to do
-
+Actually process some code
 
 ** some code
+#+BEGIN_SRC python
+def makeMatches(in_list,trials=5,
+                threshold=0, n_back=2,
+                keep_list_stats=True, verbose=False):
+    '''Creates the matches in a given list.if a random number is greater than threshold,
+    then match the letters at positions [idx] and [idx-n_back]
+    in_list: list of letters, strings, etc
+    threshold: type(float) in range(0,1)ld
+    keep_stats: Bool: will output a list with information on
+    the matches (position, character) and their frequency
+verbose: Bool: prints information about the lists for immediate viewing
+    '''
+    out_list = [i for i in in_list]
+    list_stats = []  # list holding the character and positions it was matched at
+    num_matches = 0
+    for idx, char in enumerate(in_list):
+        if idx > 1:
+            if (random.random() > threshold):
+                out_list[idx] = in_list[idx-n_back]
+                list_stats.append([(idx, idx-2), char]
+                                  ) if keep_list_stats else None
+                num_matches += 1
 
+    real_match_rate = num_matches / (len(in_list) - 2)
 
+#####################
+# create trial list #
+#####################
+
+n_trials = 15
+match_frequency_threshold = 0.5
+alphabet = [i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+initial_letters = [random.choice(alphabet) for i in range(n_trials)]
+
+trial_list = makeMatches(initial_letters,n_trials,
+                         threshold=match_frequency_threshold, keep_list_stats=False)
+
+#+END_SRC
 
 
 ** some useful stuff
 
-*** grip-mode?
-Lets you see previews
-https://github.com/seagle0128/grip-mode
+*** latex-preview-mode
+This lets you preview your report as you make it (in latex)
+
+#+BEGIN_EXAMPLE
+C-c C-e l l
+open file.tex
+edit text as you please
+#+BEGIN_SRC emacs-lisp
+  (use-package latex-preview-pane
+    :ensure t
+    :config
+    (latex-preview-pane-enable)
+    )
+#+END_SRC
+
+#+END_EXAMPLE

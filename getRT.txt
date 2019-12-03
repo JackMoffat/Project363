@@ -1,0 +1,12 @@
+;; This buffer is for text that is not saved, and for Lisp evaluation.
+;; To create a file, visit it with C-x f and enter text in its buffer.
+
+
+startTime = timer.gettime()
+stoptime = timer.getTime()
+RT = stopTime - startTime
+
+to get string input, they just did
+
+ptname = str(input("please enter your name"))
+then, we need to have it wait for the enter or space key

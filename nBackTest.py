@@ -12,13 +12,13 @@ import time as systime
 #############
 
 
-
-def makeMatches(in_list,n_trials_internal=5,
+def makeMatches(in_list, trials=5,
                 threshold=0, n_back=2,
                 keep_list_stats=True, verbose=False):
     '''Creates the matches in a given list.if a random number is greater than threshold,
     then match the letters at positions [idx] and [idx-n_back]
     in_list: list of letters, strings, etc
+    trials: how many trials to run
     threshold: type(float) in range(0,1)ld
     keep_stats: Bool: will output a list with information on
     the matches (position, character) and their frequency
@@ -59,11 +59,12 @@ verbose: Bool: prints information about the lists for immediate viewing
 #####################
 
 n_trials = 10
-match_frequency_threshold = 0 # need to think of this inverted with how the code is currently written
+# need to think of this inverted with how the code is currently written
+match_frequency_threshold = 0
 alphabet = [i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
 initial_letters = [random.choice(alphabet) for i in range(n_trials)]
 
-trial_list = makeMatches(initial_letters,n_trials,
+trial_list = makeMatches(initial_letters, trials=n_trials,
                          threshold=match_frequency_threshold, keep_list_stats=False)
 ptt = 1.2
 # ptt is the amount of time between trials, stands for "per time trial"
@@ -84,12 +85,12 @@ press_times = []  # List records the data
 intro = False
 
 if intro:
-# TODO  Find out how to display the last sentence in text_string
+    # TODO  Find out how to display the last sentence in text_string
     text_string = f"This is an N-Back task.  This task is a test of working memory.  You will be presented with a random series of letters, one by one.  For this task, you will press the spacebar if you see a letter that was repeated two letters back.  For example, if you see a sequence such as A, D, A, then you will have to press the spacebar.  You will be given a sequence of {n_trials} letters.  "
     textList = text_string.split("  ")
     for msg in textList:
         displayMsg = visual.TextStim(
-            mywin, text = msg, pos=(0.5, 0))
+            mywin, text=msg, pos=(0.5, 0))
         mywin.flip()
         displayMsg.draw()
         core.wait(3.5)
@@ -124,7 +125,7 @@ for num in countdown:
 for idx, char in enumerate(trial_list):
 
     txtDisplay.text = char
-    keys = event.getKeys(keyList=["space"], timeStamped=False)
+    keys = event.getKeys(keyList=["space"], timeStamped=True)
     mywin.flip()
     txtDisplay.draw()
     print(keys, txtDisplay.text)
