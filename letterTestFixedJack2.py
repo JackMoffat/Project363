@@ -11,13 +11,9 @@ import random
 # Make lists / define functions #
 #############
 
-n_trials = 15
-match_frequency = 1
-alphabet = [i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
-initial_letters = [random.choice(alphabet) for i in range(n_trials)]
 
 
-def makeMatches(in_list,n_trials_internal=n_trials,
+def makeMatches(in_list,n_trials_internal=5,
                 threshold=0, n_back=2,
                 keep_list_stats=True, verbose=False):
     '''Creates the matches in a given list.if a random number is greater than threshold,
@@ -63,8 +59,19 @@ verbose: Bool: prints information about the lists for immediate viewing
 #####################
 
 
+
+
+
+
+n_trials = 10
+match_frequency_threshold = 0 # need to think of this inverted with how the code is currently written
+alphabet = [i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+initial_letters = [random.choice(alphabet) for i in range(n_trials)]
+per_trial_time = 0.3
+ptt = per_trial_time
+
 trial_list = makeMatches(initial_letters,n_trials,
-                         threshold=match_frequency, keep_list_stats=False)
+                         threshold=match_frequency_threshold, keep_list_stats=False)
 
 
 ######################
@@ -92,7 +99,7 @@ intro = False
 
 if intro:
 # TODO  Find out how to display the last sentence in text_string
-    text_string = "This is an N-Back task.  This task is a test of working memory.  You will be presented with a random series of letters, one by one.  For this task, you will press the spacebar if you see a letter that was repeated two letters back.  For example, if you see a sequence such as A, D, A, then you will have to press the spacebar.  You will be given a sequence of fifteen letters.  "
+    text_string = f"This is an N-Back task.  This task is a test of working memory.  You will be presented with a random series of letters, one by one.  For this task, you will press the spacebar if you see a letter that was repeated two letters back.  For example, if you see a sequence such as A, D, A, then you will have to press the spacebar.  You will be given a sequence of {n_trials} letters.  "
     textList = text_string.split("  ")
     for msg in textList:
         displayMsg = visual.TextStim(
@@ -109,8 +116,7 @@ if intro:
         mywin.flip()
         core.wait(2.0)
 
-per_trial_time = 0.3
-ptt = per_trial_time
+
 message = visual.TextStim(mywin, text='5', alignHoriz='left', alignVert='center', pos=(0, 0))
 message.autoDraw = True
 mywin.flip()
@@ -133,13 +139,15 @@ core.wait(ptt)
 # display letters #
 ###################
 
-for idx, char in enumerate(trial_list):
 
+for idx, char in enumerate(trial_list):
+    trialTime = core.Clock()
     message.text = char
+    
     mywin.flip()
     core.wait(ptt)
     keys = event.getKeys(keyList=["space"], timeStamped=False)
-    print(keys, message.text)
+    print(keys,trialTime.getTime(), message.text)
     press_times.append((keys, message.text))
     message.text = "+"
     mywin.flip()
@@ -147,107 +155,6 @@ for idx, char in enumerate(trial_list):
     # currently appending in tuple form list_stats = []  # list holding the character and positions it was matched at
 
 
-# message.text='A'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='A'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='D'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='F'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='G'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='F'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='V'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='T'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='V'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='P'
-# Fmywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='C'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='J'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='H'
-# mywin.flip()
-# core.wait(1.3)
-# keys = event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text = 'J'
-# mywin.flip()
-# core.wait(1.3)
-# keys = event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text = 'H'
-# mywin.flip()
-# core.wait(1.3)
-# keys = event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text = 'O'
-# mywin.flip()
-# core.wait(1.3)
-# keys = event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text = ' '
-# mywin.flip()
-# core.wait(1.0)
-
-# letter sequence ends here
 
 endMessage = visual.TextStim(
     mywin, text='You have completed the N-Back task. Thank you!', pos=(0.5, 0))
@@ -257,17 +164,18 @@ core.wait(3.0)
 
 print(press_times)
 
-
-datafile = open(f"data_{ptname}.txt", "w+")
+ptname = "test"
+datafile = open(f"datafile_{ptname}.txt", "w+")
 for line in press_times:
-    datafile.write(line)
+    datafile.write(str(line))
     datafile.write("\n")
+datafile.close()
 
 # #not sure needed
 # for line in n_list:
 #     datafile.write(line,)
 #     datafile.write("\n")
 
-# for line in stats:
+0# for line in stats:
 #     datafile.write(line)
 #     datafile.write("\n")
