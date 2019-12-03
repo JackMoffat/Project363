@@ -58,9 +58,9 @@ verbose: Bool: prints information about the lists for immediate viewing
 # create trial list #
 #####################
 
-n_trials = 10
+n_trials = 15
 # need to think of this inverted with how the code is currently written
-match_frequency_threshold = 0
+match_frequency_threshold = 0.5
 alphabet = [i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
 initial_letters = [random.choice(alphabet) for i in range(n_trials)]
 
@@ -82,7 +82,7 @@ press_times = []  # List records the data
 
 ##############################
 
-intro = False
+intro = True
 
 if intro:
     # TODO  Find out how to display the last sentence in text_string
@@ -94,14 +94,15 @@ if intro:
         mywin.flip()
         displayMsg.draw()
         core.wait(3.5)
-        countdownMessage = visual.TextStim(
-            mywin, text='The task will begin after this countdown.', pos=(0.5, 0))
-        countdownMessage.autoDraw = True
-        mywin.flip()
-        core.wait(3.5)
-        countdowntxtDisplay.text = ' '
-        mywin.flip()
-        core.wait(2.0)
+
+    countdownMessage = visual.TextStim(
+	mywin, text='The task will begin after this countdown.', pos=(0.5, 0))
+    countdownMessage.autoDraw = True
+    mywin.flip()
+    core.wait(3.5)
+    countdownMessage.text = ' '
+    mywin.flip()
+    core.wait(0.5)
 
 
 
@@ -114,7 +115,7 @@ for num in countdown:
 	mywin, text = num , alignHoriz='left', alignVert='center', pos=(0, 0))
     mywin.flip()
     txtDisplay.draw()
-    core.wait(0.1)
+    core.wait(1.0)
     
 
 ###################
