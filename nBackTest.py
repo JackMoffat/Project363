@@ -11,13 +11,9 @@ import random
 # Make lists / define functions #
 #############
 
-n_trials = 15
-match_frequency = 1
-alphabet = [i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
-initial_letters = [random.choice(alphabet) for i in range(n_trials)]
 
 
-def makeMatches(in_list,n_trials_internal=n_trials,
+def makeMatches(in_list,n_trials_internal=5,
                 threshold=0, n_back=2,
                 keep_list_stats=True, verbose=False):
     '''Creates the matches in a given list.if a random number is greater than threshold,
@@ -63,8 +59,19 @@ verbose: Bool: prints information about the lists for immediate viewing
 #####################
 
 
+
+
+
+
+n_trials = 10
+match_frequency_threshold = 0 # need to think of this inverted with how the code is currently written
+alphabet = [i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+initial_letters = [random.choice(alphabet) for i in range(n_trials)]
+per_trial_time = 0.3
+ptt = per_trial_time
+
 trial_list = makeMatches(initial_letters,n_trials,
-                         threshold=match_frequency, keep_list_stats=False)
+                         threshold=match_frequency_threshold, keep_list_stats=False)
 
 
 ######################
@@ -92,7 +99,7 @@ intro = False
 
 if intro:
 # TODO  Find out how to display the last sentence in text_string
-    text_string = "This is an N-Back task.  This task is a test of working memory.  You will be presented with a random series of letters, one by one.  For this task, you will press the spacebar if you see a letter that was repeated two letters back.  For example, if you see a sequence such as A, D, A, then you will have to press the spacebar.  You will be given a sequence of fifteen letters.  "
+    text_string = f"This is an N-Back task.  This task is a test of working memory.  You will be presented with a random series of letters, one by one.  For this task, you will press the spacebar if you see a letter that was repeated two letters back.  For example, if you see a sequence such as A, D, A, then you will have to press the spacebar.  You will be given a sequence of {n_trials} letters.  "
     textList = text_string.split("  ")
     for msg in textList:
         displayMsg = visual.TextStim(
@@ -105,12 +112,11 @@ if intro:
         countdownMessage.autoDraw = True
         mywin.flip()
         core.wait(3.5)
-        countdownMessage.text = ' '
+        countdowntxtDisplay.text = ' '
         mywin.flip()
         core.wait(2.0)
 
-per_trial_time = 0.3
-ptt = per_trial_time
+
 
 countdownString = "5,4,3,2,1"
 countdown = countdownString.split(',')
@@ -121,27 +127,29 @@ for num in countdown:
     mywin.flip()
     txtDisplay.draw()
     core.wait(ptt)
+    
 
 ###################
 # display letters #
 ###################
 
-for idx, char in enumerate(trial_list):
 
-    txtDisplay.text = char
+for idx, char in enumerate(trial_list):
+    trialTime = core.Clock()
+    txtDisplay.text = char   
     mywin.flip()
     txtDisplay.draw()
     core.wait(ptt)
     keys = event.getKeys(keyList=["space"], timeStamped=False)
-    print(keys, txtDisplay.text)
-    press_times.append((keys, txtDisplay.text))
+    print(keys,trialTime.getTime(), txtDisplay.text)
+    press_times.append([keys,trialTime.getTime(), txtDisplay.text])
     txtDisplay.text = "+"
     mywin.flip()
     txtDisplay.draw()
     core.wait(ptt)
     # currently appending in tuple form list_stats = []  # list holding the character and positions it was matched at
 
-# letter sequence ends here
+
 
 endMessage = visual.TextStim(
     mywin, text='You have completed the N-Back task. Thank you!', pos=(0.5, 0))
@@ -151,17 +159,26 @@ core.wait(3.0)
 
 print(press_times)
 
+ptname = "test"
+datafile = open(f"datafile_{ptname}.txt", "w+")
 
-datafile = open(f"data_{ptname}.txt", "w+")
+################
+# writing file #
+################
+
+# add datafile.write(trialconditions like time, n_trials, time per window, etc)
+
+
 for line in press_times:
-    datafile.write(line)
+    datafile.write(str(line))
     datafile.write("\n")
+datafile.close()
 
 # #not sure needed
 # for line in n_list:
 #     datafile.write(line,)
 #     datafile.write("\n")
 
-# for line in stats:
+0# for line in stats:
 #     datafile.write(line)
 #     datafile.write("\n")
