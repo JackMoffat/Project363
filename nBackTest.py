@@ -111,23 +111,16 @@ if intro:
 
 per_trial_time = 0.3
 ptt = per_trial_time
-message = visual.TextStim(mywin, text='5', alignHoriz='left', alignVert='center', pos=(0, 0))
-message.autoDraw = True
-mywin.flip()
-core.wait(ptt)
-message.text = '4'
-mywin.flip()
-core.wait(ptt)
-message.text = '3'
-mywin.flip()
-core.wait(ptt)
-message.text = '2'
-mywin.flip()
-core.wait(ptt)
-message.text = '1'
-mywin.flip()
-core.wait(ptt)
-    
+
+countdownString = "5,4,3,2,1"
+countdown = countdownString.split(',')
+
+for num in countdown:
+    txtDisplay = visual.TextStim(
+	mywin, text = num , alignHoriz='left', alignVert='center', pos=(0, 0))
+    mywin.flip()
+    txtDisplay.draw()
+    core.wait(ptt)
 
 ###################
 # display letters #
@@ -135,117 +128,16 @@ core.wait(ptt)
 
 for idx, char in enumerate(trial_list):
 
-    message.text = char
+    txtDisplay = char
     mywin.flip()
     core.wait(ptt)
     keys = event.getKeys(keyList=["space"], timeStamped=False)
-    print(keys, message.text)
-    press_times.append((keys, message.text))
-    message.text = "+"
+    print(keys, txtDisplay)
+    press_times.append((keys, txtDisplay))
+    txtDisplay = "+"
     mywin.flip()
     core.wait(ptt)
     # currently appending in tuple form list_stats = []  # list holding the character and positions it was matched at
-
-
-# message.text='A'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='A'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='D'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='F'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='G'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='F'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='V'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='T'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='V'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='P'
-# Fmywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='C'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='J'
-# mywin.flip()
-# core.wait(1.3)
-# keys=event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text='H'
-# mywin.flip()
-# core.wait(1.3)
-# keys = event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text = 'J'
-# mywin.flip()
-# core.wait(1.3)
-# keys = event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text = 'H'
-# mywin.flip()
-# core.wait(1.3)
-# keys = event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text = 'O'
-# mywin.flip()
-# core.wait(1.3)
-# keys = event.getKeys(keyList=["space"], timeStamped=True)
-# print(keys, message.text)
-
-# message.text = ' '
-# mywin.flip()
-# core.wait(1.0)
 
 # letter sequence ends here
 
