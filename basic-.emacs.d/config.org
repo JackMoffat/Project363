@@ -192,7 +192,7 @@ This is your new startup screen, together with projectile it works in unison and
 provides you with a quick look into your latest projects and files.
 Change the welcome message to whatever string you want and
 change the numbers to suit your liking, I find 5 to be enough.
-#+BEGIN_SRC emacs-lisp
+##+BEGIN_SRC emacs-lisp
   (use-package dashboard
     :ensure t
     :config
@@ -201,7 +201,7 @@ change the numbers to suit your liking, I find 5 to be enough.
       (setq dashboard-items '((recents  . 5)
                               (projects . 5)))
       (setq dashboard-banner-logo-title ""))
-#+END_SRC
+##+END_SRC
 
 * Modeline
 The modeline is the heart of emacs, it offers information at all times, it's persistent
