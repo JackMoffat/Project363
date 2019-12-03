@@ -65,7 +65,7 @@ initial_letters = [random.choice(alphabet) for i in range(n_trials)]
 
 trial_list = makeMatches(initial_letters,n_trials,
                          threshold=match_frequency_threshold, keep_list_stats=False)
-ptt = 0.1
+ptt = 1.2
 # ptt is the amount of time between trials, stands for "per time trial"
 
 ######################
