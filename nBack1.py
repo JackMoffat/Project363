@@ -81,7 +81,7 @@ press_times = []  # List records the data
 
 ##############################
 
-intro = False
+intro = True
 
 if intro:
 # TODO  Find out how to display the last sentence in text_string
@@ -93,20 +93,18 @@ if intro:
         mywin.flip()
         displayMsg.draw()
         core.wait(3.5)
-        countdownMessage = visual.TextStim(
-            mywin, text='The task will begin after this countdown.', pos=(0.5, 0))
-        countdownMessage.autoDraw = True
-        mywin.flip()
-        core.wait(3.5)
-        countdowntxtDisplay.text = ' '
-        mywin.flip()
-        core.wait(2.0)
 
-
+countdownMessage = visual.TextStim(
+	mywin, text='The task will begin after this countdown.', pos=(0.5, 0))
+countdownMessage.autoDraw = True
+mywin.flip()
+core.wait(2.0)
+countdownMessage.text = ' '
+mywin.flip()
+core.wait(2.0)
 
 countdownString = "5,4,3,2,1"
 countdown = countdownString.split(',')
-# ct is the countdown timer
 
 for num in countdown:
     txtDisplay = visual.TextStim(
