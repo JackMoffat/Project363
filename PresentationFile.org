@@ -7,3 +7,19 @@ By
 
 ** What we did
 Used psychopy to create an n-back test, based off of [[https://osf.io/ewu5m/]["Matt's miscellaneous PsychoPy code"]]
+
+
+
+** What we want to do
+
+
+** some code
+
+
+
+
+** some useful stuff
+
+*** grip-mode?
+Lets you see previews
+https://github.com/seagle0128/grip-mode
