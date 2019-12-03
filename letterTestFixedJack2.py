@@ -8,13 +8,22 @@ import random
 #############################
 
 #############
-# functions #
+# Make lists / define functions #
 #############
-def makeMatches(in_list, n_back=2, threshold=0, keep_list_stats=True, verbose=False):
+
+n_trials = 15
+match_frequency = 1
+alphabet = [i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+initial_letters = [random.choice(alphabet) for i in range(n_trials)]
+
+
+def makeMatches(in_list,n_trials_internal=n_trials,
+                threshold=0, n_back=2,
+                keep_list_stats=True, verbose=False):
     '''Creates the matches in a given list.if a random number is greater than threshold,
     then match the letters at positions [idx] and [idx-n_back]
     in_list: list of letters, strings, etc
-    threshold: type(float) in range(0,1)
+    threshold: type(float) in range(0,1)ld
     keep_stats: Bool: will output a list with information on
     the matches (position, character) and their frequency
 verbose: Bool: prints information about the lists for immediate viewing
@@ -52,15 +61,10 @@ verbose: Bool: prints information about the lists for immediate viewing
 #####################
 # create trial list #
 #####################
-n_trials = 15
-n_matching = 5
-match_frequency = 0.5
-alphabet = [i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
 
 
-initial_letters = [random.choice(alphabet) for i in range(n_trials)]
-trial_list = makeMatches(
-    initial_letters, threshold=match_frequency, keep_list_stats=False, verbose=True)
+trial_list = makeMatches(initial_letters,n_trials,
+                         match_frequency, keep_list_stats=False)
 
 
 ######################
@@ -84,72 +88,45 @@ press_times = []  # List records the data
 # beginMessage.draw()
 # mywin.flip()
 # core.wait(3.5)
+intro = False
 
+if intro:
 # TODO  Find out how to display the last sentence in text_string
-text_string = "This is an N-Back task.  This task is a test of working memory.  You will be presented with a random series of letters, one by one.  For this task, you will press the spacebar if you see a letter that was repeated two letters back.  For example, if you see a sequence such as A, D, A, then you will have to press the spacebar.  You will be given a sequence of fifteen letters.  "
-textList = text_string.split("  ")
-for msg in textList:
-    displayMsg = visual.TextStim(
-    mywin, text = msg, pos=(0.5, 0))
+    text_string = "This is an N-Back task.  This task is a test of working memory.  You will be presented with a random series of letters, one by one.  For this task, you will press the spacebar if you see a letter that was repeated two letters back.  For example, if you see a sequence such as A, D, A, then you will have to press the spacebar.  You will be given a sequence of fifteen letters.  "
+    textList = text_string.split("  ")
+    for msg in textList:
+        displayMsg = visual.TextStim(
+            mywin, text = msg, pos=(0.5, 0))
+        mywin.flip()
+        displayMsg.draw()
+        core.wait(3.5)
+        countdownMessage = visual.TextStim(
+            mywin, text='The task will begin after this countdown.', pos=(0.5, 0))
+        countdownMessage.autoDraw = True
+        mywin.flip()
+        core.wait(3.5)
+        countdownMessage.text = ' '
+        mywin.flip()
+        core.wait(2.0)
+
+    message = visual.TextStim(
+        mywin, text='5', alignHoriz='left', alignVert='center', pos=(0, 0))
+    message.autoDraw = True
     mywin.flip()
-    displayMsg.draw()
-    core.wait(3.5)
-
-# mywin.flip()
-# core.wait(3.5)
-# beginMessage.text = 'This task is a test of working memory.'
-# mywin.flip()
-# core.wait(3.5)
-# beginMessage.text = 'You will be presented with a random series of letters, one by one.'
-# mywin.flip()
-# core.wait(3.5)
-# beginMessage.text = 'For this task, you will press the spacebar if you see a letter othat was repeated two letters back.'
-# mywin.flip()
-# core.wait(3.5)
-# beginMessage.text = 'For example, if you see a sequence such as A, D, A, then you will have to press the spacebar.'
-# mywin.flip()
-# core.wait(4.0)
-# beginMessage.text = 'You will be given a sequence of fifteen letters.'
-# mywin.flip()
-# core.wait(3.5)
-# beginMessage.text = 'Please press the key corresponding to the first letter of your name.'
-# mywin.flip()
-# core.wait(3.5)
-
-# keys = event.waitKeys(keyList=[i for i in alphabet])
-# print(keys)
-countdownMessage = visual.TextStim(
-    mywin, text='The task will begin after this countdown.', pos=(0.5, 0))
-countdownMessage.autoDraw = True
-mywin.flip()
-core.wait(3.5)
-countdownMessage.text = ' '
-mywin.flip()
-core.wait(2.0)
-
-##################
-# Countdown here #
-##################
-# we can redo this one too
-
-message = visual.TextStim(
-    mywin, text='5', alignHoriz='left', alignVert='center', pos=(0, 0))
-message.autoDraw = True
-mywin.flip()
-core.wait(1.0)
-message.text = '4'
-mywin.flip()
-core.wait(1.0)
-message.text = '3'
-mywin.flip()
-core.wait(1.0)
-message.text = '2'
-mywin.flip()
-core.wait(1.0)
-message.text = '1'
-mywin.flip()
-core.wait(1.0)
-
+    core.wait(1.0)
+    message.text = '4'
+    mywin.flip()
+    core.wait(1.0)
+    message.text = '3'
+    mywin.flip()
+    core.wait(1.0)
+    message.text = '2'
+    mywin.flip()
+    core.wait(1.0)
+    message.text = '1'
+    mywin.flip()
+    core.wait(1.0)
+    
 
 ###################
 # display letters #
