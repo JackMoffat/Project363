@@ -121,20 +121,23 @@ for num in countdown:
 # display letters #
 ###################
 
+trialTime = core.Clock()
 
 for idx, char in enumerate(trial_list):
 
+    trialLength = core.CountdownTimer()
+    keys = event.getKeys(keyList=["space"], timeStamped = trialLength)
     txtDisplay.text = char
-    keys = event.getKeys(keyList=["space"], timeStamped=True)
     mywin.flip()
     txtDisplay.draw()
-    print(keys, txtDisplay.text)
-    press_times.append([keys, txtDisplay.text])
+    print(keys, trialLength.getTime(), txtDisplay.text)
+    press_times.append([keys, trialLength.getTime(), txtDisplay.text])
     core.wait(ptt)
     txtDisplay.text = "+"
     mywin.flip()
     txtDisplay.draw()
     core.wait(ptt)
+    trialLength.reset()
     # currently appending in tuple form list_stats = []  # list holding the character and positions it was matched at
 
 endMessage = visual.TextStim(
