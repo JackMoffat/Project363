@@ -101,7 +101,7 @@ mywin.flip()
 core.wait(2.0)
 countdownMessage.text = ' '
 mywin.flip()
-core.wait(2.0)
+core.wait(0.5)
 
 countdownString = "5,4,3,2,1"
 countdown = countdownString.split(',')
@@ -121,8 +121,8 @@ for num in countdown:
 
 for idx, char in enumerate(trial_list):
 
-    txtDisplay.text = char
     keys = event.getKeys(keyList=["space"], timeStamped=False)
+    txtDisplay.text = char
     mywin.flip()
     txtDisplay.draw()
     print(keys, txtDisplay.text)
@@ -149,7 +149,7 @@ print(press_times)
 
 ts = systime.localtime()
 timestamp = str(systime.strftime("Y%yM%mD%dH%HM%MS%S",ts))
-datafile = open(f"datafile_{timestamp}.txt", "w+")
+datafile = open(f"datafile_{timestamp}.csv", "w+")
 
 ################
 # writing file #
