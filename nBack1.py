@@ -74,14 +74,12 @@ ptt = 1.2
 mywin = visual.Window(fullscr=True, screen=0, allowGUI=False, allowStencil=False,
                       monitor='testMonitor', color=[0, 0, 0], colorSpace='rgb')
 
-clock = core.Clock()  # this is a clock
-
 press_times = []  # List records the data
 
 
 ##############################
 
-intro = True
+intro = False
 
 if intro:
 # TODO  Find out how to display the last sentence in text_string
@@ -118,20 +116,23 @@ for num in countdown:
 # display letters #
 ###################
 
+trialTime = core.Clock()
 
 for idx, char in enumerate(trial_list):
 
-    keys = event.getKeys(keyList=["space"], timeStamped=False)
+    trialLength = core.CountdownTimer()
+    keys = event.getKeys(keyList=["space"], timeStamped = trialLength)
     txtDisplay.text = char
     mywin.flip()
     txtDisplay.draw()
-    print(keys, txtDisplay.text)
-    press_times.append([keys, txtDisplay.text])
+    print(keys, trialLength.getTime(), txtDisplay.text)
+    press_times.append([keys, trialLength.getTime(), txtDisplay.text])
     core.wait(ptt)
     txtDisplay.text = "+"
     mywin.flip()
     txtDisplay.draw()
     core.wait(ptt)
+    trialLength.reset()
     # currently appending in tuple form list_stats = []  # list holding the character and positions it was matched at
 
 endMessage = visual.TextStim(
