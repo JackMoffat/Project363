@@ -59,7 +59,7 @@ verbose: Bool: prints information about the lists for immediate viewing
 #####################
 
 n_trials = 15
-match_frequency_threshold = 0.4 # need to think of this inverted with how the code is currently written
+match_frequency_threshold = 0.5 # need to think of this inverted with how the code is currently written
 alphabet = [i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
 initial_letters = [random.choice(alphabet) for i in range(n_trials)]
 
