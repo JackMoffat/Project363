@@ -1,0 +1,9 @@
+* N - Back Test
+By
+- Max Su
+- Shameem Hedoo
+- Jack Moffat
+
+
+** What we did
+Used psychopy to create an n-back test, based off of [[https://osf.io/ewu5m/]["Matt's miscellaneous PsychoPy code"]]
