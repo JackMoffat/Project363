@@ -160,10 +160,13 @@ for idx, char in enumerate(trial_list):
     message.text = char
     mywin.flip()
     core.wait(1.3)
-    keys = event.getKeys(keyList=["space"], timeStamped=True)
+    keys = event.getKeys(keyList=["space"], timeStamped=False)
     print(keys, message.text)
-    # currently appending in tuple form list_stats = []  # list holding the character and positions it was matched at
     press_times.append((keys, message.text))
+    message.text = "+"
+    mywin.flip()
+    core.wait(1.3)
+    # currently appending in tuple form list_stats = []  # list holding the character and positions it was matched at
 
 
 # message.text='A'
@@ -270,9 +273,11 @@ for idx, char in enumerate(trial_list):
 
 endMessage = visual.TextStim(
     mywin, text='You have completed the N-Back task. Thank you!', pos=(0.5, 0))
-endMessage.autoDraw = True
 mywin.flip()
+endMessage.autoDraw = True
 core.wait(3.0)
+
+print(press_times)
 
 
 datafile = open(f"data_{ptname}.txt", "w+")
