@@ -1,7 +1,7 @@
 from psychopy import visual, event, core
 import pandas as pd
 import random
-
+import time as systime
 
 #########
 # setup #
@@ -58,21 +58,15 @@ verbose: Bool: prints information about the lists for immediate viewing
 # create trial list #
 #####################
 
-
-
-
-
-
 n_trials = 10
 match_frequency_threshold = 0 # need to think of this inverted with how the code is currently written
 alphabet = [i for i in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
 initial_letters = [random.choice(alphabet) for i in range(n_trials)]
-per_trial_time = 0.3
-ptt = per_trial_time
 
 trial_list = makeMatches(initial_letters,n_trials,
                          threshold=match_frequency_threshold, keep_list_stats=False)
-
+ptt = 1.2
+# ptt is the amount of time between trials, stands for "per time trial"
 
 ######################
 # Window setup below #
@@ -87,14 +81,6 @@ press_times = []  # List records the data
 
 ##############################
 
-
-# introduction message
-# beginMessage = visual.TextStim(
-#    mywin, text='This is an N-Back task.', pos=(0.5, 0))
-# mywin.flip()
-# beginMessage.draw()
-# mywin.flip()
-# core.wait(3.5)
 intro = False
 
 if intro:
@@ -120,13 +106,14 @@ if intro:
 
 countdownString = "5,4,3,2,1"
 countdown = countdownString.split(',')
+# ct is the countdown timer
 
 for num in countdown:
     txtDisplay = visual.TextStim(
 	mywin, text = num , alignHoriz='left', alignVert='center', pos=(0, 0))
     mywin.flip()
     txtDisplay.draw()
-    core.wait(ptt)
+    core.wait(0.1)
     
 
 ###################
@@ -135,32 +122,33 @@ for num in countdown:
 
 
 for idx, char in enumerate(trial_list):
-    trialTime = core.Clock()
-    txtDisplay.text = char   
+
+    txtDisplay.text = char
+    keys = event.getKeys(keyList=["space"], timeStamped=False)
     mywin.flip()
     txtDisplay.draw()
+    print(keys, txtDisplay.text)
+    press_times.append([keys, txtDisplay.text])
     core.wait(ptt)
-    keys = event.getKeys(keyList=["space"], timeStamped=False)
-    print(keys,trialTime.getTime(), txtDisplay.text)
-    press_times.append([keys,trialTime.getTime(), txtDisplay.text])
     txtDisplay.text = "+"
     mywin.flip()
     txtDisplay.draw()
     core.wait(ptt)
     # currently appending in tuple form list_stats = []  # list holding the character and positions it was matched at
 
-
-
 endMessage = visual.TextStim(
     mywin, text='You have completed the N-Back task. Thank you!', pos=(0.5, 0))
 mywin.flip()
 endMessage.autoDraw = True
-core.wait(3.0)
+core.wait(3.0)	
 
 print(press_times)
 
-ptname = "test"
-datafile = open(f"datafile_{ptname}.txt", "w+")
+# removed ptname, kept timestamp; timestamp is format Y(year)M(month)D(day)H(hour)M(minute)S(second)
+
+ts = systime.localtime()
+timestamp = str(systime.strftime("Y%yM%mD%dH%HM%MS%S",ts))
+datafile = open(f"datafile_{timestamp}.txt", "w+")
 
 ################
 # writing file #
