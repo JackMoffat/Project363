@@ -138,10 +138,13 @@ for idx, char in enumerate(trial_list):
     # currently appending in tuple form list_stats = []  # list holding the character and positions it was matched at
 
 endMessage = visual.TextStim(
-    mywin, text='You have completed the N-Back task. Thank you!', pos=(0.5, 0))
+    mywin, text = ' ', pos=(0.5, 0))
+endMessage.autoDraw=True
 mywin.flip()
-endMessage.autoDraw = True
-core.wait(3.0)	
+core.wait(1.5)
+endMessage.text = 'You have completed the N-Back task. Thank you!'
+mywin.flip()
+core.wait(3.0)
 
 print(press_times)
 
