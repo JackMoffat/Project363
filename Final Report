@@ -1,0 +1,27 @@
+#+Title: The N-back Test
+#+Latex_header: \bibliographystyle{plain}
+
+* Introduction
+
+In 1958, Wayne Kirchner invented the n-back test \cite{COULACOGLOU201791}. The n-back test is a visuospatial task that has been shown to improve working memory and attentional skills \cite{COLOM2013712}. The basic mechanisms of the test involve the presentation of continuous stimulis in terms of letters or pictures – for every stimulus presented, the participant has to indicate whether it matches a stimulus that was presented n stimuli ago \cite{Kane}. There are different types of n-back tests known as loads: 3-back test, 2-back test and 1-back test \cite{Forns}.
+
+* Hypothesis
+
+Our hypothesis was that participants would have a more challenging time remembering things initially which would be reflected in a longer reaction time to congruent stimulis in the 2-back test compared to the reaction time of a 1-back test. However, as n-back tests are shown to improve working and short term memory \cite{LEONDOMINGUEZ2015167}, we expect participants to get better at remembering, reflected in shorter reaction times in responding to congruent stimulis.
+
+* Materials/Methods
+** R-code
+** Inline usage
+
+* Results
+** Table
+** Simple summary statistics
+** 2 plots
+
+* Discussion
+
+* Bibliography
+
+#+Latex: \bibliography{references}
+
+* Appendix
