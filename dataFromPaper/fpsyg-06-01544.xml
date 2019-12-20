@@ -1,0 +1,6294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+<front>
+<journal-meta>
+  <journal-id journal-id-type="publisher-id">Front. Psychol.
+  </journal-id>
+  <journal-title>Frontiers in Psychology
+  </journal-title>
+  <abbrev-journal-title abbrev-type="pubmed">Front. Psychol.
+  </abbrev-journal-title>
+  <issn pub-type="epub">1664-1078
+  </issn>
+<publisher>
+  <publisher-name>Frontiers Media S.A.
+  </publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+  <article-id pub-id-type="doi">10.3389/fpsyg.2015.01544
+  </article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+  <subject>Psychology
+  </subject>
+<subj-group>
+  <subject>Original Research
+  </subject>
+</subj-group>
+</subj-group>
+</article-categories>
+<title-group>
+  <article-title>Normative data on the n-back task for children and young adolescents
+  </article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+  <name>
+    <surname>Pelegrina
+    </surname>
+    <given-names>Santiago
+    </given-names>
+  </name>
+  <xref ref-type="aff" rid="aff1">
+    <sup>1
+    </sup>
+  </xref>
+  <xref ref-type="author-notes" rid="fn001">
+    <sup>&#x0002A;
+    </sup>
+  </xref>
+<uri xlink:href="http://loop.frontiersin.org/people/179877/overview"/>
+</contrib>
+<contrib contrib-type="author">
+  <name>
+    <surname>Lechuga
+    </surname>
+    <given-names>M. Teresa
+    </given-names>
+  </name>
+  <xref ref-type="aff" rid="aff1">
+    <sup>1
+    </sup>
+  </xref>
+<uri xlink:href="http://loop.frontiersin.org/people/193864/overview"/>
+</contrib>
+<contrib contrib-type="author">
+  <name>
+    <surname>Garc&#x000ED;a-Madruga
+    </surname>
+    <given-names>Juan A.
+    </given-names>
+  </name>
+  <xref ref-type="aff" rid="aff2">
+    <sup>2
+    </sup>
+  </xref>
+<uri xlink:href="http://loop.frontiersin.org/people/199526/overview"/>
+</contrib>
+<contrib contrib-type="author">
+  <name>
+    <surname>Elos&#x000FA;a
+    </surname>
+    <given-names>M. Rosa
+    </given-names>
+  </name>
+  <xref ref-type="aff" rid="aff3">
+    <sup>3
+    </sup>
+  </xref>
+<uri xlink:href="http://loop.frontiersin.org/people/216997/overview"/>
+</contrib>
+<contrib contrib-type="author">
+  <name>
+    <surname>Macizo
+    </surname>
+    <given-names>Pedro
+    </given-names>
+  </name>
+  <xref ref-type="aff" rid="aff4">
+    <sup>4
+    </sup>
+  </xref>
+<uri xlink:href="http://loop.frontiersin.org/people/32724/overview"/>
+</contrib>
+<contrib contrib-type="author">
+  <name>
+    <surname>Carreiras
+    </surname>
+    <given-names>Manuel
+    </given-names>
+  </name>
+  <xref ref-type="aff" rid="aff5">
+    <sup>5
+    </sup>
+  </xref>
+<uri xlink:href="http://loop.frontiersin.org/people/9022/overview"/>
+</contrib>
+<contrib contrib-type="author">
+  <name>
+    <surname>Fuentes
+    </surname>
+    <given-names>Luis J.
+    </given-names>
+  </name>
+  <xref ref-type="aff" rid="aff6">
+    <sup>6
+    </sup>
+  </xref>
+<uri xlink:href="http://loop.frontiersin.org/people/11380/overview"/>
+</contrib>
+<contrib contrib-type="author">
+  <name>
+    <surname>Bajo
+    </surname>
+    <given-names>M. Teresa
+    </given-names>
+  </name>
+  <xref ref-type="aff" rid="aff4">
+    <sup>4
+    </sup>
+  </xref>
+<uri xlink:href="http://loop.frontiersin.org/people/21631/overview"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+  <sup>1
+  </sup>
+  <institution>Department of Psychology, University of Ja&#x000E9;n
+  </institution>,
+  <country>Ja&#x000E9;n, Spain
+  </country>
+</aff>
+<aff id="aff2">
+  <sup>2
+  </sup>
+  <institution>Department of Developmental and Educational Psychology, National University of Distance Education
+  </institution>,
+  <country>Madrid, Spain
+  </country>
+</aff>
+<aff id="aff3">
+  <sup>3
+  </sup>
+  <institution>Department of Basic Psychology, National University of Distance Education
+  </institution>,
+  <country>Madrid, Spain
+  </country>
+</aff>
+<aff id="aff4">
+  <sup>4
+  </sup>
+  <institution>Research Center for Mind, Brain and Behavior, University of Granada
+  </institution>,
+  <country>Granada, Spain
+  </country>
+</aff>
+<aff id="aff5">
+  <sup>5
+  </sup>
+  <institution>Basque Center of Cognition, Brain and Language
+  </institution>,
+  <country>San Sebasti&#x000E1;n-Donostia, Spain
+  </country>
+</aff>
+<aff id="aff6">
+  <sup>6
+  </sup>
+  <institution>Department of Basic Psychology and Methodology, University of Murcia
+  </institution>,
+  <country>Murcia, Spain
+  </country>
+</aff>
+<author-notes>
+  <fn fn-type="edited-by">
+    <p>Edited by:
+      <italic>Yusuke Moriguchi, Joetsu University of Education, Japan
+      </italic>
+    </p>
+  </fn>
+  <fn fn-type="edited-by">
+    <p>Reviewed by:
+      <italic>Michael R. Miller, Western University, Canada; Irene C. Mammarella, University of Padova, Italy
+      </italic>
+    </p>
+  </fn>
+  <fn fn-type="corresp" id="fn001">
+    <p>&#x0002A;Correspondence:
+      <italic>Santiago Pelegrina, Department of Psychology, University of Ja&#x000E9;n, Paraje Las Lagunillas S/N, 23071 Ja&#x000E9;n, Spain,
+        <email>spelegri@ujaen.es
+        </email>
+      </italic>
+    </p>
+  </fn>
+  <fn fn-type="other" id="fn002">
+    <p>This article was submitted to Developmental Psychology, a section of the journal Frontiers in Psychology.
+    </p>
+  </fn>
+</author-notes>
+<pub-date pub-type="epub">
+  <day>08
+  </day>
+  <month>10
+  </month>
+  <year>2015
+  </year>
+</pub-date>
+<pub-date pub-type="collection">
+  <year>2015
+  </year>
+</pub-date>
+<volume>6
+</volume>
+<elocation-id>1544
+</elocation-id>
+<history>
+<date date-type="received">
+  <day>13
+  </day>
+  <month>07
+  </month>
+  <year>2015
+  </year>
+</date>
+<date date-type="accepted">
+  <day>24
+  </day>
+  <month>09
+  </month>
+  <year>2015
+  </year>
+</date>
+</history>
+<permissions>
+  <copyright-statement>Copyright &#x000A9; 2015 Pelegrina, Lechuga, Garc&#x000ED;a-Madruga, Elos&#x000FA;a, Macizo, Carreiras, Fuentes and Bajo.
+  </copyright-statement>
+  <copyright-year>2015
+  </copyright-year>
+  <copyright-holder>Pelegrina, Lechuga, Garc&#x000ED;a-Madruga, Elos&#x000FA;a, Macizo, Carreiras, Fuentes and Bajo
+  </copyright-holder>
+  <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+    <p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) or licensor are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.
+    </p>
+  </license>
+</permissions>
+<abstract>
+  <p>The n-back task is a frequently used measure of working memory (WM) in cognitive neuroscience research contexts, and it has become widely adopted in other areas over the last decade. This study aimed to obtain normative data for the n-back task from a large sample of children and adolescents. To this end, a computerized verbal n-back task with three levels of WM load (1-back, 2-back, and 3-back) was administered to 3722 Spanish school children aged 7&#x02013;13 years. Results showed an overall age-related increase in performance for the different levels of difficulty. This trend was less pronounced at 1-back than at 2-back when hits were considered. Gender differences were also observed, with girls outperforming boys although taking more time to respond. The theoretical implications of these results are discussed. Normative data stratified by age and gender for the three WM load levels are provided.
+  </p>
+</abstract>
+<kwd-group>
+  <kwd>n-back
+  </kwd>
+  <kwd>working memory updating
+  </kwd>
+  <kwd>working memory development
+  </kwd>
+  <kwd>memory development in children
+  </kwd>
+  <kwd>working memory
+  </kwd>
+</kwd-group>
+<contract-num rid="cn001">CSD2008-00048
+</contract-num>
+<contract-num rid="cn002">PSI2012-37764 and PSI2012-33625
+</contract-num>
+<contract-sponsor id="cn001">Ministerio de Ciencia e Innovaci&#x000F3;n
+  <named-content content-type="fundref-id">10.13039/501100004837
+  </named-content>
+</contract-sponsor>
+<contract-sponsor id="cn002">Ministerio de Ciencia y Tecnolog&#x000ED;a
+  <named-content content-type="fundref-id">10.13039/501100006280
+  </named-content>
+</contract-sponsor>
+<counts>
+<fig-count count="4"/>
+<table-count count="4"/>
+<equation-count count="13"/>
+<ref-count count="69"/>
+<page-count count="11"/>
+<word-count count="9747"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec>
+  <title>Introduction
+  </title>
+  <p>Working memory (WM) is a system that enables one to actively maintain and regulate a limited amount of task-relevant information (
+    <xref ref-type="bibr" rid="B3">Baddeley and Logie, 1999
+    </xref>). It plays an important role in processes like reading comprehension (e.g.,
+    <xref ref-type="bibr" rid="B21">Garc&#x000ED;a-Madruga et al., 1997
+    </xref>;
+    <xref ref-type="bibr" rid="B9">Cain, 2006
+    </xref>), reasoning (e.g.,
+    <xref ref-type="bibr" rid="B13">Conway et al., 2003
+    </xref>;
+    <xref ref-type="bibr" rid="B23">Garc&#x000ED;a-Madruga et al., 2007
+    </xref>), arithmetic calculations (e.g.,
+    <xref ref-type="bibr" rid="B17">Deschuyteneer et al., 2006
+    </xref>), mathematical problem solving (e.g.,
+    <xref ref-type="bibr" rid="B49">Passolunghi and Pazzaglia, 2004
+    </xref>), and academic performance (e.g.,
+    <xref ref-type="bibr" rid="B1">Alloway and Alloway, 2010
+    </xref>). WM is also closely associated with fluid intelligence (e.g.,
+    <xref ref-type="bibr" rid="B19">Friedman et al., 2006
+    </xref>).
+  </p>
+  <p>WM has been traditionally measured using processing-and-storing dual tasks that involve performing a cognitive task while certain information has to be maintained in memory. For instance, in the Reading Span Test (
+    <xref ref-type="bibr" rid="B16">Daneman and Carpenter, 1980
+    </xref>), participants have to read increasing series of sentences aloud and eventually recall the last word of each sentence. In the counting span task (
+    <xref ref-type="bibr" rid="B11">Case et al., 1982
+    </xref>), subjects are presented with series of sets of figures, and they have to count the number of figures in order to recall this number at the end of the series. In the operation span task (
+    <xref ref-type="bibr" rid="B63">Turner and Engle, 1989
+    </xref>) participants are presented with a series of simple arithmetical equations and they have to verify each equation while memorizing a digit for later recall. In the analogy and anaphora span tasks (
+    <xref ref-type="bibr" rid="B22">Garc&#x000ED;a-Madruga et al., 2005
+    </xref>), participants have to resolve a series of analogies or anaphoric inferences and later recall the results of these inferences.
+  </p>
+  <p>The n-back is a different kind of WM measure that does not involve a processing-and-storing dual task and in which individuals are not asked to recall any information but to recognize it. The n-back is a continuous recognition task in which participants must decide whether a stimulus was previously presented in certain conditions. In this task a sequence of items are shown, ranging from letters and drawings to words and numbers. For each item it must be determined whether the last one shown is identical to the stimulus presented &#x0201C;n&#x0201D; trials back. Therefore, at the 1-back level, each item needs to be compared with the one presented immediately before, that is, with the prior letter. At 2-back each stimulus is compared with the one shown two positions prior. At higher n levels the decision is based on stimuli separated each time by that many positions. Participants must respond &#x0201C;yes&#x0201D; or &#x0201C;no&#x0201D; to each trial. Response accuracy and response times are usually recorded.
+  </p>
+  <p>First introduced by
+    <xref ref-type="bibr" rid="B32">Kirchner (1958)
+    </xref>, the n-back is a widely used tool for assessing WM in the field of neuroscience. Its popularity in this area has much to do with how well it meets the demands of neuroimaging studies (
+    <xref ref-type="bibr" rid="B48">Owen et al., 2005
+    </xref>;
+    <xref ref-type="bibr" rid="B29">Jaeggi et al., 2010
+    </xref>). Thus, the responses that participants must provide are far simpler compared with other standard WM tasks; it is possible to record both accuracy and response times, and one can easily manipulate the level of difficulty depending on greater or lesser memory loads as well as the timing of stimulus presentation. Since the 1990s, as neuroimaging techniques have become more numerous, the n-back has grown in use and has been progressively adopted in other fields where other WM tasks were traditionally used.
+  </p>
+  <p>The reliability of the task varies greatly depending on the study, from
+    <italic>r
+    </italic> = 0.16 (
+    <xref ref-type="bibr" rid="B66">Van Leeuwen et al., 2007
+    </xref>) to
+    <italic>r
+    </italic> = 0.91 (
+    <xref ref-type="bibr" rid="B20">Friedman et al., 2008
+    </xref>). The more complex levels such as 2-back and 3-back produce higher reliability coefficients (see
+    <xref ref-type="bibr" rid="B29">Jaeggi et al., 2010
+    </xref>). Correlations with other WM measures, although they differ from one study to another, are surprisingly low and not even significant (
+    <xref ref-type="bibr" rid="B51">Redick and Lindsey, 2013
+    </xref>). The variety of WM tasks and the different contents that they include (e.g., spatial, numeric, etc.) may be a reason for these low correlations. Thus, research findings where different types of WM measures (traditional or n-back) have been employed should not be considered as interchangeable (
+    <xref ref-type="bibr" rid="B31">Kane et al., 2007
+    </xref>).
+  </p>
+  <p>Paradoxically, the n-back may show higher correlations with tasks that capture other constructs. In this regard, it is worth noting that relationships with intelligence measures are consistently found, in particular fluid intelligence, such as Raven&#x02019;s Advanced Progressive Matrices (e.g.,
+    <xref ref-type="bibr" rid="B31">Kane et al., 2007
+    </xref>;
+    <xref ref-type="bibr" rid="B12">Colom et al., 2008
+    </xref>;
+    <xref ref-type="bibr" rid="B29">Jaeggi et al., 2010
+    </xref>).
+  </p>
+  <p>These seemingly contradictory findings may be related to the fact that different tasks capture different processes that contribute to WM performance. In this sense, the n-back includes components that have traditionally been considered parts of WM tasks. For example, a 2-back task requires participants to store two elements (e.g., letters) in WM. It further involves updating WM content, given that each time a new item is presented subjects must eliminate the previous item, add the new one, and maintain the presentation order of each item. In short, storage and processing operations that fall under the traditional definition of WM are also present in this task (
+    <xref ref-type="bibr" rid="B2">Baddeley, 2007
+    </xref>).
+  </p>
+  <p>Furthermore, the n-back requires processes that are not found in other WM tasks. Perhaps the most relevant aspect is that n-back relies on recognition processes whereas traditional WM tasks require the retrieval of information. Hence, in n-back tasks participants may rely on assessments of familiarity, something that is not possible in traditional tasks. Moreover, n-back tasks depend on interference resolution processes in order to resolve the conflicts between familiarity and recollection, as well as other processes such as decision-making, temporal ordering, inhibition of no-longer-relevant information, and creation and updating of bindings between content and temporal context (see
+    <xref ref-type="bibr" rid="B46">Oberauer, 2005
+    </xref>;
+    <xref ref-type="bibr" rid="B31">Kane et al., 2007
+    </xref>).
+  </p>
+  <p>The processes involved in the n-back task may also vary depending on the level of load. While all levels require active information maintenance, they differ not only in the load or quantity of information to maintain but also in the degree of content processing and involvement of executive control processes. Thus, at the 1-back level there is no need for content manipulation, whereas 2-back and above will involve constantly adding a new item and dropping the obsolete item. Moreover, content at 1-back is less susceptible to interference than at higher levels. At the 2-back level, participants have to store an element (e.g., a letter) for later use, and at the same time prevent it from influencing the response that they must provide. Thus control and interference resolution is crucial at higher load levels (
+    <xref ref-type="bibr" rid="B53">Schleepen and Jonkman, 2010
+    </xref>). On the other hand, it should be considered that the n-back is a recognition task, which may also involve familiarity and recollection. At 1-back, recognition could be based on familiarity. That is, because of its recency, the last presented item would likely have the higher level of activation in WM, which in turn would elicit a higher level of familiarity than other items in WM (see
+    <xref ref-type="bibr" rid="B46">Oberauer, 2005
+    </xref>). In contrast, at the 2-back (and higher) level, the decision may not only be based on familiarity given that different items could elicit stronger signals of familiarity than the item presented 2 or more steps back. Then a recollection process is needed in order to access the contextual information (e.g., order of presentation, temporal context) related to the item presented. Finally, the different levels vary according to the need to retrieve information outside the focus of attention in WM (
+    <xref ref-type="bibr" rid="B67">Verhaeghen and Basak, 2005
+    </xref>;
+    <xref ref-type="bibr" rid="B47">Oberauer, 2006
+    </xref>). Some models of WM (e.g.,
+    <xref ref-type="bibr" rid="B15">Cowan, 1995
+    </xref>;
+    <xref ref-type="bibr" rid="B45">Oberauer, 2002
+    </xref>) differentiate between two embedded components: the focus of attention and an activated region of long-term memory.
+    <xref ref-type="bibr" rid="B45">Oberauer
+    </xref> (
+    <xref ref-type="bibr" rid="B45">2002
+    </xref>; see also
+    <xref ref-type="bibr" rid="B42">McElree, 2001
+    </xref>) assumed that the focus of attention is able to hold only one item that is directly accessible for processing operations. Thus, while at 1-back the necessary information to respond is in the focus of attention, at higher levels this information has to be accessed from outside of the focus. In short, 1-back and higher n-back levels have differing storage, processing, and executive control demands.
+  </p>
+  <p>Working memory undergoes constant change through childhood and adolescence (e.g.,
+    <xref ref-type="bibr" rid="B18">Elos&#x000FA;a et al., 1997
+    </xref>;
+    <xref ref-type="bibr" rid="B25">Gathercole et al., 2004
+    </xref>;
+    <xref ref-type="bibr" rid="B40">Luna et al., 2004
+    </xref>;
+    <xref ref-type="bibr" rid="B39">Luciana et al., 2005
+    </xref>), which in turn has an impact on the performance of different complex tasks (e.g.,
+    <xref ref-type="bibr" rid="B55">Siegel, 1994
+    </xref>). In addition, developmental changes in the effectiveness with which information in WM is updated has been reported (e.g.,
+    <xref ref-type="bibr" rid="B28">Huizinga et al., 2006
+    </xref>;
+    <xref ref-type="bibr" rid="B34">Lechuga et al., 2006
+    </xref>;
+    <xref ref-type="bibr" rid="B5">Belachi et al., 2010
+    </xref>;
+    <xref ref-type="bibr" rid="B37">Lend&#x000ED;nez et al., 2015
+    </xref>). In recent years, some developmental studies using the n-back task have been conducted (
+    <xref ref-type="bibr" rid="B33">Kwon et al., 2002
+    </xref>;
+    <xref ref-type="bibr" rid="B68">Vuontela et al., 2003
+    </xref>;
+    <xref ref-type="bibr" rid="B53">Schleepen and Jonkman, 2010
+    </xref>). In general, this research has revealed gradual performance improvements during childhood (
+    <xref ref-type="bibr" rid="B68">Vuontela et al., 2003
+    </xref>). These changes continue through adolescence at the more demanding levels (i.e., 2-back; e.g.,
+    <xref ref-type="bibr" rid="B53">Schleepen and Jonkman, 2010
+    </xref>).
+  </p>
+  <p>The current study aims to provide normative data on n-back task performance among children and adolescents aged 7&#x02013;13 years, contributing useful information on a task which is becoming increasingly more frequent and for which, to our knowledge, there is no normative data available. Previous studies have used only one or two levels of n-back in which the information had to be updated in memory. They have included only two or three groups of children of different ages for comparison with a rather limited number of children in each age group (e.g., less than 25). The present study used a more fine-grained approach to analyze the age trends in n-back performance through childhood and early adolescence. Thus, a wide range of ages, from 7 to 13 years, and a large sample for each of the ages was considered.
+  </p>
+  <p>The current study also represents an opportunity to analyze age trends in the task. Given the nature of the process involved at the different levels of n-back, different age-related patterns for each n-back level might be obtained. Since the 2-back or 3-back versions require the involvement of higher executive control processes to a greater extent than the 1-back condition, we expected a more pronounced increase in performance with age in the more complex conditions than in the 1-back version of the task.
+  </p>
+  <p>To this end, three levels of WM load (1-back, 2-back, and 3-back) were administered as part of a large-scale study assessing different cognitive functions considered essential for adequate academic performance, such as attention, memory, language, and reasoning.
+  </p>
+</sec>
+<sec sec-type="materials|methods">
+  <title>Materials and Methods
+  </title>
+<sec>
+  <title>Participants
+  </title>
+  <p>A total of 3722 children and adolescents (1886 boys and 1836 girls) aged 7&#x02013;13 years took part in this study. Only children whose parents consented to their participation in the study were administered the task. No other criteria were applied for exclusion. This was to obtain the largest sample size possible and to represent the full range of children as accurately as possible. The participants made up a sample of school children recruited from 43 schools across several Spanish cities. The number of participants in each age group, their gender and mean age is shown in Table
+    <xref ref-type="table" rid="T1">1
+    </xref>. Prior to testing, informed consent to children&#x02019;s participation was obtained from a parent or legal guardian. Approval from the ethical committee of the University of La Laguna (Spain) was obtained previous to the study.
+  </p>
+<table-wrap position="float" id="T1">
+  <label>TABLE 1
+  </label>
+  <caption>
+    <p>
+      <bold>Age groups of the study population
+      </bold>.
+    </p>
+  </caption>
+<table cellspacing="10" cellpadding="10" frame="hsides" rules="groups">
+<thead>
+<tr>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="center" colspan="2">
+    <bold>Gender
+    </bold>
+  </th>
+  <th valign="top" align="center" colspan="2">
+    <bold>Age (months)
+    </bold>
+  </th>
+  <th valign="top" align="center" colspan="3">
+    <bold>% Completed
+    </bold>
+  </th>
+</tr>
+<tr>
+  <th valign="top" align="left">
+    <bold>Age group
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>
+      <italic>N
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>Boys
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>Girls
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>
+      <italic>M
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>
+      <italic>SD
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>1-back
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>2-back
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>3-back
+    </bold>
+  </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td valign="top" align="left">7
+  </td>
+  <td valign="top" align="left">&#x02002;387
+  </td>
+  <td valign="top" align="left">&#x02002;193
+  </td>
+  <td valign="top" align="left">&#x02002;194
+  </td>
+  <td valign="top" align="left">&#x02002;91.32
+  </td>
+  <td valign="top" align="left">2.52
+  </td>
+  <td valign="top" align="left">&#x02002;98.71
+  </td>
+  <td valign="top" align="left">77.78
+  </td>
+  <td valign="top" align="left">34.88
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">&#x02002;592
+  </td>
+  <td valign="top" align="left">&#x02002;285
+  </td>
+  <td valign="top" align="left">&#x02002;307
+  </td>
+  <td valign="top" align="left">101.32
+  </td>
+  <td valign="top" align="left">3.49
+  </td>
+  <td valign="top" align="left">&#x02002;99.83
+  </td>
+  <td valign="top" align="left">83.45
+  </td>
+  <td valign="top" align="left">41.89
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">9
+  </td>
+  <td valign="top" align="left">&#x02002;606
+  </td>
+  <td valign="top" align="left">&#x02002;310
+  </td>
+  <td valign="top" align="left">&#x02002;296
+  </td>
+  <td valign="top" align="left">113.82
+  </td>
+  <td valign="top" align="left">3.37
+  </td>
+  <td valign="top" align="left">&#x02002;99.67
+  </td>
+  <td valign="top" align="left">86.96
+  </td>
+  <td valign="top" align="left">49.01
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">&#x02002;618
+  </td>
+  <td valign="top" align="left">&#x02002;297
+  </td>
+  <td valign="top" align="left">&#x02002;321
+  </td>
+  <td valign="top" align="left">125.35
+  </td>
+  <td valign="top" align="left">3.50
+  </td>
+  <td valign="top" align="left">&#x02002;99.51
+  </td>
+  <td valign="top" align="left">91.59
+  </td>
+  <td valign="top" align="left">60.68
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">&#x02002;601
+  </td>
+  <td valign="top" align="left">&#x02002;315
+  </td>
+  <td valign="top" align="left">&#x02002;286
+  </td>
+  <td valign="top" align="left">137.50
+  </td>
+  <td valign="top" align="left">3.47
+  </td>
+  <td valign="top" align="left">&#x02002;99.67
+  </td>
+  <td valign="top" align="left">91.35
+  </td>
+  <td valign="top" align="left">66.72
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">&#x02002;476
+  </td>
+  <td valign="top" align="left">&#x02002;253
+  </td>
+  <td valign="top" align="left">&#x02002;223
+  </td>
+  <td valign="top" align="left">149.39
+  </td>
+  <td valign="top" align="left">3.39
+  </td>
+  <td valign="top" align="left">100.00
+  </td>
+  <td valign="top" align="left">92.65
+  </td>
+  <td valign="top" align="left">70.59
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">&#x02002;442
+  </td>
+  <td valign="top" align="left">&#x02002;233
+  </td>
+  <td valign="top" align="left">&#x02002;209
+  </td>
+  <td valign="top" align="left">161.38
+  </td>
+  <td valign="top" align="left">3.38
+  </td>
+  <td valign="top" align="left">&#x02002;99.10
+  </td>
+  <td valign="top" align="left">94.57
+  </td>
+  <td valign="top" align="left">78.96
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">Total
+  </td>
+  <td valign="top" align="left">3722
+  </td>
+  <td valign="top" align="left">1886
+  </td>
+  <td valign="top" align="left">1836
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+</tbody>
+</table>
+<table-wrap-foot>
+  <fn>
+    <p>
+      <italic>Number, gender, and mean age of participants for each age group and percentage of participants completing each level of the task.
+      </italic>
+    </p>
+  </fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec>
+  <title>Materials and Procedure
+  </title>
+  <p>Children were given a series of cognitive tasks over three sessions as a part of a larger study on the development of cognitive skills involved in academic performance. The n-back task was administered at the beginning of the session. Each session lasted about 60 min.
+  </p>
+  <p>The n-back task programmed by
+    <xref ref-type="bibr" rid="B52">Robinson and Fuller (2004)
+    </xref> in E-prime (
+    <xref ref-type="bibr" rid="B54">Schneider et al., 2002
+    </xref>) was used in this study. The version of the task applied here consisted of three levels: 1-back, 2-back, and 3-back. The items to be updated were letters, that is, linguistic material. The following 20 consonants were used as stimuli in all blocks: B, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, Y, Z. Stimuli were presented one by one in the center of the screen (font: Palatino Linotype, size: 30). On the 1-back task, children had to compare the current trial to the previous one; they were asked to press the &#x0201C;yes&#x0201D; key only when the two subsequently presented letters were the same; otherwise they were to press the &#x0201C;no&#x0201D; key. The 2-back and 3-back trials were similar, with the exception that on 2-back trials, children had to compare the currently presented letter to the one presented two trials before, and on 3-back trials, to the letter presented three trials before. The first three trials of each block were always non-target trials where the correct response was &#x0201C;no.&#x0201D; Each stimulus appeared on the screen for 500 ms, followed by a screen that remained blank for another 3000 ms. The children had 3500 ms, from stimulus onset until the beginning of the subsequent trial to press the corresponding response key. Responses times as well as the number of hits, correct rejections, misses, false alarms, and non-responses were recorded.
+  </p>
+  <p>Each level of the task (1-back, 2-back, etc.) was preceded by (1) instructions, (2) examples that included a sequence of six letters with the corresponding correct responses, and (3) a practice block that consisted of 20 trials (30% &#x0201C;yes&#x0201D; trials). And additional practice block was administered if a participant did not reach a correct percentage of 60% on the &#x0201C;yes&#x0201D; trials. There were two test blocks made up of 20 trials each (also with 30% &#x0201C;yes&#x0201D; trials), so that there were a total of 40 trials per level. In order to prevent fatigue and frustration, the task was discontinued when the children did not reach a correct percentage of 60% on a given test block.
+  </p>
+</sec>
+<sec>
+  <title>Data Analyses
+  </title>
+  <p>Two sets of analyses were conducted. The first was carried out to determine the age trends across the different levels of the n-back task. To this end, separate analyses were performed on the percentage of correctly identified targets (hits), the percentage of false alarms (&#x0201C;yes&#x0201D; responses to non-targets), the signal-detection parameter d-prime (d&#x02032;) that reflects the sensitivity of the participants to discriminate items as previously presented (or not) n trials back, and the mean response times for correctly identified targets.
+  </p>
+  <p>The second set of analyses was aimed to provide normative data on the different levels of the n-back task and consisted of multiple regression analyses on accuracy that included the following predictors: age (in months), age squared, and gender.
+  </p>
+</sec>
+</sec>
+<sec>
+  <title>Results
+  </title>
+<sec>
+  <title>Age-Related Data
+  </title>
+  <p>A mixed ANOVA was conducted at 1- and 2-back for each of the aforementioned variables, including age (7, 8, 9, 10, 11, 12, and 13 years) and gender as the between-group factors. If the more difficult level (3-back) had been included, the total sample would have been reduced by up to 42%. However, by keeping to the 1- and 2-back levels, 11% of participants were excluded. Table
+    <xref ref-type="table" rid="T1">1
+    </xref> shows the number of participants by age that performed levels 1 and 2 of the n-back task
+    <sup>
+      <xref ref-type="fn" rid="fn01">1
+      </xref>
+    </sup>.
+  </p>
+<sec>
+  <title>Hits
+  </title>
+  <p>A 2 (n-back load) &#x000D7; 7 (age) &#x000D7; 2 (gender) ANOVA was conducted on the percentage of hits. Table
+    <xref ref-type="table" rid="T2">2
+    </xref> shows the ANOVA summary table for all the dependent variables. There was a significant main effect of load, with the percentage of hits in the 1-back condition (
+    <italic>M
+    </italic> = 74.04,
+    <italic>SD
+    </italic> = 16.8) higher than that observed at 2-back (
+    <italic>M
+    </italic> = 50.55,
+    <italic>SD
+    </italic> = 25.22). The main effects were also significant for age and gender. The gender differences indicated that girls (
+    <italic>M
+    </italic> = 62.59,
+    <italic>SD
+    </italic> = 16.82) had a slightly higher percentage of hits than boys (
+    <italic>M
+    </italic> = 61.42,
+    <italic>SD
+    </italic> = 16.80). There was also a significant interaction between load and age. All other interactions failed to reach the standard significance level (
+    <italic>p
+    </italic> &#x0003E; 0.075).
+  </p>
+<table-wrap position="float" id="T2">
+  <label>TABLE 2
+  </label>
+  <caption>
+    <p>
+      <bold>Summary for ANOVAs performed on hits, false alarms, d-prime, and response time
+      </bold>.
+    </p>
+  </caption>
+<table cellspacing="10" cellpadding="10" frame="hsides" rules="groups">
+<thead>
+<tr>
+  <th align="left">
+  </th>
+  <th align="center" colspan="3">
+    <bold>Hits
+    </bold>
+  </th>
+  <th align="left">
+  </th>
+  <th align="center" colspan="4">
+    <bold>False alarms
+    </bold>
+  </th>
+  <th align="left">
+  </th>
+  <th align="center">
+    <bold>D-prime
+    </bold>
+  </th>
+  <th align="left">
+  </th>
+  <th align="left">
+  </th>
+  <th align="center" colspan="4">
+    <bold>Response times
+    </bold>
+  </th>
+</tr>
+<tr>
+  <th valign="top" align="left">
+    <bold>Source
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>F
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>df
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>P
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <inline-formula>
+      <mml:math id="M1">
+        <mml:mrow>
+          <mml:msubsup>
+            <mml:mtext>&#x003B7;
+            </mml:mtext>
+            <mml:mi>p
+            </mml:mi>
+            <mml:mn>2
+            </mml:mn>
+          </mml:msubsup>
+        </mml:mrow>
+      </mml:math>
+    </inline-formula>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>F
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>df
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>p
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <inline-formula>
+      <mml:math id="M2">
+        <mml:mrow>
+          <mml:msubsup>
+            <mml:mtext>&#x003B7;
+            </mml:mtext>
+            <mml:mi>p
+            </mml:mi>
+            <mml:mn>2
+            </mml:mn>
+          </mml:msubsup>
+        </mml:mrow>
+      </mml:math>
+    </inline-formula>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>F
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>df
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>p
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <inline-formula>
+      <mml:math id="M3">
+        <mml:mrow>
+          <mml:msubsup>
+            <mml:mtext>&#x003B7;
+            </mml:mtext>
+            <mml:mi>p
+            </mml:mi>
+            <mml:mn>2
+            </mml:mn>
+          </mml:msubsup>
+        </mml:mrow>
+      </mml:math>
+    </inline-formula>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>F
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>df
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>p
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <inline-formula>
+      <mml:math id="M4">
+        <mml:mrow>
+          <mml:msubsup>
+            <mml:mtext>&#x003B7;
+            </mml:mtext>
+            <mml:mi>p
+            </mml:mi>
+            <mml:mn>2
+            </mml:mn>
+          </mml:msubsup>
+        </mml:mrow>
+      </mml:math>
+    </inline-formula>
+  </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td valign="top" align="left">N-back load
+  </td>
+  <td valign="top" align="left">3080.52
+  </td>
+  <td valign="top" align="left">1,3282
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.48
+  </td>
+  <td valign="top" align="left">554.69
+  </td>
+  <td valign="top" align="left">1,3282
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.14
+  </td>
+  <td valign="top" align="left">3703.15
+  </td>
+  <td valign="top" align="left">1,3282
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.53
+  </td>
+  <td valign="top" align="left">841.12
+  </td>
+  <td valign="top" align="left">1,3107
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.21
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">Age
+  </td>
+  <td valign="top" align="left">&#x02002;84.45
+  </td>
+  <td valign="top" align="left">6,3282
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.13
+  </td>
+  <td valign="top" align="left">&#x02002;23.92
+  </td>
+  <td valign="top" align="left">6,3282
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.04
+  </td>
+  <td valign="top" align="left">&#x02002;92.48
+  </td>
+  <td valign="top" align="left">6,3282
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.14
+  </td>
+  <td valign="top" align="left">84.52
+  </td>
+  <td valign="top" align="left">6,3107
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.14
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">Gender
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;3.96
+  </td>
+  <td valign="top" align="left">1,3282
+  </td>
+  <td valign="top" align="left">0.047
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02002;8.75
+  </td>
+  <td valign="top" align="left">1,3282
+  </td>
+  <td valign="top" align="left">0.003
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02002;15.74
+  </td>
+  <td valign="top" align="left">1,3282
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02002;57.46
+  </td>
+  <td valign="top" align="left">1,3107
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.02
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">N-back load age
+  </td>
+  <td valign="top" align="left">&#x02002;20.27
+  </td>
+  <td valign="top" align="left">6,3282
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.04
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;1.06
+  </td>
+  <td valign="top" align="left">6,3282
+  </td>
+  <td valign="top" align="left">0.385
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;12.00
+  </td>
+  <td valign="top" align="left">6,3282
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.02
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;0.69
+  </td>
+  <td valign="top" align="left">6,3107
+  </td>
+  <td valign="top" align="left">0.660
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">N-back load gender
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;1.24
+  </td>
+  <td valign="top" align="left">1,3282
+  </td>
+  <td valign="top" align="left">0.265
+  </td>
+  <td valign="top" align="left">0.00
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;2.94
+  </td>
+  <td valign="top" align="left">1,3282
+  </td>
+  <td valign="top" align="left">0.086
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;6.61
+  </td>
+  <td valign="top" align="left">1,3282
+  </td>
+  <td valign="top" align="left">0.010
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;6.38
+  </td>
+  <td valign="top" align="left">1,3107
+  </td>
+  <td valign="top" align="left">0.012
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">N-back load age gender
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;0.41
+  </td>
+  <td valign="top" align="left">6,3282
+  </td>
+  <td valign="top" align="left">0.872
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;1.10
+  </td>
+  <td valign="top" align="left">6,3282
+  </td>
+  <td valign="top" align="left">0.362
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;0.66
+  </td>
+  <td valign="top" align="left">6,3282
+  </td>
+  <td valign="top" align="left">0.684
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;1.49
+  </td>
+  <td valign="top" align="left">6,3107
+  </td>
+  <td valign="top" align="left">0.176
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">Age gender
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;1.91
+  </td>
+  <td valign="top" align="left">6,3282
+  </td>
+  <td valign="top" align="left">0.075
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;0.32
+  </td>
+  <td valign="top" align="left">6,3282
+  </td>
+  <td valign="top" align="left">0.928
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;1.63
+  </td>
+  <td valign="top" align="left">6,3282
+  </td>
+  <td valign="top" align="left">0.134
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02002;&#x02002;1.56
+  </td>
+  <td valign="top" align="left">6,3107
+  </td>
+  <td valign="top" align="left">0.154
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">Age (linear)
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">475.76
+  </td>
+  <td valign="top" align="left">1,3289
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.13
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">419.66
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.12
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">Age (linear) n-back load
+  </td>
+  <td valign="top" align="left">108.16
+  </td>
+  <td valign="top" align="left">1,3289
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.03
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">1,3289
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">&#x02002;50.92
+  </td>
+  <td valign="top" align="left">1,3289
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">Age (linear) in 1-back
+  </td>
+  <td valign="top" align="left">208.90
+  </td>
+  <td valign="top" align="left">1,3289
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.06
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">1,3289
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">273.75
+  </td>
+  <td valign="top" align="left">1,3289
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.08
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">Age (linear) in 2-back
+  </td>
+  <td valign="top" align="left">415.71
+  </td>
+  <td valign="top" align="left">1,3289
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.11
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">1,3289
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">502.58
+  </td>
+  <td valign="top" align="left">1,3289
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">0.13
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>There was an increase in the percentage of hits in relation to age, although the patterns observed for each n-back load were different (see Figure
+  <xref ref-type="fig" rid="F1">1
+  </xref>). This was confirmed by the crucial interaction between the linear trend for age and load. A trend analysis for each n-back load indicated a relatively small but significant linear increase in performance with age at the 1-back level and a more pronounced linear increase with age at 2-back.
+</p>
+<fig id="F1" position="float">
+  <label>FIGURE 1
+  </label>
+<caption>
+  <p>
+    <bold>Percentage of hits as a function of age in 1-back and 2-back conditions.
+    </bold> Error bars indicate two standard error of the mean.
+  </p>
+</caption>
+<graphic xlink:href="fpsyg-06-01544-g0001.tif"/>
+</fig>
+<p>A posteriori analyses using the Bonferroni method were conducted to determine between which age groups the differences occurred. At 1-back no differences were found between some of the contiguous age groups, that is, 7 vs. 8 (
+  <italic>p
+  </italic> = 1), 8 vs. 9 (
+  <italic>p
+  </italic> = 0.079), and 10 vs. 11 years (
+  <italic>p
+  </italic> = 0.762). From age 11, there were also no differences between the different groups (11, 12, and 13,
+  <italic>p
+  </italic> &#x0003E; 0.076). The remaining comparisons were significant (
+  <italic>p
+  </italic> &#x0003C; 0.001). At 2-back no differences were observed in some contiguous age groups, namely 7 vs. 8 (
+  <italic>p
+  </italic> = 0.487), 8 vs. 9 (
+  <italic>p
+  </italic> = 0.168), and 11 vs. 12 (
+  <italic>p
+  </italic> = 1). The rest of the comparisons between the different age groups showed statistically significant differences (
+  <italic>p
+  </italic> &#x0003C; 0.007).
+</p>
+</sec>
+<sec>
+  <title>False Alarms
+  </title>
+  <p>A 2 (n-back load) &#x000D7; 7 (age) &#x000D7; 2 (gender) ANOVA was conducted on the percentage of false alarms (see Table
+    <xref ref-type="table" rid="T2">2
+    </xref>). There was a significant effect of load, with the percentage of false alarms in the 1-back condition (
+    <italic>M
+    </italic> = 8.32,
+    <italic>SD
+    </italic> = 10.66) lower than that observed at 2-back (
+    <italic>M
+    </italic> = 13.81,
+    <italic>SD
+    </italic> = 14.56). The main effect of age was also significant. As can be seen in Figure
+    <xref ref-type="fig" rid="F2">2
+    </xref>, there was a linear decrease in the percentage of false alarms with age similar at both n-back levels. A trend analysis revealed that only the linear component was significant, accounting for 99.12% of the variance. A posteriori analyses using the Bonferroni correction revealed differences in recognition between each age group (
+    <italic>p
+    </italic> &#x0003C; 0.05), except at contiguous age groups (
+    <italic>p
+    </italic> &#x0003E; 0. 20) and between 10 and 12 year old (
+    <italic>p
+    </italic> = 0.06).
+  </p>
+<fig id="F2" position="float">
+  <label>FIGURE 2
+  </label>
+<caption>
+  <p>
+    <bold>Percentage of false alarms as a function of age in 1-back and 2-back conditions.
+    </bold> Error bars indicate two standard error of the mean.
+  </p>
+</caption>
+<graphic xlink:href="fpsyg-06-01544-g0002.tif"/>
+</fig>
+<p>There were also a significant albeit small gender effect. This was caused by boys (
+  <italic>M
+  </italic> = 11.77,
+  <italic>SD
+  </italic> = 10.99) committing more false alarms than girls (
+  <italic>M
+  </italic> = 10.63,
+  <italic>SD
+  </italic> = 11.01). None of the interactions approached significance (
+  <italic>p
+  </italic> &#x0003E; 0.086).
+</p>
+</sec>
+<sec>
+  <title>D-Prime
+  </title>
+  <p>D-prime was estimated as
+    <italic>d
+    </italic>&#x02032; =
+    <italic>Z
+      <sub>Hits
+      </sub>
+    </italic>&#x02013;
+    <italic>Z
+      <sub>FalseAlarms
+      </sub>
+    </italic>. The fourth method proposed by
+    <xref ref-type="bibr" rid="B57">Stanislaw and Todorov (1999)
+    </xref> was used to avoid that
+    <italic>d
+    </italic>&#x02032; might be undetermined when the hit or the false-alarm rate was equal to 0 or 1. Specifically, scores equal to 0 were replaced by 0.5/
+    <italic>n
+    </italic> and scores equal to 1 were replaced by (
+    <italic>n
+    </italic> &#x02013;0.5)/
+    <italic>n
+    </italic>, with
+    <italic>n
+    </italic> representing the number of signal and noise trials. A 2 (n-back load) &#x000D7; 7 (age) &#x000D7; 2 (gender) ANOVA was conducted on these values, similar to the previous analyses (see Table
+    <xref ref-type="table" rid="T2">2
+    </xref>).
+  </p>
+  <p>The ANOVA revealed a significant effect of load given that
+    <italic>d
+    </italic>&#x02032; was greater in the 1-back condition (
+    <italic>M
+    </italic> = 2.28,
+    <italic>SD
+    </italic> = 0.89) than at 2-back (
+    <italic>M
+    </italic> = 1.29,
+    <italic>SD
+    </italic> = 0.99). The main effects were also statistically significant for age and gender. In addition, the interactions of age by load and gender by load were also significant. All other interactions failed to reach the standard significance level (
+    <italic>p
+    </italic> = 0.134).
+  </p>
+  <p>An interaction analysis between the linear trend of age and load revealed that even though
+    <italic>d
+    </italic>&#x02032; increased with age at both levels of load, the age trend was different for each level as shown by the significant interaction. As with the previous analysis on hits, an age-trend analysis for each n-back load indicated an age-related linear increase on
+    <italic>d
+    </italic>&#x02032; at both 1-back and 2-back. Thus, the interaction was again due to the fact that the linear increase was more pronounced at 2-back than at 1-back level (see Figure
+    <xref ref-type="fig" rid="F3">3
+    </xref>). This pattern was also evidenced by
+    <italic>post hoc
+    </italic> analyses with the Bonferroni correction that showed that at 1-back, all the age groups differed (
+    <italic>p
+    </italic> &#x0003C; 0.05), except at contiguous age groups (
+    <italic>p
+    </italic> &#x0003E; 0.06), excluding 9 vs. 10 (
+    <italic>p
+    </italic> = 0.009). At 2-back significant differences were observed between all age groups (
+    <italic>p
+    </italic> &#x0003C; 0.027), except between 7 vs. 8 (
+    <italic>p
+    </italic> = 0.514) and 11 vs. 12 (
+    <italic>p
+    </italic> = 1).
+  </p>
+<fig id="F3" position="float">
+  <label>FIGURE 3
+  </label>
+<caption>
+  <p>
+    <bold>D-prime scores (
+      <italic>
+        <bold>d
+        </bold>
+      </italic>&#x02032;) as a function of age in 1-back and 2-back conditions.
+    </bold> Error bars indicate two standard error of the mean.
+  </p>
+</caption>
+<graphic xlink:href="fpsyg-06-01544-g0003.tif"/>
+</fig>
+<p>As regards the interaction between n-back levels and gender, a univariate analysis for each level revealed a significant gender difference on
+  <italic>d
+  </italic>&#x02032; at 1-back,
+  <italic>F
+  </italic>(1,3295) = 19.58,
+  <italic>p
+  </italic> &#x0003C; 0.001, given that girls (
+  <italic>M
+  </italic> = 2.34;
+  <italic>SD
+  </italic> = 0.85) showed a higher
+  <italic>d
+  </italic>&#x02032; than boys (
+  <italic>M
+  </italic> = 2.19,
+  <italic>SD
+  </italic> = 0.85). However, at 2-back, girls (
+  <italic>M
+  </italic> = 1.31,
+  <italic>SD
+  </italic> = 0.93) and boys (
+  <italic>M
+  </italic> = 1.25,
+  <italic>SD
+  </italic> = 0.93) obtained similar
+  <italic>d
+  </italic>&#x02032;,
+  <italic>F
+  </italic>(1,3295) = 2.29,
+  <italic>p
+  </italic> = 0.13.
+</p>
+</sec>
+<sec>
+  <title>Response Times
+  </title>
+  <p>Only response times for hits were analyzed. A 5% of participants were excluded from this analysis because they did not have hits at the 2-back level. These participants were not distributed evenly across all age groups: 97 children were excluded from the 7-year-old group, 21 form the 8-year-old group, 17 from the 9-year-old group, 14 from the 10-year-old group, 11 from the 11-year-old group, 7 from the 12-year-old group, and 8 from the 13-year-old group.
+  </p>
+  <p>The results of the mixed ANOVA revealed significant main effects for all variables (see Table
+    <xref ref-type="table" rid="T2">2
+    </xref>). Load had a significant effect, since response times at 1-back were lower (
+    <italic>M
+    </italic> = 821.66;
+    <italic>SD
+    </italic> = 277.95) than at 2-back (
+    <italic>M
+    </italic> = 1014.32;
+    <italic>SD
+    </italic> = 432.22). An age effect was also found (see Figure
+    <xref ref-type="fig" rid="F4">4
+    </xref>). A trend analysis showed a significant linear component for age that explained 97.7% of the variance. Finally, there were a significant gender effect that was qualified by a significant interaction between load and gender. Although boys (
+    <italic>M
+    </italic> = 887.78,
+    <italic>SD
+    </italic> = 283.82) tended to respond quicker than girls (
+    <italic>M
+    </italic> = 970.94,
+    <italic>SD
+    </italic> = 284.44), this difference was greater at 2-back (106 ms) than at 1-back (73 ms) level. No other interaction was significant (
+    <italic>p
+    </italic> = 0.154).
+    <italic>Post hoc
+    </italic> comparison with the Bonferroni correction revealed significant differences between all age groups (
+    <italic>p
+    </italic> &#x0003C; 0.001), except between 11 and 12 years where no differences were found (
+    <italic>p
+    </italic> = 1).
+  </p>
+<fig id="F4" position="float">
+  <label>FIGURE 4
+  </label>
+<caption>
+  <p>
+    <bold>Response time as a function of age in 1-back and 2-back conditions.
+    </bold> Error bars indicate two standard error of the mean.
+  </p>
+</caption>
+<graphic xlink:href="fpsyg-06-01544-g0004.tif"/>
+</fig>
+<p>Given that girls outperformed boys but took longer time to respond, there was the possibility of a speed-accuracy trade-off. To assess this explanation a complementary analysis of the inverse efficiency scores was performed (
+  <xref ref-type="bibr" rid="B62">Townsend and Ashby, 1983
+  </xref>). The inverse efficiency score is a composite index of response time and accuracy that takes speed-accuracy trade-offs into account. This score was calculated by dividing the mean correct response times by the proportion of hits for each participant and for each level of n-back. Then, a 2 (n-back load) &#x000D7; 7 (age) &#x000D7; 2 (gender) ANOVA was conducted on the inverse efficiency score. The expected main effects of load,
+  <italic>F
+  </italic>(1,3107) = 724.96,
+  <italic>p
+  </italic> &#x0003C; 0.001,
+  <inline-formula>
+    <mml:math id="M5">
+      <mml:mrow>
+        <mml:msubsup>
+          <mml:mi>&#x003B7;
+          </mml:mi>
+          <mml:mi>p
+          </mml:mi>
+          <mml:mn>2
+          </mml:mn>
+        </mml:msubsup>
+      </mml:mrow>
+    </mml:math>
+  </inline-formula> = 0.19, and age,
+  <italic>F
+  </italic>(6,3107) = 51.58,
+  <italic>p
+  </italic> &#x0003C; 0.001,
+  <inline-formula>
+    <mml:math id="M6">
+      <mml:mrow>
+        <mml:msubsup>
+          <mml:mi>&#x003B7;
+          </mml:mi>
+          <mml:mi>p
+          </mml:mi>
+          <mml:mn>2
+          </mml:mn>
+        </mml:msubsup>
+      </mml:mrow>
+    </mml:math>
+  </inline-formula> = 0.09, as well the interaction between load and age,
+  <italic>F
+  </italic> (6,3107) = 23.40,
+  <italic>p
+  </italic> &#x0003C; 0.001,
+  <inline-formula>
+    <mml:math id="M7">
+      <mml:mrow>
+        <mml:msubsup>
+          <mml:mi>&#x003B7;
+          </mml:mi>
+          <mml:mi>p
+          </mml:mi>
+          <mml:mn>2
+          </mml:mn>
+        </mml:msubsup>
+      </mml:mrow>
+    </mml:math>
+  </inline-formula> = 0.043 were significant. More importantly, the main effect of gender reached significance,
+  <italic>F
+  </italic>(1,3107) = 6.90,
+  <italic>p
+  </italic> = 0.009,
+  <inline-formula>
+    <mml:math id="M8">
+      <mml:mrow>
+        <mml:msubsup>
+          <mml:mi>&#x003B7;
+          </mml:mi>
+          <mml:mi>p
+          </mml:mi>
+          <mml:mn>2
+          </mml:mn>
+        </mml:msubsup>
+      </mml:mrow>
+    </mml:math>
+  </inline-formula> = 0.002, with girls showing a higher inverse efficiency score (2225) than boys (2030). Thus, the gender effect was again obtained with an index uncontaminated by possible speed-accuracy trade-offs.
+</p>
+</sec>
+</sec>
+<sec>
+  <title>Normative Data
+  </title>
+  <p>A set of multiple regression analyses on accuracy were carried out. The predictors were age (in months), age squared, and gender. By including age squared it was possible to assess the quadratic effects of age. Age was centered to avoid multicollinearity between predictors before calculating the quadratic term. Gender was coded as 1 for boys and 2 for girls.
+  </p>
+  <p>The analyses of each level included all participants who carried out that level of the task. To analyze total hits, all participants were included and the hits for each level of load were summed. If participants had not performed the task beyond a certain level (e.g., 2-back), they were given a score equal to 0 on that and higher levels.
+  </p>
+  <p>Regression models for the percentage of hits at each n-back level as well as for total hits are shown in Table
+    <xref ref-type="table" rid="T3">3
+    </xref>. Results reveal that age was the strongest predictor, contributing to an increase in performance at all n-back levels as well as for total hits. The quadratic age component also predicted performance, but only at 1-back. This component showed that age-related increases in performance diminished with age. Gender was found to be a predictor only in the 1-back condition and for total hits. Girls obtained a higher number of hits than boys at both levels of the task.
+  </p>
+<table-wrap position="float" id="T3">
+  <label>TABLE 3
+  </label>
+  <caption>
+    <p>
+      <bold>Multiple linear regression models of percentage of total hits and percentage of hits on each version of the task with gender, age, and age squared as predictors
+      </bold>.
+    </p>
+  </caption>
+<table cellspacing="10" cellpadding="10" frame="hsides" rules="groups">
+<thead>
+<tr>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="left">
+    <bold>Variable
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>B
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>SE
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>Standardized
+      <italic>&#x03B2;
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>t
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>p
+      </italic>
+    </bold>
+  </th>
+  <th valign="top" align="center">
+    <bold>
+      <italic>R
+      </italic>
+      <sup>2
+      </sup>
+    </bold>
+  </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td valign="top" align="left">Total (
+    <italic>n
+    </italic> = 3722)
+  </td>
+  <td valign="top" align="left">(Constant)
+  </td>
+  <td valign="top" align="left">19.05
+  </td>
+  <td valign="top" align="left">0.50
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">37.94
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Gender
+  </td>
+  <td valign="top" align="left">&#x02002;0.93
+  </td>
+  <td valign="top" align="left">0.30
+  </td>
+  <td valign="top" align="left">&#x02002;0.05
+  </td>
+  <td valign="top" align="left">&#x02002;3.09
+  </td>
+  <td valign="top" align="left">0.002
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Age
+  </td>
+  <td valign="top" align="left">&#x02002;0.16
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02002;0.37
+  </td>
+  <td valign="top" align="left">24.32
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Age
+    <sup>2
+    </sup>
+  </td>
+  <td valign="top" align="left">&#x02013;0.01
+  </td>
+  <td valign="top" align="left">0.00
+  </td>
+  <td valign="top" align="left">&#x02013;0.03
+  </td>
+  <td valign="top" align="left">&#x02013;1.68
+  </td>
+  <td valign="top" align="left">0.092
+  </td>
+  <td valign="top" align="left">0.14
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">1-back (
+    <italic>n
+    </italic> = 3722)
+  </td>
+  <td valign="top" align="left">(Constant)
+  </td>
+  <td valign="top" align="left">66.21
+  </td>
+  <td valign="top" align="left">1.14
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">58.02
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Gender
+  </td>
+  <td valign="top" align="left">&#x02002;2.68
+  </td>
+  <td valign="top" align="left">0.69
+  </td>
+  <td valign="top" align="left">&#x02002;0.06
+  </td>
+  <td valign="top" align="left">&#x02002;3.91
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Age
+  </td>
+  <td valign="top" align="left">&#x02002;0.27
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02002;0.28
+  </td>
+  <td valign="top" align="left">17.52
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Age
+    <sup>2
+    </sup>
+  </td>
+  <td valign="top" align="left">&#x02013;0.01
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02013;0.05
+  </td>
+  <td valign="top" align="left">&#x02013;3.42
+  </td>
+  <td valign="top" align="left">0.001
+  </td>
+  <td valign="top" align="left">0.08
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">2-back (
+    <italic>n
+    </italic> = 3296)
+  </td>
+  <td valign="top" align="left">(Constant)
+  </td>
+  <td valign="top" align="left">49.09
+  </td>
+  <td valign="top" align="left">1.38
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">35.59
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Gender
+  </td>
+  <td valign="top" align="left">&#x02002;0.83
+  </td>
+  <td valign="top" align="left">0.82
+  </td>
+  <td valign="top" align="left">&#x02002;0.02
+  </td>
+  <td valign="top" align="left">&#x02002;1.01
+  </td>
+  <td valign="top" align="left">0.317
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Age
+  </td>
+  <td valign="top" align="left">&#x02002;0.39
+  </td>
+  <td valign="top" align="left">0.02
+  </td>
+  <td valign="top" align="left">&#x02002;0.35
+  </td>
+  <td valign="top" align="left">&#x02002;2.93
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Age
+    <sup>2
+    </sup>
+  </td>
+  <td valign="top" align="left">&#x02013;0.01
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02013;0.01
+  </td>
+  <td valign="top" align="left">&#x02013;0.61
+  </td>
+  <td valign="top" align="left">0.541
+  </td>
+  <td valign="top" align="left">0.12
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">3-back (
+    <italic>n
+    </italic> = 2141)
+  </td>
+  <td valign="top" align="left">(Constant)
+  </td>
+  <td valign="top" align="left">&#x02002;5.54
+  </td>
+  <td valign="top" align="left">1.48
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">34.24
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Gender
+  </td>
+  <td valign="top" align="left">&#x02002;0.45
+  </td>
+  <td valign="top" align="left">0.88
+  </td>
+  <td valign="top" align="left">&#x02002;0.01
+  </td>
+  <td valign="top" align="left">&#x02002;0.51
+  </td>
+  <td valign="top" align="left">0.611
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Age
+  </td>
+  <td valign="top" align="left">&#x02002;0.23
+  </td>
+  <td valign="top" align="left">0.02
+  </td>
+  <td valign="top" align="left">&#x02002;0.24
+  </td>
+  <td valign="top" align="left">&#x02002;1.73
+  </td>
+  <td valign="top" align="left">0.000
+  </td>
+  <td valign="top" align="left">
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Age
+    <sup>2
+    </sup>
+  </td>
+  <td valign="top" align="left">&#x02002;0.00
+  </td>
+  <td valign="top" align="left">0.01
+  </td>
+  <td valign="top" align="left">&#x02013;0.01
+  </td>
+  <td valign="top" align="left">&#x02013;0.20
+  </td>
+  <td valign="top" align="left">0.844
+  </td>
+  <td valign="top" align="left">0.06
+  </td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+<p>Normative data stratified by age and gender for total hits and those obtained at each n-back level are shown in Table
+  <xref ref-type="table" rid="T4">4
+  </xref>.
+</p>
+<table-wrap position="float" id="T4">
+  <label>TABLE 4
+  </label>
+  <caption>
+    <p>
+      <bold>Normative data for total hits and for hits on each version of the task stratified by gender and age (7, 8, 9, 10, 11, 12, 13)
+      </bold>.
+    </p>
+  </caption>
+<table cellspacing="10" cellpadding="10" frame="hsides" rules="groups">
+<thead>
+<tr>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="center" colspan="7">
+    <bold>Boys (
+      <italic>n
+      </italic> = 1886)
+    </bold>
+  </th>
+  <th valign="top" align="center" colspan="7">
+    <bold>Girls (
+      <italic>n
+      </italic> = 1836)
+    </bold>
+  </th>
+</tr>
+<tr>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="center" colspan="7">
+    <bold>Age group
+    </bold>
+  </th>
+  <th valign="top" align="center" colspan="7">
+    <bold>Age group
+    </bold>
+  </th>
+</tr>
+<tr>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="left">
+    <bold>7
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>8
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>9
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>10
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>11
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>12
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>13
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>7
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>8
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>9
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>10
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>11
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>12
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>13
+    </bold>
+  </th>
+</tr>
+<tr>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="left">
+  </th>
+  <th valign="top" align="left">
+    <bold>(
+      <italic>n
+      </italic> = 193)
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>(
+      <italic>n
+      </italic> = 285)
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>(
+      <italic>n
+      </italic> = 310)
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>(
+      <italic>n
+      </italic> = 297)
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>(
+      <italic>n
+      </italic> = 315)
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>(
+      <italic>n
+      </italic> = 253)
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>(
+      <italic>n
+      </italic> = 233)
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>(
+      <italic>n
+      </italic> = 194)
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>(
+      <italic>n
+      </italic> = 307)
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>(
+      <italic>n
+      </italic> = 296)
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>(
+      <italic>n
+      </italic> = 321)
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>(
+      <italic>n
+      </italic> = 286)
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>(
+      <italic>n
+      </italic> = 223)
+    </bold>
+  </th>
+  <th valign="top" align="left">
+    <bold>(
+      <italic>n
+      </italic> = 209)
+    </bold>
+  </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td valign="top" align="left">Total
+  </td>
+  <td valign="top" align="left">
+    <italic>M
+    </italic>
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">14.45
+  </td>
+  <td valign="top" align="left">16.71
+  </td>
+  <td valign="top" align="left">17.63
+  </td>
+  <td valign="top" align="left">20.23
+  </td>
+  <td valign="top" align="left">21.94
+  </td>
+  <td valign="top" align="left">22.5
+  </td>
+  <td valign="top" align="left">24.82
+  </td>
+  <td valign="top" align="left">14.25
+  </td>
+  <td valign="top" align="left">15.58
+  </td>
+  <td valign="top" align="left">18.70
+  </td>
+  <td valign="top" align="left">21.07
+  </td>
+  <td valign="top" align="left">23.24
+  </td>
+  <td valign="top" align="left">24.70
+  </td>
+  <td valign="top" align="left">27.20
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+    <italic>SD
+    </italic>
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">8.49
+  </td>
+  <td valign="top" align="left">9.20
+  </td>
+  <td valign="top" align="left">9.17
+  </td>
+  <td valign="top" align="left">9.44
+  </td>
+  <td valign="top" align="left">9.90
+  </td>
+  <td valign="top" align="left">9.66
+  </td>
+  <td valign="top" align="left">9.85
+  </td>
+  <td valign="top" align="left">8.58
+  </td>
+  <td valign="top" align="left">8.41
+  </td>
+  <td valign="top" align="left">9.29
+  </td>
+  <td valign="top" align="left">9.10
+  </td>
+  <td valign="top" align="left">9.28
+  </td>
+  <td valign="top" align="left">9.21
+  </td>
+  <td valign="top" align="left">8.74
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Percentile
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">3
+  </td>
+  <td valign="top" align="left">3
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">2
+  </td>
+  <td valign="top" align="left">3
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">7
+  </td>
+  <td valign="top" align="left">11
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">25
+  </td>
+  <td valign="top" align="left">7
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">14
+  </td>
+  <td valign="top" align="left">14
+  </td>
+  <td valign="top" align="left">18
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">16
+  </td>
+  <td valign="top" align="left">18
+  </td>
+  <td valign="top" align="left">23
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">50
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">15
+  </td>
+  <td valign="top" align="left">16
+  </td>
+  <td valign="top" align="left">21
+  </td>
+  <td valign="top" align="left">24
+  </td>
+  <td valign="top" align="left">24
+  </td>
+  <td valign="top" align="left">28
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">15
+  </td>
+  <td valign="top" align="left">18
+  </td>
+  <td valign="top" align="left">22
+  </td>
+  <td valign="top" align="left">25
+  </td>
+  <td valign="top" align="left">26
+  </td>
+  <td valign="top" align="left">30
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">75
+  </td>
+  <td valign="top" align="left">22
+  </td>
+  <td valign="top" align="left">25
+  </td>
+  <td valign="top" align="left">25
+  </td>
+  <td valign="top" align="left">28
+  </td>
+  <td valign="top" align="left">30
+  </td>
+  <td valign="top" align="left">30
+  </td>
+  <td valign="top" align="left">32
+  </td>
+  <td valign="top" align="left">20
+  </td>
+  <td valign="top" align="left">22
+  </td>
+  <td valign="top" align="left">26
+  </td>
+  <td valign="top" align="left">28
+  </td>
+  <td valign="top" align="left">31
+  </td>
+  <td valign="top" align="left">31
+  </td>
+  <td valign="top" align="left">34
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">95
+  </td>
+  <td valign="top" align="left">28
+  </td>
+  <td valign="top" align="left">32
+  </td>
+  <td valign="top" align="left">32
+  </td>
+  <td valign="top" align="left">35
+  </td>
+  <td valign="top" align="left">35
+  </td>
+  <td valign="top" align="left">37
+  </td>
+  <td valign="top" align="left">37
+  </td>
+  <td valign="top" align="left">30
+  </td>
+  <td valign="top" align="left">30
+  </td>
+  <td valign="top" align="left">34
+  </td>
+  <td valign="top" align="left">35
+  </td>
+  <td valign="top" align="left">35
+  </td>
+  <td valign="top" align="left">38
+  </td>
+  <td valign="top" align="left">39
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">1-back
+  </td>
+  <td valign="top" align="left">
+    <italic>M
+    </italic>
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">8.05
+  </td>
+  <td valign="top" align="left">8.82
+  </td>
+  <td valign="top" align="left">9.14
+  </td>
+  <td valign="top" align="left">9.72
+  </td>
+  <td valign="top" align="left">10.01
+  </td>
+  <td valign="top" align="left">10.20
+  </td>
+  <td valign="top" align="left">10.28
+  </td>
+  <td valign="top" align="left">8.21
+  </td>
+  <td valign="top" align="left">8.60
+  </td>
+  <td valign="top" align="left">9.54
+  </td>
+  <td valign="top" align="left">10.11
+  </td>
+  <td valign="top" align="left">10.41
+  </td>
+  <td valign="top" align="left">10.73
+  </td>
+  <td valign="top" align="left">11.29
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+    <italic>SD
+    </italic>
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">3.04
+  </td>
+  <td valign="top" align="left">3.09
+  </td>
+  <td valign="top" align="left">2.82
+  </td>
+  <td valign="top" align="left">2.96
+  </td>
+  <td valign="top" align="left">2.98
+  </td>
+  <td valign="top" align="left">2.96
+  </td>
+  <td valign="top" align="left">2.96
+  </td>
+  <td valign="top" align="left">3.29
+  </td>
+  <td valign="top" align="left">3.09
+  </td>
+  <td valign="top" align="left">3.12
+  </td>
+  <td valign="top" align="left">2.86
+  </td>
+  <td valign="top" align="left">2.77
+  </td>
+  <td valign="top" align="left">2.55
+  </td>
+  <td valign="top" align="left">2.34
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Percentile
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">3
+  </td>
+  <td valign="top" align="left">3
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">2
+  </td>
+  <td valign="top" align="left">3
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">6
+  </td>
+  <td valign="top" align="left">7
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">25
+  </td>
+  <td valign="top" align="left">6
+  </td>
+  <td valign="top" align="left">7
+  </td>
+  <td valign="top" align="left">7
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">9
+  </td>
+  <td valign="top" align="left">6
+  </td>
+  <td valign="top" align="left">6
+  </td>
+  <td valign="top" align="left">7
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">9
+  </td>
+  <td valign="top" align="left">9
+  </td>
+  <td valign="top" align="left">10
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">50
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">9
+  </td>
+  <td valign="top" align="left">9
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">9
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">12
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">75
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">13
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">95
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">14
+  </td>
+  <td valign="top" align="left">14
+  </td>
+  <td valign="top" align="left">14
+  </td>
+  <td valign="top" align="left">14
+  </td>
+  <td valign="top" align="left">14
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">14
+  </td>
+  <td valign="top" align="left">14
+  </td>
+  <td valign="top" align="left">14
+  </td>
+  <td valign="top" align="left">14
+  </td>
+  <td valign="top" align="left">14
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">2-back
+  </td>
+  <td valign="top" align="left">
+    <italic>M
+    </italic>
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">4.10
+  </td>
+  <td valign="top" align="left">5.02
+  </td>
+  <td valign="top" align="left">5.23
+  </td>
+  <td valign="top" align="left">6.29
+  </td>
+  <td valign="top" align="left">6.96
+  </td>
+  <td valign="top" align="left">7.26
+  </td>
+  <td valign="top" align="left">8.16
+  </td>
+  <td valign="top" align="left">3.96
+  </td>
+  <td valign="top" align="left">4.53
+  </td>
+  <td valign="top" align="left">5.74
+  </td>
+  <td valign="top" align="left">6.52
+  </td>
+  <td valign="top" align="left">7.44
+  </td>
+  <td valign="top" align="left">7.93
+  </td>
+  <td valign="top" align="left">9.11
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+    <italic>SD
+    </italic>
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">3.64
+  </td>
+  <td valign="top" align="left">3.67
+  </td>
+  <td valign="top" align="left">3.81
+  </td>
+  <td valign="top" align="left">3.78
+  </td>
+  <td valign="top" align="left">4.08
+  </td>
+  <td valign="top" align="left">3.91
+  </td>
+  <td valign="top" align="left">3.99
+  </td>
+  <td valign="top" align="left">3.59
+  </td>
+  <td valign="top" align="left">3.49
+  </td>
+  <td valign="top" align="left">3.76
+  </td>
+  <td valign="top" align="left">3.50
+  </td>
+  <td valign="top" align="left">3.68
+  </td>
+  <td valign="top" align="left">3.77
+  </td>
+  <td valign="top" align="left">3.75
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Percentile
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">2
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">25
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">2
+  </td>
+  <td valign="top" align="left">2
+  </td>
+  <td valign="top" align="left">3
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">6
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">1
+  </td>
+  <td valign="top" align="left">3
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">6
+  </td>
+  <td valign="top" align="left">7
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">50
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">6
+  </td>
+  <td valign="top" align="left">7
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">9
+  </td>
+  <td valign="top" align="left">3
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">6
+  </td>
+  <td valign="top" align="left">7
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">10
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">75
+  </td>
+  <td valign="top" align="left">7
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">9
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">6
+  </td>
+  <td valign="top" align="left">7
+  </td>
+  <td valign="top" align="left">9
+  </td>
+  <td valign="top" align="left">9
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">12
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">95
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">13
+  </td>
+  <td valign="top" align="left">14
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">3-back
+  </td>
+  <td valign="top" align="left">
+    <italic>M
+    </italic>
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">2.30
+  </td>
+  <td valign="top" align="left">2.87
+  </td>
+  <td valign="top" align="left">3.26
+  </td>
+  <td valign="top" align="left">4.23
+  </td>
+  <td valign="top" align="left">4.97
+  </td>
+  <td valign="top" align="left">5.04
+  </td>
+  <td valign="top" align="left">6.37
+  </td>
+  <td valign="top" align="left">2.07
+  </td>
+  <td valign="top" align="left">2.45
+  </td>
+  <td valign="top" align="left">3.41
+  </td>
+  <td valign="top" align="left">4.44
+  </td>
+  <td valign="top" align="left">5.38
+  </td>
+  <td valign="top" align="left">6.05
+  </td>
+  <td valign="top" align="left">6.80
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+    <italic>SD
+    </italic>
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">3.41
+  </td>
+  <td valign="top" align="left">3.81
+  </td>
+  <td valign="top" align="left">3.91
+  </td>
+  <td valign="top" align="left">4.15
+  </td>
+  <td valign="top" align="left">4.27
+  </td>
+  <td valign="top" align="left">4.12
+  </td>
+  <td valign="top" align="left">4.27
+  </td>
+  <td valign="top" align="left">3.46
+  </td>
+  <td valign="top" align="left">3.46
+  </td>
+  <td valign="top" align="left">3.98
+  </td>
+  <td valign="top" align="left">4.24
+  </td>
+  <td valign="top" align="left">4.28
+  </td>
+  <td valign="top" align="left">4.36
+  </td>
+  <td valign="top" align="left">4.11
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">Percentile
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">25
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">2
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">1
+  </td>
+  <td valign="top" align="left">5
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">50
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">6
+  </td>
+  <td valign="top" align="left">6
+  </td>
+  <td valign="top" align="left">7
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">&#x02013;
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">6
+  </td>
+  <td valign="top" align="left">7
+  </td>
+  <td valign="top" align="left">8
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">75
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">6
+  </td>
+  <td valign="top" align="left">7
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">9
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">4
+  </td>
+  <td valign="top" align="left">5
+  </td>
+  <td valign="top" align="left">7
+  </td>
+  <td valign="top" align="left">8
+  </td>
+  <td valign="top" align="left">9
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">10
+  </td>
+</tr>
+<tr>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">
+  </td>
+  <td valign="top" align="left">95
+  </td>
+  <td valign="top" align="left">9
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">10
+  </td>
+  <td valign="top" align="left">11
+  </td>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">12
+  </td>
+  <td valign="top" align="left">13
+  </td>
+</tr>
+</tbody>
+</table>
+</table-wrap>
+</sec>
+</sec>
+<sec>
+  <title>Discussion
+  </title>
+  <p>The n-back task is a WM measure that is being used more frequently in research, clinical settings and in training studies. This research aimed to provide normative data collected from a large-scale cross-sectional study on a wide sample of children and adolescents aged 7&#x02013;13 years. Participants were individually administered a computerized verbal n-back task with three levels of load: 1-back, 2-back, and 3-back. The results revealed clear effects in relation to the task&#x02019;s level of difficulty as well as consistent age patterns in the different variables analyzed.
+  </p>
+  <p>The results showed an overall improvement in performance with age, which, in general, translated into an increase in the percentage of hits and in the discrimination parameter
+    <italic>d
+    </italic>&#x02032; accompanied by a decrease in response times and in the percentage of false alarms. However, slightly different patterns were observed depending on the dependent variable and the task&#x02019;s level of difficulty.
+  </p>
+  <p>Gradual improvement in performance was observed in both hits and the discrimination index,
+    <italic>d
+    </italic>&#x02032;, across the different age groups, which was more pronounced at 2-back than at 1-back. This implies that differences between both levels decrease progressively with age. Thus, while at age 7 the percentage of hits was about 66% in the easiest condition and 37% in the most difficult, at age 13 the difference between both levels decreased from 80% at 1-back to 65% at 2-back. This suggests that the age-related improvement was more pronounced at the 2-back level than at 1-back. The regression analyses showed a linear effect of age at the more complex levels (2-back and 3-back), while at 1-back a quadratic effect was also found. Other authors have reported that, at 1-back, a mature level is reached at 10&#x02013;12 years, whereas at 2-back performance continues to improve even after adolescence (
+    <xref ref-type="bibr" rid="B8">Brahmbhatt et al., 2010
+    </xref>;
+    <xref ref-type="bibr" rid="B53">Schleepen and Jonkman, 2010
+    </xref>).
+  </p>
+  <p>Interestingly, the age-related patterns found in hits were not observed in false alarms. In the case of hits at 1-back, there were only small differences between the older age groups. In contrast, the number of false alarms experienced a parallel decline with age at both n-back levels. This discrepancy implies that the mirror effect, a regularly occurring phenomenon in recognition memory tasks (
+    <xref ref-type="bibr" rid="B27">Glanzer and Adams, 1985
+    </xref>), does not occur across the different age levels included in this study. The mirror effect is observed on single &#x0201C;yes-no&#x0201D; recognition tasks when a factor that increases the hit rate decreases the false alarm rate or
+    <italic>vice versa
+    </italic>. For example, the advantage that word concreteness produces on recognition hit-rate is mirrored in the false alarms rate. In this study, in which age was the factor considered, it was found that the relationship between the ability to accurately recognize and reject items in the 1-back condition differed across the age groups.
+  </p>
+  <p>The reduction of the load effect on hit-rate observed across the age groups was not found for response times. Thus, the difference between the times taken on both levels of difficulty was similar across all age groups. Other studies (e.g.,
+    <xref ref-type="bibr" rid="B53">Schleepen and Jonkman, 2010
+    </xref>) have found a similar discrepancy between both variables. The disparity in the pattern between time and accuracy may indicate some independence in the development of factors related to storage and speed. In this regard,
+    <xref ref-type="bibr" rid="B4">Bayliss et al. (2005)
+    </xref> have suggested that both aspects can develop independently.
+  </p>
+  <p>The results described above may have different but not mutually exclusive explanations. First, it is clear that both 1-back and 2-back involve different storage demands. The 1-back level requires one item to be stored in memory whereas 2-back requires two. In addition, both levels entail varying demands of information manipulation. Second, the 2-back condition requires greater executive control demands than the 1-back condition. It has been found that when executive control demands are not excessively high, children aged 11 may perform well (e.g.,
+    <xref ref-type="bibr" rid="B7">Best et al., 2009
+    </xref>). However, when the conditions are more complex, clear improvements in performance in older age groups are detected, suggesting further executive development (e.g.,
+    <xref ref-type="bibr" rid="B24">Gathercole, 1999
+    </xref>;
+    <xref ref-type="bibr" rid="B28">Huizinga et al., 2006
+    </xref>).
+  </p>
+  <p>Also related to changes in executive control,
+    <xref ref-type="bibr" rid="B53">Schleepen and Jonkman (2010)
+    </xref> have reported that developmental differences are specifically due to an improvement in interference control. In support of this idea, these authors have found significant correlations between the difference in scores obtained on 1-back and 2-back levels and performance in a flanker task used as a measure of interference control. Thus, developmental changes in the ability to manage interference in WM could be a factor contributing to the age-related differences shown in this study.
+  </p>
+  <p>An additional possible explanation for the age trends previously described is related to the ability to switch the focus of attention. At 1-back the last item presented, which is still held active in the focus of attention, should be compared with the new item; however, at 2-back the penultimate item must be retrieved into the focus of attention in order to compare it with the new one (e.g.,
+    <xref ref-type="bibr" rid="B42">McElree, 2001
+    </xref>). Studies with older people have found age-related differences on n-back performance, which have been attributed to the increased cost of switching the focus of attention with age (e.g.,
+    <xref ref-type="bibr" rid="B67">Verhaeghen and Basak, 2005
+    </xref>;
+    <xref ref-type="bibr" rid="B65">Van Gerven et al., 2008
+    </xref>). Recently,
+    <xref ref-type="bibr" rid="B37">Lend&#x000ED;nez et al. (2015)
+    </xref> have shown that the ability to accurately retrieve information from outside the focus of attention changes across childhood and adolescence. Therefore, changes in the ability for focus switching could contribute to explain the age trends observed in this study.
+  </p>
+  <p>Finally, the age patterns described may also reflect the differential contribution of familiarity and recognition mechanisms to the different levels of the n-back task. Responses in the 1-back level may be based on familiarity, whereas at 2-back and at higher levels, recollection is also necessary (e.g.,
+    <xref ref-type="bibr" rid="B46">Oberauer, 2005
+    </xref>). It might be possible that changes related to the familiarity mechanism are more moderate than those of the recollection process. This pattern is also consistent with the results obtained with episodic tasks. Although changes in both processes have been observed since early childhood, familiarity seems to stabilize by mid-childhood, whereas recollection continues to improve during adolescence (for a review, see
+    <xref ref-type="bibr" rid="B26">Ghetti and Lee, 2013
+    </xref>).
+  </p>
+  <p>To summarize, changes in executive control may be mediated by developmental improvements relating to different mechanisms such as interference resolution, focus switching, and even recollection. Note however, that we have not tested the different possible theoretical explanations of the observed age trends, since our aim was to provide normative data for different age groups. Hence, the investigation of the relative merits of these explanations may be a relevant objective for future studies. In addition, it would also be important to determine the specific relationship between performance at the different n-back levels and other complex WM measures for different age groups.
+  </p>
+  <p>In this study, boys tended to respond more quickly than girls, although with less accuracy, committing more false alarms and obtaining fewer hits. These slight differences persisted across all ages. Even though the effect size of these differences was not large (
+    <inline-formula>
+      <mml:math id="M9">
+        <mml:mrow>
+          <mml:msubsup>
+            <mml:mi>&#x003B7;
+            </mml:mi>
+            <mml:mi>p
+            </mml:mi>
+            <mml:mn>2
+            </mml:mn>
+          </mml:msubsup>
+        </mml:mrow>
+      </mml:math>
+    </inline-formula> between 0.001 and 0.018), the differences would suggest that boys exhibit greater impulsiveness (see also
+    <xref ref-type="bibr" rid="B68">Vuontela et al., 2003
+    </xref>). The findings are consistent with other studies reporting differences in favor of girls in some WM and STM tasks involving verbal processing (e.g.,
+    <xref ref-type="bibr" rid="B38">Lowe et al., 2003
+    </xref>;
+    <xref ref-type="bibr" rid="B41">Lynn and Irwing, 2008
+    </xref>; however, for no differences see
+    <xref ref-type="bibr" rid="B44">Nagel et al., 2007
+    </xref>;
+    <xref ref-type="bibr" rid="B36">Lejbak et al., 2011
+    </xref>).
+    <xref ref-type="bibr" rid="B68">Vuontela et al. (2003)
+    </xref> have suggested that these gender differences could be due to differences in neurodevelopment. It has also been argued that boys and girls could use different strategies while performing the task (
+    <xref ref-type="bibr" rid="B56">Speck et al., 2000
+    </xref>).
+  </p>
+  <p>The current study provided normative data on children and adolescents aged 7&#x02013;13 years performing a computerized n-back task. The sample size allowed for accurate estimations of typical performance for the different age groups under study, and to determine at what age children were able to deal with the different levels of the task. In this regard, practically all children performed adequately at 1-back. However, a considerable number of 7-year-olds did not manage to complete the 2-back level or only achieved low levels of performance. Task difficulty increased notably at 3-back, given that most of the 7-year-olds children were not able to complete it. The results of the regression analyses indicated that the 2-back was the level that explained age-related performance best. Future studies should include older age groups in order to assess when asymptotic values are reached for the different levels of difficulty. It is possible that better performance at higher n-back levels might not be reached until after adolescence, a time when executive functioning seems to reach maturity (
+    <xref ref-type="bibr" rid="B6">Best and Miller, 2010
+    </xref>).
+  </p>
+  <p>In addition to the clear age patterns found, high variability was observed in performance across the different ages. For example, at 1-back, there were participants from all age groups who obtained all possible scores. At 2-back the variability was reduced to some extent given that a number of younger children (i.e., aged 7) were unable to perform the task, and those who were, did not achieve the highest scores. Despite the difficulties of the task for the younger children, there was evidence of 7-year-olds performing the task at a level similar to that of many 13-year-old children. An analogous pattern emerged at 3-back. Although most children younger than 9 were unable to reach this level, nor did many of those who were older, there were participants across all ages who did manage to perform it.
+  </p>
+  <p>These normative data could be used for the assessment of verbal WM and the updating function. Individual differences in WM capacity have important consequences for children&#x02019;s ability to acquire knowledge and new skills (see
+    <xref ref-type="bibr" rid="B59">Swanson and Alloway, 2012
+    </xref>, for a review). The ability to update information has also been shown to have an important role in accounting for individual differences in different areas of academic attainment (e.g.,
+    <xref ref-type="bibr" rid="B49">Passolunghi and Pazzaglia, 2004
+    </xref>;
+    <xref ref-type="bibr" rid="B60">Swanson and Beebe-Frankenberger, 2004
+    </xref>;
+    <xref ref-type="bibr" rid="B58">St Clair-Thompson and Gathercole, 2006
+    </xref>;
+    <xref ref-type="bibr" rid="B64">Van der Sluis et al., 2007
+    </xref>;
+    <xref ref-type="bibr" rid="B10">Carretti et al., 2009
+    </xref>;
+    <xref ref-type="bibr" rid="B14">Cornoldi et al., 2012
+    </xref>;
+    <xref ref-type="bibr" rid="B35">Lechuga et al., 2015
+    </xref>;
+    <xref ref-type="bibr" rid="B50">Pelegrina et al., 2015
+    </xref>). Low scores for a specified age on the n-back task could indicate that this system, involved in numerous complex cognitive abilities, is functioning poorly. Therefore, these normative data could contribute to detect children at risk of academic difficulties and thus support early intervention programs and strategies.
+  </p>
+  <p>These normative data may also be valuable in the context of WM training programs. There is some evidence that WM capacity can be increased by training, at least in the short-term (e.g.,
+    <xref ref-type="bibr" rid="B30">Jaeggi et al., 2014
+    </xref>). The effects of WM training may also transfer to academic attainment (for a review, see
+    <xref ref-type="bibr" rid="B61">Titz and Karbach, 2014
+    </xref>). The n-back is a task frequently used to train WM and to assess WM capacity in both children and adults (see
+    <xref ref-type="bibr" rid="B43">Melby-Lervag and Hulme, 2012
+    </xref>). The task presented in this study could be used to obtain baseline scores and to determine the possible changes after training. Baseline scores and possible variations after the training could be readily interpreted in relation to the corresponding age group.
+  </p>
+  <p>There are some limitations in the present study that suggest ideas for future research. First, it should be noted that the variables considered in the regression analyses explained a small portion of the variance. This suggests that additional factors are influencing performance on this task as well as individual differences. The n-back task requires multiple executive control processes and these could be a source of performance variability. It has been shown that executive functions component processes may develop at different rates (
+    <xref ref-type="bibr" rid="B28">Huizinga et al., 2006
+    </xref>;
+    <xref ref-type="bibr" rid="B7">Best et al., 2009
+    </xref>;
+    <xref ref-type="bibr" rid="B69">Xu et al., 2013
+    </xref>). Thus, it might be possible that different processes involved in the task contribute to the observed age patterns. Further studies should analyze the specific cognitive processes that are involved in this task.
+  </p>
+  <p>Furthermore, although the cross-sectional design may be useful to identify age differences, only a longitudinal design permits the capture of intra-individual changes over time. Thus, for instance, it might be relevant to analyze different developmental patterns (e.g., early- or late-maturing children). In addition, a longitudinal design would be informative not only in regards to the individual differences in performance shown in this study, but also in regards to their possible changes over time. Moreover, this design would also permit determining the relationship over time between some cognitive processes and performance on the n-back task.
+  </p>
+  <p>Finally, it should also be relevant to compare the results obtained with different n-back tasks. The n-back task we administered followed a procedure analogous to that used in other studies. However, given that there is no standard procedure for this task, it should be appropriate to investigate the extent to which these results can be generalized to other versions.
+  </p>
+  <p>To conclude, the results indicate age-related changes that might be related to different cognitive processes involved in updating information in WM. The normative data obtained may be useful in interpreting the results of other studies in which the n-back task has been applied under similar conditions. Furthermore, given the type of stimuli used, this information might be valuable even when the task is applied in other languages. The normative data collected in this study may be relevant on a practical level, given that they provide information about performance on a WM task that taps executive processes that are central to cognitive development and learning.
+  </p>
+<sec>
+  <title>Conflict of Interest Statement
+  </title>
+  <p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+  </p>
+</sec>
+</sec>
+</body>
+<back>
+<ack>
+  <title>Acknowledgments
+  </title>
+  <p>The research reported here was supported by a grant from the Spanish Ministry of Science and Innovation (CSD2008-00048) in the CONSOLIDER-INGENIO 2010 programme and two grants from the Spanish Ministry of Science and Technology: PSI2012-37764 and PSI2012-33625.
+  </p>
+</ack>
+<ref-list>
+  <title>References
+  </title>
+<ref id="B1">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Alloway
+        </surname>
+        <given-names>T. P.
+        </given-names>
+      </name>
+      <name>
+        <surname>Alloway
+        </surname>
+        <given-names>R. G.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2010
+    </year>).
+    <article-title>Investigating the predictive roles of working memory and IQ in academic attainment
+    </article-title>.
+    <source>J. Exp. Child Psychol.
+    </source>
+    <volume>106
+    </volume>,
+    <fpage>20
+    </fpage>&#x02013;
+    <lpage>29
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/j.jecp.2009.11.003
+    </pub-id>
+    <pub-id pub-id-type="pmid">20018296
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B2">
+  <citation citation-type="book">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Baddeley
+        </surname>
+        <given-names>A. D.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2007
+    </year>).
+    <source>Working Memory, Thought and Action
+    </source>.
+    <publisher-loc>Oxford
+    </publisher-loc>:
+    <publisher-name>Oxford University Press
+    </publisher-name>.
+  </citation>
+</ref>
+<ref id="B3">
+  <citation citation-type="book">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Baddeley
+        </surname>
+        <given-names>A. D.
+        </given-names>
+      </name>
+      <name>
+        <surname>Logie
+        </surname>
+        <given-names>R. H.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>1999
+    </year>).
+    <article-title>&#x0201C;Working memory: the multiple-component model,&#x0201D;
+    </article-title> in
+    <source>Models of Working Memory
+    </source>, eds
+    <person-group person-group-type="editor">
+      <name>
+        <surname>Miyake
+        </surname>
+        <given-names>A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Shah
+        </surname>
+        <given-names>P.
+        </given-names>
+      </name>
+    </person-group> (
+    <publisher-loc>New York
+    </publisher-loc>:
+    <publisher-name>Cambridge University Press
+    </publisher-name>),
+    <fpage>28
+    </fpage>&#x02013;
+    <lpage>61
+    </lpage>.
+  </citation>
+</ref>
+<ref id="B4">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Bayliss
+        </surname>
+        <given-names>D.
+        </given-names>
+      </name>
+      <name>
+        <surname>Jarrold
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+      <name>
+        <surname>Baddeley
+        </surname>
+        <given-names>A. D.
+        </given-names>
+      </name>
+      <name>
+        <surname>Gunn
+        </surname>
+        <given-names>D. M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Leigh
+        </surname>
+        <given-names>E.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2005
+    </year>).
+    <article-title>Mapping the developmental constraints on working memory span performance
+    </article-title>.
+    <source>Dev. Psychol.
+    </source>
+    <volume>41
+    </volume>,
+    <fpage>579
+    </fpage>&#x02013;
+    <lpage>597
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1037/0012-1649.41.4.579
+    </pub-id>
+    <pub-id pub-id-type="pmid">16060806
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B5">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Belachi
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+      <name>
+        <surname>Carretti
+        </surname>
+        <given-names>B.
+        </given-names>
+      </name>
+      <name>
+        <surname>Cornoldi
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2010
+    </year>).
+    <article-title>The role of working memory and updating in Coloured Raven Matrices performance in typically developing children
+    </article-title>.
+    <source>J. Cogn. Psychol.
+    </source>
+    <volume>22
+    </volume>,
+    <fpage>1010
+    </fpage>&#x02013;
+    <lpage>1020
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1080/09541440903184617
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B6">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Best
+        </surname>
+        <given-names>J. R.
+        </given-names>
+      </name>
+      <name>
+        <surname>Miller
+        </surname>
+        <given-names>P. H.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2010
+    </year>).
+    <article-title>A developmental perspective on executive function
+    </article-title>.
+    <source>Child Dev.
+    </source>
+    <volume>81
+    </volume>,
+    <fpage>1641
+    </fpage>&#x02013;
+    <lpage>1660
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1111/j.1467-8624.2010.01499.x
+    </pub-id>
+    <pub-id pub-id-type="pmid">21077853
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B7">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Best
+        </surname>
+        <given-names>J. R.
+        </given-names>
+      </name>
+      <name>
+        <surname>Miller
+        </surname>
+        <given-names>P. H.
+        </given-names>
+      </name>
+      <name>
+        <surname>Jones
+        </surname>
+        <given-names>L. L.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2009
+    </year>).
+    <article-title>Executive functions after age 5: changes and correlates
+    </article-title>.
+    <source>Dev. Rev.
+    </source>
+    <volume>29
+    </volume>,
+    <fpage>180
+    </fpage>&#x02013;
+    <lpage>200
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/j.dr.2009.05.002
+    </pub-id>
+    <pub-id pub-id-type="pmid">20161467
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B8">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Brahmbhatt
+        </surname>
+        <given-names>S. B.
+        </given-names>
+      </name>
+      <name>
+        <surname>White
+        </surname>
+        <given-names>D. A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Barch
+        </surname>
+        <given-names>D. M.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2010
+    </year>).
+    <article-title>Developmental differences in sustained and transient activity underlying working memory
+    </article-title>.
+    <source>Brain Res.
+    </source>
+    <volume>1354
+    </volume>,
+    <fpage>140
+    </fpage>&#x02013;
+    <lpage>151
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/j.brainres.2010.07.055
+    </pub-id>
+    <pub-id pub-id-type="pmid">20659432
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B9">
+  <citation citation-type="book">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Cain
+        </surname>
+        <given-names>K.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2006
+    </year>).
+    <article-title>&#x0201C;Children&#x02019;s reading comprehension: the role of working memory in normal and impaired development,&#x0201D;
+    </article-title> in
+    <source>Working Memory and Education
+    </source>, ed.
+    <person-group person-group-type="editor">
+      <name>
+        <surname>Pickering
+        </surname>
+        <given-names>S. J.
+        </given-names>
+      </name>
+    </person-group> (
+    <publisher-loc>Amsterdam
+    </publisher-loc>:
+    <publisher-name>Academic Press
+    </publisher-name>),
+    <fpage>61
+    </fpage>&#x02013;
+    <lpage>91
+    </lpage>.
+  </citation>
+</ref>
+<ref id="B10">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Carretti
+        </surname>
+        <given-names>B.
+        </given-names>
+      </name>
+      <name>
+        <surname>Borella
+        </surname>
+        <given-names>E.
+        </given-names>
+      </name>
+      <name>
+        <surname>Cornoldi
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+      <name>
+        <surname>De Beni
+        </surname>
+        <given-names>R.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2009
+    </year>).
+    <article-title>Role of working memory in explaining the performance of individuals with specific reading comprehension difficulties: a metaanalysis
+    </article-title>.
+    <source>Learn. Indiv. Differ.
+    </source>
+    <volume>19
+    </volume>,
+    <fpage>246
+    </fpage>&#x02013;
+    <lpage>251
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/j.lindif.2008.10.002
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B11">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Case
+        </surname>
+        <given-names>R.
+        </given-names>
+      </name>
+      <name>
+        <surname>Kurland
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Goldberg
+        </surname>
+        <given-names>J.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>1982
+    </year>).
+    <article-title>Operational efficiency and the growth of short-term memory
+    </article-title>.
+    <source>J. Exp. Child Psychol.
+    </source>
+    <volume>33
+    </volume>,
+    <fpage>386
+    </fpage>&#x02013;
+    <lpage>404
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/0022-0965(82)90054-6
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B12">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Colom
+        </surname>
+        <given-names>R.
+        </given-names>
+      </name>
+      <name>
+        <surname>Abad
+        </surname>
+        <given-names>F. J.
+        </given-names>
+      </name>
+      <name>
+        <surname>Quiroga
+        </surname>
+        <given-names>A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Shih
+        </surname>
+        <given-names>P. C.
+        </given-names>
+      </name>
+      <name>
+        <surname>Flores-Mendoza
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2008
+    </year>).
+    <article-title>Working memory and intelligence are highly related construct, but why?
+    </article-title>
+    <source>Intelligence
+    </source>
+    <volume>36
+    </volume>,
+    <fpage>584
+    </fpage>&#x02013;
+    <lpage>606
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/j.intell.2008.01.002
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B13">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Conway
+        </surname>
+        <given-names>A. R. A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Kane
+        </surname>
+        <given-names>M. J.
+        </given-names>
+      </name>
+      <name>
+        <surname>Engle
+        </surname>
+        <given-names>R. W.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2003
+    </year>).
+    <article-title>Working memory capacity and its relation to general intelligence
+    </article-title>.
+    <source>Trends Cogn. Sci.
+    </source>
+    <volume>7
+    </volume>,
+    <fpage>547
+    </fpage>&#x02013;
+    <lpage>552
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/j.tics.2003.10.005
+    </pub-id>
+    <pub-id pub-id-type="pmid">14643371
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B14">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Cornoldi
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+      <name>
+        <surname>Drusi
+        </surname>
+        <given-names>S.
+        </given-names>
+      </name>
+      <name>
+        <surname>Tencati
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+      <name>
+        <surname>Giofr&#x000E8;
+        </surname>
+        <given-names>D.
+        </given-names>
+      </name>
+      <name>
+        <surname>Mirandola
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2012
+    </year>).
+    <article-title>Problem solving and working memory updating difficulties in a group of poor comprehenders
+    </article-title>.
+    <source>J. Cogn. Educ. Psychol.
+    </source>
+    <volume>11
+    </volume>,
+    <fpage>39
+    </fpage>&#x02013;
+    <lpage>44
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1891/1945-8959.11.1.39
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B15">
+  <citation citation-type="book">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Cowan
+        </surname>
+        <given-names>N.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>1995
+    </year>).
+    <source>Attention and Memory: An Integrated Framework
+    </source>.
+    <publisher-loc>New York
+    </publisher-loc>:
+    <publisher-name>Oxford University Press
+    </publisher-name>.
+  </citation>
+</ref>
+<ref id="B16">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Daneman
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Carpenter
+        </surname>
+        <given-names>P. A.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>1980
+    </year>).
+    <article-title>Individual differences in working memory and reading
+    </article-title>.
+    <source>J. Verbal Learn. Verbal Behav.
+    </source>
+    <volume>19
+    </volume>,
+    <fpage>450
+    </fpage>&#x02013;
+    <lpage>466
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/S0022-5371(80)90312-6
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B17">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Deschuyteneer
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Vandierendonck
+        </surname>
+        <given-names>A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Muyllaert
+        </surname>
+        <given-names>I.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2006
+    </year>).
+    <article-title>Does solution of mental arithmetic problems such as 2 + 6 and 3 &#x000D7; 8 rely on the process of &#x0201C;memory updating&#x0201D;?
+    </article-title>
+    <source>Exp. Psychol.
+    </source>
+    <volume>53
+    </volume>,
+    <fpage>198
+    </fpage>&#x02013;
+    <lpage>208
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1027/1618-3169.53.3.198
+    </pub-id>
+    <pub-id pub-id-type="pmid">16955729
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B18">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Elos&#x000FA;a
+        </surname>
+        <given-names>M. R.
+        </given-names>
+      </name>
+      <name>
+        <surname>Garc&#x000ED;a Madruga
+        </surname>
+        <given-names>J. A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Guti&#x000E9;rrez
+        </surname>
+        <given-names>F.
+        </given-names>
+      </name>
+      <name>
+        <surname>Luque
+        </surname>
+        <given-names>J. L.
+        </given-names>
+      </name>
+      <name>
+        <surname>G&#x000E1;rate
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>1997
+    </year>).
+    <article-title>Un estudio sobre las diferencias evolutivas en memoria operativa: capacidad o eficiencia?
+    </article-title>
+    <source>Estudios Psicol.
+    </source>
+    <volume>58
+    </volume>,
+    <fpage>15
+    </fpage>&#x02013;
+    <lpage>27
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1174/021093997320954827
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B19">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Friedman
+        </surname>
+        <given-names>N. P.
+        </given-names>
+      </name>
+      <name>
+        <surname>Miyake
+        </surname>
+        <given-names>A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Corley
+        </surname>
+        <given-names>R. P.
+        </given-names>
+      </name>
+      <name>
+        <surname>Young
+        </surname>
+        <given-names>S. E.
+        </given-names>
+      </name>
+      <name>
+        <surname>De Fries
+        </surname>
+        <given-names>J. C.
+        </given-names>
+      </name>
+      <name>
+        <surname>Hewitt
+        </surname>
+        <given-names>J. K.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2006
+    </year>).
+    <article-title>Not all executive functions are related to intelligence
+    </article-title>.
+    <source>Psychol. Sci.
+    </source>
+    <volume>17
+    </volume>,
+    <fpage>172
+    </fpage>&#x02013;
+    <lpage>179
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1111/j.1467-9280.2006.01681.x
+    </pub-id>
+    <pub-id pub-id-type="pmid">16466426
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B20">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Friedman
+        </surname>
+        <given-names>N. P.
+        </given-names>
+      </name>
+      <name>
+        <surname>Miyake
+        </surname>
+        <given-names>A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Young
+        </surname>
+        <given-names>S. E.
+        </given-names>
+      </name>
+      <name>
+        <surname>De Fries
+        </surname>
+        <given-names>J. C.
+        </given-names>
+      </name>
+      <name>
+        <surname>Corley
+        </surname>
+        <given-names>R. P.
+        </given-names>
+      </name>
+      <name>
+        <surname>Hewitt
+        </surname>
+        <given-names>J. K.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2008
+    </year>).
+    <article-title>Individual differences in executive functions are almost entirely genetic in origin
+    </article-title>.
+    <source>J. Exp. Psychol. Gen.
+    </source>
+    <volume>137
+    </volume>,
+    <fpage>201
+    </fpage>&#x02013;
+    <lpage>225
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1037/0096-3445.137.2.201
+    </pub-id>
+    <pub-id pub-id-type="pmid">18473654
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B21">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Garc&#x000ED;a-Madruga
+        </surname>
+        <given-names>J. A.
+        </given-names>
+      </name>
+      <name>
+        <surname>G&#x000E1;rate
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Elos&#x000FA;a
+        </surname>
+        <given-names>M. R.
+        </given-names>
+      </name>
+      <name>
+        <surname>Luque
+        </surname>
+        <given-names>J. L.
+        </given-names>
+      </name>
+      <name>
+        <surname>Guti&#x000E9;rrez
+        </surname>
+        <given-names>F.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>1997
+    </year>).
+    <article-title>Comprensi&#x000F3;n lectora y memoria operativa: un estudio evolutivo. [Reading Comprehension and working memory: a developmental study]
+    </article-title>.
+    <source>Cognitiva
+    </source>
+    <volume>9
+    </volume>,
+    <fpage>99
+    </fpage>&#x02013;
+    <lpage>132
+    </lpage>.
+  </citation>
+</ref>
+<ref id="B22">
+  <citation citation-type="book">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Garc&#x000ED;a-Madruga
+        </surname>
+        <given-names>J. A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Guti&#x000E9;rrez
+        </surname>
+        <given-names>F.
+        </given-names>
+      </name>
+      <name>
+        <surname>Carriedo
+        </surname>
+        <given-names>N.
+        </given-names>
+      </name>
+      <name>
+        <surname>Luz&#x000F3;n
+        </surname>
+        <given-names>J. M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Vila
+        </surname>
+        <given-names>J. O.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2005
+    </year>).
+    <article-title>&#x0201C;Working memory and propositional reasoning: searching for new working memory tests,&#x0201D;
+    </article-title> in
+    <source>The Shape of Reason. Essays in Honour of Paolo Legrenzi
+    </source>, eds
+    <person-group person-group-type="editor">
+      <name>
+        <surname>Girotto
+        </surname>
+        <given-names>V.
+        </given-names>
+      </name>
+      <name>
+        <surname>Johnson-Laird
+        </surname>
+        <given-names>P. N.
+        </given-names>
+      </name>
+    </person-group> (
+    <publisher-loc>London
+    </publisher-loc>:
+    <publisher-name>Psychology Press
+    </publisher-name>),
+    <fpage>69
+    </fpage>&#x02013;
+    <lpage>89
+    </lpage>.
+  </citation>
+</ref>
+<ref id="B23">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Garc&#x000ED;a-Madruga
+        </surname>
+        <given-names>J. A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Guti&#x000E9;rrez
+        </surname>
+        <given-names>F.
+        </given-names>
+      </name>
+      <name>
+        <surname>Carriedo
+        </surname>
+        <given-names>N.
+        </given-names>
+      </name>
+      <name>
+        <surname>Luz&#x000F3;n
+        </surname>
+        <given-names>J. M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Vila
+        </surname>
+        <given-names>J. O.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2007
+    </year>).
+    <article-title>Checking the role of central executive in propositional reasoning
+    </article-title>.
+    <source>Think. Reason.
+    </source>
+    <volume>13
+    </volume>,
+    <fpage>370
+    </fpage>&#x02013;
+    <lpage>393
+    </lpage>.
+  </citation>
+</ref>
+<ref id="B24">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Gathercole
+        </surname>
+        <given-names>S. E.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>1999
+    </year>).
+    <article-title>Cognitive approaches to the development of short-term memory
+    </article-title>.
+    <source>Trends Cogn. Sci.
+    </source>
+    <volume>3
+    </volume>,
+    <fpage>410
+    </fpage>&#x02013;
+    <lpage>418
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/S1364-6613(99)01388-1
+    </pub-id>
+    <pub-id pub-id-type="pmid">10529796
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B25">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Gathercole
+        </surname>
+        <given-names>S. E.
+        </given-names>
+      </name>
+      <name>
+        <surname>Pickering
+        </surname>
+        <given-names>S. J.
+        </given-names>
+      </name>
+      <name>
+        <surname>Ambridge
+        </surname>
+        <given-names>B.
+        </given-names>
+      </name>
+      <name>
+        <surname>Wearing
+        </surname>
+        <given-names>H.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2004
+    </year>).
+    <article-title>The structure of working memory from 4 to 15 years of age
+    </article-title>.
+    <source>Dev. Psychol.
+    </source>
+    <volume>40
+    </volume>,
+    <fpage>177
+    </fpage>&#x02013;
+    <lpage>190
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1037/0012-1649.40.2.177
+    </pub-id>
+    <pub-id pub-id-type="pmid">14979759
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B26">
+  <citation citation-type="book">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Ghetti
+        </surname>
+        <given-names>S.
+        </given-names>
+      </name>
+      <name>
+        <surname>Lee
+        </surname>
+        <given-names>I. K.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2013
+    </year>).
+    <article-title>&#x0201C;The development of recollection and familiarity during childhood,&#x0201D;
+    </article-title> in
+    <source>The Wiley Handbook on The Development of Children&#x02019;s Memory
+    </source>, eds
+    <person-group person-group-type="editor">
+      <name>
+        <surname>Bauer
+        </surname>
+        <given-names>P. J.
+        </given-names>
+      </name>
+      <name>
+        <surname>Fivush
+        </surname>
+        <given-names>R.
+        </given-names>
+      </name>
+    </person-group> (
+    <publisher-loc>Oxford
+    </publisher-loc>:
+    <publisher-name>Wiley-Blackwell
+    </publisher-name>),
+    <fpage>309
+    </fpage>&#x02013;
+    <lpage>335
+    </lpage>.
+  </citation>
+</ref>
+<ref id="B27">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Glanzer
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Adams
+        </surname>
+        <given-names>J. K.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>1985
+    </year>).
+    <article-title>The mirror effect in recognition memory
+    </article-title>.
+    <source>Mem. Cogn.
+    </source>
+    <volume>13
+    </volume>,
+    <fpage>8
+    </fpage>&#x02013;
+    <lpage>20
+    </lpage>.
+    <pub-id pub-id-type="doi">10.3758/BF03198438
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B28">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Huizinga
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Dolan
+        </surname>
+        <given-names>C. V.
+        </given-names>
+      </name>
+      <name>
+        <surname>Van der Molen
+        </surname>
+        <given-names>M. W.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2006
+    </year>).
+    <article-title>Age-related change in executive function: developmental trends and a latent variable analysis
+    </article-title>.
+    <source>Neuropsychologia
+    </source>
+    <volume>44
+    </volume>,
+    <fpage>2017
+    </fpage>&#x02013;
+    <lpage>2036
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/j.neuropsychologia.2006.01.010
+    </pub-id>
+    <pub-id pub-id-type="pmid">16527316
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B29">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Jaeggi
+        </surname>
+        <given-names>S. M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Buschkuehl
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Perrig
+        </surname>
+        <given-names>W. J.
+        </given-names>
+      </name>
+      <name>
+        <surname>Meier
+        </surname>
+        <given-names>B.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2010
+    </year>).
+    <article-title>The concurrent validity of the N-back task as a working memory measure
+    </article-title>.
+    <source>Memory
+    </source>
+    <volume>18
+    </volume>,
+    <fpage>394
+    </fpage>&#x02013;
+    <lpage>412
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1080/09658211003702171
+    </pub-id>
+    <pub-id pub-id-type="pmid">20408039
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B30">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Jaeggi
+        </surname>
+        <given-names>S. M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Buschkuehl
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Shah
+        </surname>
+        <given-names>P.
+        </given-names>
+      </name>
+      <name>
+        <surname>Jonides
+        </surname>
+        <given-names>J.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2014
+    </year>).
+    <article-title>The role of individual differences in cognitive training and transfer
+    </article-title>.
+    <source>Mem. Cogn.
+    </source>
+    <volume>42
+    </volume>,
+    <fpage>464
+    </fpage>&#x02013;
+    <lpage>480
+    </lpage>.
+    <pub-id pub-id-type="doi">10.3758/s13421-013-0364-z
+    </pub-id>
+    <pub-id pub-id-type="pmid">24081919
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B31">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Kane
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Conway
+        </surname>
+        <given-names>A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Miura
+        </surname>
+        <given-names>T.
+        </given-names>
+      </name>
+      <name>
+        <surname>Colflesh
+        </surname>
+        <given-names>G.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2007
+    </year>).
+    <article-title>Working memory, attention control, and the n-back task: a question of construct validity
+    </article-title>.
+    <source>J. Exp. Psychol. Learn. Mem. Cogn.
+    </source>
+    <volume>33
+    </volume>,
+    <fpage>615
+    </fpage>&#x02013;
+    <lpage>622
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1037/0278-7393.33.3.615
+    </pub-id>
+    <pub-id pub-id-type="pmid">17470009
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B32">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Kirchner
+        </surname>
+        <given-names>W. K.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>1958
+    </year>).
+    <article-title>Age differences in short-term retention of rapidly changing information
+    </article-title>.
+    <source>J. Exp. Psychol.
+    </source>
+    <volume>55
+    </volume>,
+    <fpage>352
+    </fpage>&#x02013;
+    <lpage>358
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1037/h0043688
+    </pub-id>
+    <pub-id pub-id-type="pmid">13539317
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B33">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Kwon
+        </surname>
+        <given-names>H.
+        </given-names>
+      </name>
+      <name>
+        <surname>Reiss
+        </surname>
+        <given-names>A. L.
+        </given-names>
+      </name>
+      <name>
+        <surname>Menon
+        </surname>
+        <given-names>V.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2002
+    </year>).
+    <article-title>Neural basis of protracted developmental changes in visuo-spatial working memory
+    </article-title>.
+    <source>Proc. Natl. Acad. Sci. U.S.A.
+    </source>
+    <volume>99
+    </volume>,
+    <fpage>13336
+    </fpage>&#x02013;
+    <lpage>13341
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1073/pnas.162486399
+    </pub-id>
+    <pub-id pub-id-type="pmid">12244209
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B34">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Lechuga
+        </surname>
+        <given-names>M. T.
+        </given-names>
+      </name>
+      <name>
+        <surname>Moreno
+        </surname>
+        <given-names>V.
+        </given-names>
+      </name>
+      <name>
+        <surname>Pelegrina
+        </surname>
+        <given-names>S.
+        </given-names>
+      </name>
+      <name>
+        <surname>G&#x000F3;mez-Ariza
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+      <name>
+        <surname>Bajo
+        </surname>
+        <given-names>M. T.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2006
+    </year>).
+    <article-title>Age differences in memory control: evidence from updating and retrieval-practice tasks
+    </article-title>.
+    <source>Acta Psychol.
+    </source>
+    <volume>123
+    </volume>,
+    <fpage>279
+    </fpage>&#x02013;
+    <lpage>298
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/j.actpsy.2006.01.006
+    </pub-id>
+    <pub-id pub-id-type="pmid">16524555
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B35">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Lechuga
+        </surname>
+        <given-names>M. T.
+        </given-names>
+      </name>
+      <name>
+        <surname>Pelegrina
+        </surname>
+        <given-names>S.
+        </given-names>
+      </name>
+      <name>
+        <surname>Pelaez
+        </surname>
+        <given-names>J. L.
+        </given-names>
+      </name>
+      <name>
+        <surname>Martin-Puga
+        </surname>
+        <given-names>M. E.
+        </given-names>
+      </name>
+      <name>
+        <surname>Justicia
+        </surname>
+        <given-names>M. J.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2015
+    </year>).
+    <article-title>Working memory updating as a predictor of academic attainment
+    </article-title>.
+    <source>Educ. Psychol.
+    </source>
+    <pub-id pub-id-type="doi">10.1080/01443410.2014.950193
+    </pub-id>
+    <comment>(
+      <italic>advance online publication.
+      </italic>)
+    </comment>
+  </citation>
+</ref>
+<ref id="B36">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Lejbak
+        </surname>
+        <given-names>L.
+        </given-names>
+      </name>
+      <name>
+        <surname>Crossley
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Vrbancic
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2011
+    </year>).
+    <article-title>A male advantage for spatial and object but not verbal working memory using the n-back task
+    </article-title>.
+    <source>Brain Cogn.
+    </source>
+    <volume>76
+    </volume>,
+    <fpage>191
+    </fpage>&#x02013;
+    <lpage>196
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/j.bandc.2010.12.002
+    </pub-id>
+    <pub-id pub-id-type="pmid">21411205
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B37">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Lend&#x000ED;nez
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+      <name>
+        <surname>Pelegrina
+        </surname>
+        <given-names>S.
+        </given-names>
+      </name>
+      <name>
+        <surname>Lechuga
+        </surname>
+        <given-names>M. T.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2015
+    </year>).
+    <article-title>Age differences in working memory updating. The role of interference, focus switching and substituting information
+    </article-title>.
+    <source>Acta Psychol.
+    </source>
+    <volume>157
+    </volume>,
+    <fpage>106
+    </fpage>&#x02013;
+    <lpage>113
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/j.actpsy.2015.02.015
+    </pub-id>
+    <pub-id pub-id-type="pmid">25756938
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B38">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Lowe
+        </surname>
+        <given-names>P. A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Mayfield
+        </surname>
+        <given-names>J. W.
+        </given-names>
+      </name>
+      <name>
+        <surname>Reynolds
+        </surname>
+        <given-names>C. R.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2003
+    </year>).
+    <article-title>Gender differences in memory test performance among children and adolescents
+    </article-title>.
+    <source>Arch. Clin. Neuropsychol.
+    </source>
+    <volume>18
+    </volume>,
+    <fpage>865
+    </fpage>&#x02013;
+    <lpage>878
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1093/arclin/18.8.865
+    </pub-id>
+    <pub-id pub-id-type="pmid">14609581
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B39">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Luciana
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Conklin
+        </surname>
+        <given-names>H.
+        </given-names>
+      </name>
+      <name>
+        <surname>Hooper
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+      <name>
+        <surname>Yarger
+        </surname>
+        <given-names>R.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2005
+    </year>).
+    <article-title>The development of nonverbal working memory and executive control processes in adolescents
+    </article-title>.
+    <source>Child Dev.
+    </source>
+    <volume>76
+    </volume>,
+    <fpage>697
+    </fpage>&#x02013;
+    <lpage>712
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1111/j.1467-8624.2005.00872.x
+    </pub-id>
+    <pub-id pub-id-type="pmid">15892787
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B40">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Luna
+        </surname>
+        <given-names>B.
+        </given-names>
+      </name>
+      <name>
+        <surname>Garver
+        </surname>
+        <given-names>K. E.
+        </given-names>
+      </name>
+      <name>
+        <surname>Urban
+        </surname>
+        <given-names>T. A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Lazar
+        </surname>
+        <given-names>N. A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Sweeney
+        </surname>
+        <given-names>J. A.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2004
+    </year>).
+    <article-title>Maturation of cognitive processes from late childhood to adulthood
+    </article-title>.
+    <source>Child Dev.
+    </source>
+    <volume>75
+    </volume>,
+    <fpage>1357
+    </fpage>&#x02013;
+    <lpage>1372
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1111/j.1467-8624.2004.00745.x
+    </pub-id>
+    <pub-id pub-id-type="pmid">15369519
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B41">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Lynn
+        </surname>
+        <given-names>R.
+        </given-names>
+      </name>
+      <name>
+        <surname>Irwing
+        </surname>
+        <given-names>P.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2008
+    </year>).
+    <article-title>Sex differences in mental arithmetic, digit span, and g defined as working memory capacity
+    </article-title>.
+    <source>Intelligence
+    </source>
+    <volume>36
+    </volume>,
+    <fpage>226
+    </fpage>&#x02013;
+    <lpage>235
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/j.intell.2007.06.002
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B42">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>McElree
+        </surname>
+        <given-names>B.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2001
+    </year>).
+    <article-title>Working memory and focal attention
+    </article-title>.
+    <source>J. Exp. Psychol. Learn. Mem. Cogn.
+    </source>
+    <volume>27
+    </volume>,
+    <fpage>817
+    </fpage>&#x02013;
+    <lpage>835
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1037/0278-7393.27.3.817
+    </pub-id>
+    <pub-id pub-id-type="pmid">11394682
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B43">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Melby-Lervag
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Hulme
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2012
+    </year>).
+    <article-title>Is working memory training effective? A meta-analytic review
+    </article-title>.
+    <source>Dev. Psychol.
+    </source>
+    <volume>49
+    </volume>,
+    <fpage>270
+    </fpage>&#x02013;
+    <lpage>291
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1037/a0028228
+    </pub-id>
+    <pub-id pub-id-type="pmid">22612437
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B44">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Nagel
+        </surname>
+        <given-names>B.
+        </given-names>
+      </name>
+      <name>
+        <surname>Ohannissien
+        </surname>
+        <given-names>A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Cummins
+        </surname>
+        <given-names>K.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2007
+    </year>).
+    <article-title>Performance dissociation during verbal and spatial working memory tasks
+    </article-title>.
+    <source>Percept. Mot. Skills
+    </source>
+    <volume>105
+    </volume>,
+    <fpage>243
+    </fpage>&#x02013;
+    <lpage>250
+    </lpage>.
+    <pub-id pub-id-type="doi">10.2466/pms.105.5.243-250
+    </pub-id>
+    <pub-id pub-id-type="pmid">17918571
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B45">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Oberauer
+        </surname>
+        <given-names>K.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2002
+    </year>).
+    <article-title>Access to information in working memory: exploring the focus of attention
+    </article-title>.
+    <source>J. Exp. Psychol. Learn. Mem. Cogn.
+    </source>
+    <volume>28
+    </volume>,
+    <fpage>411
+    </fpage>&#x02013;
+    <lpage>421
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1037/0278-7393.28.3.411
+    </pub-id>
+    <pub-id pub-id-type="pmid">12018494
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B46">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Oberauer
+        </surname>
+        <given-names>K.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2005
+    </year>).
+    <article-title>Binding and inhibition in working memory: individual and age differences in short-term recognition
+    </article-title>.
+    <source>J. Exp. Psychol. Gen.
+    </source>
+    <volume>134
+    </volume>,
+    <fpage>368
+    </fpage>&#x02013;
+    <lpage>387
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1037/0096-3445.134.3.368
+    </pub-id>
+    <pub-id pub-id-type="pmid">16131269
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B47">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Oberauer
+        </surname>
+        <given-names>K.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2006
+    </year>).
+    <article-title>Is the focus of attention in working memory expanded through practice?
+    </article-title>
+    <source>J. Exp. Psychol. Learn. Mem. Cogn.
+    </source>
+    <volume>32
+    </volume>,
+    <fpage>197
+    </fpage>&#x02013;
+    <lpage>214
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1037/0278-7393.32.2.197
+    </pub-id>
+    <pub-id pub-id-type="pmid">16569141
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B48">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Owen
+        </surname>
+        <given-names>A. M.
+        </given-names>
+      </name>
+      <name>
+        <surname>McMillan
+        </surname>
+        <given-names>K. M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Laird
+        </surname>
+        <given-names>A. R.
+        </given-names>
+      </name>
+      <name>
+        <surname>Bullmore
+        </surname>
+        <given-names>E.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2005
+    </year>).
+    <article-title>n-back working memory paradigm: a meta-analysis of normative functional neuroimaging studies
+    </article-title>.
+    <source>Hum. Brain Mapp.
+    </source>
+    <volume>25
+    </volume>,
+    <fpage>46
+    </fpage>&#x02013;
+    <lpage>59
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1002/hbm.20131
+    </pub-id>
+    <pub-id pub-id-type="pmid">15846822
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B49">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Passolunghi
+        </surname>
+        <given-names>M. C.
+        </given-names>
+      </name>
+      <name>
+        <surname>Pazzaglia
+        </surname>
+        <given-names>F.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2004
+    </year>).
+    <article-title>Individual differences in memory updating in relation to arithmetic problem solving
+    </article-title>.
+    <source>Learn. Indiv. Differ.
+    </source>
+    <volume>14
+    </volume>,
+    <fpage>219
+    </fpage>&#x02013;
+    <lpage>230
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/j.lindif.2004.03.001
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B50">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Pelegrina
+        </surname>
+        <given-names>S.
+        </given-names>
+      </name>
+      <name>
+        <surname>Capodieci
+        </surname>
+        <given-names>A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Carretti
+        </surname>
+        <given-names>B.
+        </given-names>
+      </name>
+      <name>
+        <surname>Cornoldi
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2015
+    </year>).
+    <article-title>Magnitude representation and working memory updating in children with arithmetic and reading comprehension disabilities
+    </article-title>.
+    <source>J. Learn. Disabil.
+    </source>
+    <pub-id pub-id-type="doi">10.1177/0022219414527480
+    </pub-id>
+    <comment>[Epub ahead of print]
+    </comment>.
+  </citation>
+</ref>
+<ref id="B51">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Redick
+        </surname>
+        <given-names>T. S.
+        </given-names>
+      </name>
+      <name>
+        <surname>Lindsey
+        </surname>
+        <given-names>D. R. B.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2013
+    </year>).
+    <article-title>Complex span and n-back measures of working memory: a meta-analysis
+    </article-title>.
+    <source>Psychon. Bull. Rev.
+    </source>
+    <volume>20
+    </volume>,
+    <fpage>1102
+    </fpage>&#x02013;
+    <lpage>1113
+    </lpage>.
+    <pub-id pub-id-type="doi">10.3758/s13423-013-0453-9
+    </pub-id>
+    <pub-id pub-id-type="pmid">23733330
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B52">
+  <citation citation-type="other">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Robinson
+        </surname>
+        <given-names>B.
+        </given-names>
+      </name>
+      <name>
+        <surname>Fuller
+        </surname>
+        <given-names>B.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2004
+    </year>).
+    <source>N-Back Test [Computer software]
+    </source>. Available at:
+    <ext-link ext-link-type="uri" xlink:href="http://step.psy.cmu.edu/scripts-plus/">http://step.psy.cmu.edu/scripts-plus/
+    </ext-link> (accessed June 21, 2012)
+  </citation>
+</ref>
+<ref id="B53">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Schleepen
+        </surname>
+        <given-names>T. M. J.
+        </given-names>
+      </name>
+      <name>
+        <surname>Jonkman
+        </surname>
+        <given-names>L. M.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2010
+    </year>).
+    <article-title>The development of non-spatial working memory capacity during childhood and adolescence and the role of interference control: an n-back task study
+    </article-title>.
+    <source>Dev. Neuropsychol.
+    </source>
+    <volume>35
+    </volume>,
+    <fpage>37
+    </fpage>&#x02013;
+    <lpage>56
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1080/87565640903325733
+    </pub-id>
+    <pub-id pub-id-type="pmid">20390591
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B54">
+  <citation citation-type="book">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Schneider
+        </surname>
+        <given-names>W.
+        </given-names>
+      </name>
+      <name>
+        <surname>Eschman
+        </surname>
+        <given-names>A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Zuccolotto
+        </surname>
+        <given-names>A.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2002
+    </year>).
+    <source>E-Prime Users&#x02019; Guide
+    </source>.
+    <publisher-loc>Pittsburgh, PA
+    </publisher-loc>:
+    <publisher-name>Psychology Software Tools, Inc
+    </publisher-name>.
+  </citation>
+</ref>
+<ref id="B55">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Siegel
+        </surname>
+        <given-names>L. S.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>1994
+    </year>).
+    <article-title>Working memory and reading: a life-span perspective
+    </article-title>.
+    <source>Int. J. Behav. Dev.
+    </source>
+    <volume>17
+    </volume>,
+    <fpage>109
+    </fpage>&#x02013;
+    <lpage>124
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1177/016502549401700107
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B56">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Speck
+        </surname>
+        <given-names>O.
+        </given-names>
+      </name>
+      <name>
+        <surname>Ernst
+        </surname>
+        <given-names>T.
+        </given-names>
+      </name>
+      <name>
+        <surname>Braun
+        </surname>
+        <given-names>J.
+        </given-names>
+      </name>
+      <name>
+        <surname>Koch
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+      <name>
+        <surname>Miller
+        </surname>
+        <given-names>E.
+        </given-names>
+      </name>
+      <name>
+        <surname>Chang
+        </surname>
+        <given-names>L.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2000
+    </year>).
+    <article-title>Gender differences in the functional organization of the brain for working memory
+    </article-title>.
+    <source>Neuroimage
+    </source>
+    <volume>11
+    </volume>,
+    <fpage>2581
+    </fpage>&#x02013;
+    <lpage>2585
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1097/00001756-200008030-00046
+    </pub-id>
+    <pub-id pub-id-type="pmid">10943726
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B57">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Stanislaw
+        </surname>
+        <given-names>H.
+        </given-names>
+      </name>
+      <name>
+        <surname>Todorov
+        </surname>
+        <given-names>N.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>1999
+    </year>).
+    <article-title>Calculation of signal detection theory measures
+    </article-title>.
+    <source>Behav. Res. Methods Inst. Comput.
+    </source>
+    <volume>31
+    </volume>,
+    <fpage>137
+    </fpage>&#x02013;
+    <lpage>149
+    </lpage>.
+    <pub-id pub-id-type="doi">10.3758/BF03207704
+    </pub-id>
+    <pub-id pub-id-type="pmid">10495845
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B58">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>St Clair-Thompson
+        </surname>
+        <given-names>H. L.
+        </given-names>
+      </name>
+      <name>
+        <surname>Gathercole
+        </surname>
+        <given-names>S. E.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2006
+    </year>).
+    <article-title>Executive functions and achievements in school: shifting, updating, inhibition, and working memory
+    </article-title>.
+    <source>Q. J. Exp. Psychol.
+    </source>
+    <volume>59
+    </volume>,
+    <fpage>745
+    </fpage>&#x02013;
+    <lpage>759
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1080/17470210500162854
+    </pub-id>
+    <pub-id pub-id-type="pmid">16707360
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B59">
+  <citation citation-type="book">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Swanson
+        </surname>
+        <given-names>H. L.
+        </given-names>
+      </name>
+      <name>
+        <surname>Alloway
+        </surname>
+        <given-names>T. P.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2012
+    </year>).
+    <article-title>&#x0201C;Working memory, learning, and academic achievement,&#x0201D;
+    </article-title> in
+    <source>APA Educational Psychology Handbook
+    </source>,
+    <volume>Vol. 1
+    </volume>,
+    <comment>
+      <italic>Theories, Constructs, and Critical Issues
+      </italic>
+    </comment>, eds
+    <person-group person-group-type="editor">
+      <name>
+        <surname>Harris
+        </surname>
+        <given-names>K. R.
+        </given-names>
+      </name>
+      <name>
+        <surname>Graham
+        </surname>
+        <given-names>S.
+        </given-names>
+      </name>
+      <name>
+        <surname>Urdan
+        </surname>
+        <given-names>T. C.
+        </given-names>
+      </name>
+      <name>
+        <surname>McCormick Christine
+        </surname>
+        <given-names>B.
+        </given-names>
+      </name>
+      <name>
+        <surname>Sinatra
+        </surname>
+        <given-names>G. M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Sweller
+        </surname>
+        <given-names>J.
+        </given-names>
+      </name>
+    </person-group> (
+    <publisher-loc>Washington, DC
+    </publisher-loc>:
+    <publisher-name>American Psychological Association
+    </publisher-name>),
+    <fpage>327
+    </fpage>&#x02013;
+    <lpage>366
+    </lpage>.
+  </citation>
+</ref>
+<ref id="B60">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Swanson
+        </surname>
+        <given-names>H. L.
+        </given-names>
+      </name>
+      <name>
+        <surname>Beebe-Frankenberger
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2004
+    </year>).
+    <article-title>The relationship between working memory and mathematical problem solving in children at risk and not at risk for math disabilities
+    </article-title>.
+    <source>J. Educ. Psychol.
+    </source>
+    <volume>96
+    </volume>,
+    <fpage>471
+    </fpage>&#x02013;
+    <lpage>491
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1037/0022-0663.96.3.471
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B61">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Titz
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+      <name>
+        <surname>Karbach
+        </surname>
+        <given-names>J.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2014
+    </year>).
+    <article-title>Working memory and executive functions: effects of training on academic abilities
+    </article-title>.
+    <source>Psychol. Res.
+    </source>
+    <volume>78
+    </volume>,
+    <fpage>852
+    </fpage>&#x02013;
+    <lpage>868
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1007/s00426-013-0537-1
+    </pub-id>
+    <pub-id pub-id-type="pmid">24389706
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B62">
+  <citation citation-type="book">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Townsend
+        </surname>
+        <given-names>J. T.
+        </given-names>
+      </name>
+      <name>
+        <surname>Ashby
+        </surname>
+        <given-names>F. G.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>1983
+    </year>).
+    <source>The Stochastic Modeling of Elementary Psychological Processes.
+    </source>
+    <publisher-loc>Cambridge
+    </publisher-loc>:
+    <publisher-name>Cambridge University Press
+    </publisher-name>.
+  </citation>
+</ref>
+<ref id="B63">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Turner
+        </surname>
+        <given-names>M. L.
+        </given-names>
+      </name>
+      <name>
+        <surname>Engle
+        </surname>
+        <given-names>R. W.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>1989
+    </year>).
+    <article-title>Is working memory capacity task dependent?
+    </article-title>
+    <source>J. Mem. Lang.
+    </source>
+    <volume>28
+    </volume>,
+    <fpage>127
+    </fpage>&#x02013;
+    <lpage>154
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/0749-596X(89)90040-5
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B64">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Van der Sluis
+        </surname>
+        <given-names>S.
+        </given-names>
+      </name>
+      <name>
+        <surname>de Jong
+        </surname>
+        <given-names>P.
+        </given-names>
+      </name>
+      <name>
+        <surname>Van der Leij
+        </surname>
+        <given-names>A.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2007
+    </year>).
+    <article-title>Executive functioning in children, and its relations with reasoning, reading, and arithmetic
+    </article-title>.
+    <source>Intelligence
+    </source>
+    <volume>35
+    </volume>,
+    <fpage>427
+    </fpage>&#x02013;
+    <lpage>449
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/j.intell.2006.09.001
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B65">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Van Gerven
+        </surname>
+        <given-names>P. W. M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Meijer
+        </surname>
+        <given-names>W. A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Prickaerts
+        </surname>
+        <given-names>J. H. M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Van der Veen
+        </surname>
+        <given-names>F. M.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2008
+    </year>).
+    <article-title>Aging and focus switching in working memory: excluding the potential role of memory load
+    </article-title>.
+    <source>Exp. Aging Res.
+    </source>
+    <volume>34
+    </volume>,
+    <fpage>367
+    </fpage>&#x02013;
+    <lpage>378
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1080/03610730802274165
+    </pub-id>
+    <pub-id pub-id-type="pmid">18726750
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B66">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Van Leeuwen
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Van den Berg
+        </surname>
+        <given-names>S. M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Hoekstra
+        </surname>
+        <given-names>R. A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Boomsma
+        </surname>
+        <given-names>D. I.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2007
+    </year>).
+    <article-title>Endophenotypes for intelligence in children and adolescents
+    </article-title>.
+    <source>Intelligence
+    </source>
+    <volume>35
+    </volume>,
+    <fpage>369
+    </fpage>&#x02013;
+    <lpage>380
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1016/j.intell.2006.09.008
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B67">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Verhaeghen
+        </surname>
+        <given-names>P.
+        </given-names>
+      </name>
+      <name>
+        <surname>Basak
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2005
+    </year>).
+    <article-title>Aging and switching of the focus of attention in working memory: results from a modified n-back task
+    </article-title>.
+    <source>Q. J. Exp. Psychol. A
+    </source>
+    <volume>58
+    </volume>,
+    <fpage>134
+    </fpage>&#x02013;
+    <lpage>154
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1080/02724980443000241
+    </pub-id>
+    <pub-id pub-id-type="pmid">15881295
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B68">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Vuontela
+        </surname>
+        <given-names>V.
+        </given-names>
+      </name>
+      <name>
+        <surname>Steenari
+        </surname>
+        <given-names>M. R.
+        </given-names>
+      </name>
+      <name>
+        <surname>Carlson
+        </surname>
+        <given-names>S.
+        </given-names>
+      </name>
+      <name>
+        <surname>Koivisto
+        </surname>
+        <given-names>J.
+        </given-names>
+      </name>
+      <name>
+        <surname>Fjallberg
+        </surname>
+        <given-names>M.
+        </given-names>
+      </name>
+      <name>
+        <surname>Aronen
+        </surname>
+        <given-names>E. T.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2003
+    </year>).
+    <article-title>Audiospatial and visuospatial working memory in 6-13-year-old school children
+    </article-title>.
+    <source>Learn Mem.
+    </source>
+    <volume>10
+    </volume>,
+    <fpage>74
+    </fpage>&#x02013;
+    <lpage>81
+    </lpage>.
+    <pub-id pub-id-type="doi">10.1101/lm.53503
+    </pub-id>
+    <pub-id pub-id-type="pmid">12551966
+    </pub-id>
+  </citation>
+</ref>
+<ref id="B69">
+  <citation citation-type="journal">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Xu
+        </surname>
+        <given-names>F.
+        </given-names>
+      </name>
+      <name>
+        <surname>Han
+        </surname>
+        <given-names>Y.
+        </given-names>
+      </name>
+      <name>
+        <surname>Sabbagh
+        </surname>
+        <given-names>M. A.
+        </given-names>
+      </name>
+      <name>
+        <surname>Wang
+        </surname>
+        <given-names>T.
+        </given-names>
+      </name>
+      <name>
+        <surname>Ren
+        </surname>
+        <given-names>X.
+        </given-names>
+      </name>
+      <name>
+        <surname>Li
+        </surname>
+        <given-names>C.
+        </given-names>
+      </name>
+    </person-group> (
+    <year>2013
+    </year>).
+    <article-title>Developmental differences in the structure of executive function in middle childhood and adolescence
+    </article-title>.
+    <source>PLoS ONE
+    </source>
+    <volume>8
+    </volume>:
+    <fpage>e77770
+    </fpage>.
+    <pub-id pub-id-type="doi">10.1371/journal.pone.0077770
+    </pub-id>
+    <pub-id pub-id-type="pmid">24204957
+    </pub-id>
+  </citation>
+</ref>
+</ref-list>
+<fn-group>
+  <fn id="fn01">
+    <label>1
+    </label>
+    <p>A parallel set of analyses including all the levels of n-back load was run. The main effects and interactions were roughly equivalent to those presented when considering only the 1-back and 2-back levels. Importantly, the age linear trend for 3-back was significant on hits:
+      <italic>F
+      </italic>(1,2134) = 103.63,
+      <italic>p
+      </italic> &#x0003C; 0.001,
+      <inline-formula>
+        <mml:math id="M10">
+          <mml:mrow>
+            <mml:msubsup>
+              <mml:mi>&#x003B7;
+              </mml:mi>
+              <mml:mi>p
+              </mml:mi>
+              <mml:mn>2
+              </mml:mn>
+            </mml:msubsup>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> = 0.046; false alarms:
+      <italic>F
+      </italic>(1,2134) = 90.58,
+      <italic>p
+      </italic> &#x0003C; 0.001,
+      <inline-formula>
+        <mml:math id="M11">
+          <mml:mrow>
+            <mml:msubsup>
+              <mml:mi>&#x003B7;
+              </mml:mi>
+              <mml:mi>p
+              </mml:mi>
+              <mml:mn>2
+              </mml:mn>
+            </mml:msubsup>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> = 0.041; d-prime:
+      <italic>F
+      </italic>(1,2134) = 180.96,
+      <italic>p
+      </italic> &#x0003C; 0.001,
+      <inline-formula>
+        <mml:math id="M12">
+          <mml:mrow>
+            <mml:msubsup>
+              <mml:mi>&#x003B7;
+              </mml:mi>
+              <mml:mi>p
+              </mml:mi>
+              <mml:mn>2
+              </mml:mn>
+            </mml:msubsup>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> = 0.078; and response times:
+      <italic>F
+      </italic>(1,2086) = 78.49,
+      <italic>p
+      </italic> &#x0003C; 0.001,
+      <inline-formula>
+        <mml:math id="M13">
+          <mml:mrow>
+            <mml:msubsup>
+              <mml:mi>&#x003B7;
+              </mml:mi>
+              <mml:mi>p
+              </mml:mi>
+              <mml:mn>2
+              </mml:mn>
+            </mml:msubsup>
+          </mml:mrow>
+        </mml:math>
+      </inline-formula> = 0.036.
+    </p>
+  </fn>
+</fn-group>
+</back>
+</article>

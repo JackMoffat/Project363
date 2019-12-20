@@ -18,8 +18,30 @@ In 1958, Wayne Kirchner invented the n-back test \cite{COULACOGLOU201791}. The n
 Our hypothesis was that participants would have a more challenging time remembering things initially which would be reflected in a longer reaction time to congruent stimulis in the 2-back test compared to the reaction time of a 1-back test. However, as n-back tests are shown to improve working and short term memory \cite{LEONDOMINGUEZ2015167}, we expect participants to get better at remembering, reflected in shorter reaction times in responding to congruent stimulis.
 
 * Materials/Methods
-** Python Code
+** Information from Pelegrina et. Al (2015)
+\cite{NormativeData}
+1
 
+** Python Code For 
+** R-code
+#+BEGIN_SRC R
+
+#+END_SRC
+** Inline usage
+
+* Results
+** Table
+** Simple summary statistics
+** 2 plots
+
+* Discussion
+
+* Bibliography
+ need to add the fpsyg-06-01544 citation!
+#+latex: \bibliography{references}
+
+* Appendix
+** Python Code for n-back test
 #+BEGIN_SRC python
   from psychopy import visual, event, core
   import pandas as pd
@@ -198,23 +220,8 @@ Our hypothesis was that participants would have a more challenging time remember
   #     datafile.write(line,)
   #     datafile.write("\n")
 
-  0# for line in stats:
+  # for line in stats:
   #     datafile.write(line)
   #     datafile.write("\n")
 
 #+END_SRC
-** R-code
-** Inline usage
-
-* Results
-** Table
-** Simple summary statistics
-** 2 plots
-
-* Discussion
-
-* Bibliography
-
-#+Latex: \bibliography{references}
-
-* Appendix
