@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.12.1)  20 DEC 2019 13:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.12.1)  20 DEC 2019 13:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -587,137 +587,123 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `finalreport.toc'.
 
 
-
-LaTeX Warning: Citation `COULACOGLOU201791' on page 1 undefined on input line 3
-8.
-
-
-LaTeX Warning: Citation `COLOM2013712' on page 1 undefined on input line 38.
-
-
-LaTeX Warning: Citation `Kane' on page 1 undefined on input line 38.
-
-
-LaTeX Warning: Citation `Forns' on page 1 undefined on input line 38.
-
-
-LaTeX Warning: Citation `LEONDOMINGUEZ2015167' on page 1 undefined on input lin
-e 43.
-
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./finalreport.bbl
+[2]
+Underfull \hbox (badness 1077) in paragraph at lines 22--28
+[]\T1/cmr/m/n/10 Joan Forns Guz-man, Mikel Es-naola, Mónica López-Vicente, Elis
+-a-bet
+ []
 
-LaTeX Warning: Citation `NormativeData' on page 2 undefined on input line 49.
-
-No file finalreport.bbl.
+)
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 80.
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [2]
-Overfull \hbox (116.8872pt too wide) in paragraph at lines 262--262
+)
+Overfull \hbox (116.8872pt too wide) in paragraph at lines 256--256
 []    \T1/cmtt/m/n/10 '''Creates the matches in a given list.if a random number
  is greater than threshold,[] 
  []
 
-
-Overfull \hbox (48.65387pt too wide) in paragraph at lines 262--262
+[3]
+Overfull \hbox (48.65387pt too wide) in paragraph at lines 256--256
 []    \T1/cmtt/m/n/10 verbose: Bool: prints information about the lists for imm
 ediate viewing[] 
  []
 
 
-Overfull \hbox (27.659pt too wide) in paragraph at lines 262--262
+Overfull \hbox (27.659pt too wide) in paragraph at lines 256--256
 []    \T1/cmtt/m/n/10 # done this way to avoid changing original list, confirm 
 necessity?[] 
  []
 
 
-Overfull \hbox (80.14618pt too wide) in paragraph at lines 262--262
+Overfull \hbox (80.14618pt too wide) in paragraph at lines 256--256
 []    \T1/cmtt/m/n/10 list_stats = []  # list holding the character and positio
 ns it was matched at[] 
  []
 
 
-Overfull \hbox (1.4154pt too wide) in paragraph at lines 262--262
+Overfull \hbox (1.4154pt too wide) in paragraph at lines 256--256
 []                \T1/cmtt/m/n/10 real_match_rate = num_matches / (len(in_list)
  - 2)[] 
  []
 
 
-Overfull \hbox (200.8667pt too wide) in paragraph at lines 262--262
+Overfull \hbox (200.8667pt too wide) in paragraph at lines 256--256
 []                \T1/cmtt/m/n/10 if verbose:  # switch this out of a print sta
 tement for final thing so it doesnt show up[] 
  []
 
 
-Overfull \hbox (200.8667pt too wide) in paragraph at lines 262--262
+Overfull \hbox (200.8667pt too wide) in paragraph at lines 256--256
 []                        \T1/cmtt/m/n/10 f"{num_matches} of {len(in_list)-2} p
 ossible matches: {real_match_rate* 100} %")[] 
  []
 
 
-Overfull \hbox (64.40002pt too wide) in paragraph at lines 262--262
+Overfull \hbox (64.40002pt too wide) in paragraph at lines 256--256
 []                    \T1/cmtt/m/n/10 print(f"in_list\n", in_list, "\nmatched l
 ist\n", out_list)[] 
  []
 
 
-Overfull \hbox (64.40002pt too wide) in paragraph at lines 262--262
+Overfull \hbox (64.40002pt too wide) in paragraph at lines 256--256
 []                    \T1/cmtt/m/n/10 list_stats.insert(0, [(num_matches), "num
 ber of matches"])[] 
  []
 
 
-Overfull \hbox (85.3949pt too wide) in paragraph at lines 262--262
+Overfull \hbox (85.3949pt too wide) in paragraph at lines 256--256
 []                    \T1/cmtt/m/n/10 list_stats.insert(0, [(real_match_rate), 
 "actual match rate"])[] 
  []
 
-[3]
-Overfull \hbox (27.659pt too wide) in paragraph at lines 262--262
+
+Overfull \hbox (27.659pt too wide) in paragraph at lines 256--256
 []\T1/cmtt/m/n/10 # need to think of this inverted with how the code is current
 ly written[] 
  []
 
 
-Overfull \hbox (11.91284pt too wide) in paragraph at lines 262--262
+Overfull \hbox (11.91284pt too wide) in paragraph at lines 256--256
 []\T1/cmtt/m/n/10 initial_letters = [random.choice(alphabet) for i in range(n_t
 rials)][] 
  []
 
-
-Overfull \hbox (95.89233pt too wide) in paragraph at lines 262--262
+[4]
+Overfull \hbox (95.89233pt too wide) in paragraph at lines 256--256
 []                         \T1/cmtt/m/n/10 threshold=match_frequency_threshold,
  keep_list_stats=False)[] 
  []
 
 
-Overfull \hbox (27.659pt too wide) in paragraph at lines 262--262
+Overfull \hbox (27.659pt too wide) in paragraph at lines 256--256
 []\T1/cmtt/m/n/10 # ptt is the amount of time between trials, stands for "per t
 ime trial"[] 
  []
 
 
-Overfull \hbox (80.14618pt too wide) in paragraph at lines 262--262
+Overfull \hbox (80.14618pt too wide) in paragraph at lines 256--256
 []\T1/cmtt/m/n/10 mywin = visual.Window(fullscr=True, screen=0, allowGUI=False,
  allowStencil=False,[] 
  []
 
 
-Overfull \hbox (69.64874pt too wide) in paragraph at lines 262--262
+Overfull \hbox (69.64874pt too wide) in paragraph at lines 256--256
 []                      \T1/cmtt/m/n/10 monitor='testMonitor', color=[0, 0, 0],
  colorSpace='rgb')[] 
  []
 
 
-Overfull \hbox (11.91284pt too wide) in paragraph at lines 262--262
+Overfull \hbox (11.91284pt too wide) in paragraph at lines 256--256
 []    \T1/cmtt/m/n/10 # TODO  Find out how to display the last sentence in text
 _string[] 
  []
 
 
-Overfull \hbox (1764.98474pt too wide) in paragraph at lines 262--262
+Overfull \hbox (1764.98474pt too wide) in paragraph at lines 256--256
 []    \T1/cmtt/m/n/10 text_string = f"This is an N-Back task.  This task is a t
 est of working memory.  You will be presented with a random series of letters, 
 one by one.  For this task, you will press the spacebar if you see a letter tha
@@ -727,90 +713,73 @@ of {n_trials} letters.  "[]
  []
 
 
-Overfull \hbox (64.40002pt too wide) in paragraph at lines 262--262
+Overfull \hbox (64.40002pt too wide) in paragraph at lines 256--256
 []        \T1/cmtt/m/n/10 mywin, text='The task will begin after this countdown
 .', pos=(0.5, 0))[] 
  []
 
-[4]
-Overfull \hbox (64.40002pt too wide) in paragraph at lines 262--262
+[5]
+Overfull \hbox (64.40002pt too wide) in paragraph at lines 256--256
 []        \T1/cmtt/m/n/10 mywin, text = num , alignHoriz='left', alignVert='cen
 ter', pos=(0, 0))[] 
  []
 
 
-Overfull \hbox (22.41028pt too wide) in paragraph at lines 262--262
+Overfull \hbox (22.41028pt too wide) in paragraph at lines 256--256
 []    \T1/cmtt/m/n/10 keys = event.getKeys(keyList=["space"], timeStamped = tri
 alLength)[] 
  []
 
 
-Overfull \hbox (22.41028pt too wide) in paragraph at lines 262--262
+Overfull \hbox (22.41028pt too wide) in paragraph at lines 256--256
 []    \T1/cmtt/m/n/10 press_times.append([keys, trialLength.getTime(), txtDispl
 ay.text])[] 
  []
 
 
-Overfull \hbox (269.10004pt too wide) in paragraph at lines 262--262
+Overfull \hbox (269.10004pt too wide) in paragraph at lines 256--256
 []    \T1/cmtt/m/n/10 # currently appending in tuple form list_stats = []  # li
 st holding the character and positions it was matched at[] 
  []
 
-[5]
-Overfull \hbox (1.4154pt too wide) in paragraph at lines 262--262
+
+Overfull \hbox (1.4154pt too wide) in paragraph at lines 256--256
 []\T1/cmtt/m/n/10 endMessage.text = 'You have completed the N-Back task. Thank 
 you!'[] 
  []
 
-
-Overfull \hbox (179.87183pt too wide) in paragraph at lines 262--262
-[]\T1/cmtt/m/n/10 # removed ptname, kept timestamp; timestamp is format Y(year)
-M(month)D(day)H(hour)M(minute)S(second)[] 
- []
-
-
-Overfull \hbox (69.64874pt too wide) in paragraph at lines 262--262
-[]\T1/cmtt/m/n/10 # add datafile.write(trialconditions like time, n_trials, tim
-e per window, etc)[] 
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
 [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
  (./finalreport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
 Package rerunfilecheck Info: File `finalreport.out' has not changed.
 (rerunfilecheck)             Checksum: 27290A3F1188342D726178FC5BF4F6BD;858.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
  ) 
 Here is how much of TeX's memory you used:
- 7595 strings out of 494553
- 107992 string characters out of 6177377
- 203709 words of memory out of 5000000
- 11103 multiletter control sequences out of 15000+600000
- 15793 words of font info for 49 fonts, out of 8000000 for 9000
+ 7617 strings out of 494553
+ 108292 string characters out of 6177377
+ 202872 words of memory out of 5000000
+ 11114 multiletter control sequences out of 15000+600000
+ 16479 words of font info for 50 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  36i,6n,28p,609b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/jackm/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600
-pk> </home/jackm/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.60
-0pk> </home/jackm/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.6
-00pk> </home/jackm/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.
-600pk> </home/jackm/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440
-.600pk> </home/jackm/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm120
-0.600pk> </home/jackm/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm17
-28.600pk>
-Output written on finalreport.pdf (6 pages, 87495 bytes).
+pk> </home/jackm/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.60
+0pk> </home/jackm/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.6
+00pk> </home/jackm/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.
+600pk> </home/jackm/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000
+.600pk> </home/jackm/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx144
+0.600pk> </home/jackm/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm12
+00.600pk> </home/jackm/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1
+728.600pk>
+Output written on finalreport.pdf (7 pages, 103914 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 500000)
+ 483 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 

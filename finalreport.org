@@ -197,8 +197,6 @@ Our hypothesis was that participants would have a more challenging time remember
 
   print(press_times)
 
-  # removed ptname, kept timestamp; timestamp is format Y(year)M(month)D(day)H(hour)M(minute)S(second)
-
   ts = systime.localtime()
   timestamp = str(systime.strftime("Y%yM%mD%dH%HM%MS%S",ts))
   datafile = open(f"datafile_{timestamp}.txt", "w+")
@@ -206,10 +204,6 @@ Our hypothesis was that participants would have a more challenging time remember
   ################
   # writing file #
   ################
-
-  # add datafile.write(trialconditions like time, n_trials, time per window, etc)
-
-
   for line in press_times:
       datafile.write(str(line))
       datafile.write("\n")

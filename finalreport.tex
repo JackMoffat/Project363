@@ -1,4 +1,4 @@
-% Created 2019-12-20 Fri 13:42
+% Created 2019-12-20 Fri 13:48
 % Intended LaTeX compiler: pdflatex
 \documentclass{article}
 \usepackage[utf8]{inputenc}
@@ -33,50 +33,50 @@
 
 
 \section{Introduction}
-\label{sec:org3e282b8}
+\label{sec:orge65c12a}
 
 In 1958, Wayne Kirchner invented the n-back test \cite{COULACOGLOU201791}. The n-back test is a visuospatial task that has been shown to improve working memory and attentional skills \cite{COLOM2013712}. The basic mechanisms of the test involve the presentation of continuous stimulis in terms of letters or pictures – for every stimulus presented, the participant has to indicate whether it matches a stimulus that was presented n stimuli ago \cite{Kane}. There are different types of n-back tests known as loads: 3-back test, 2-back test and 1-back test \cite{Forns}.
 
 \section{Hypothesis}
-\label{sec:orga53e363}
+\label{sec:org62e39d4}
 
 Our hypothesis was that participants would have a more challenging time remembering things initially which would be reflected in a longer reaction time to congruent stimulis in the 2-back test compared to the reaction time of a 1-back test. However, as n-back tests are shown to improve working and short term memory \cite{LEONDOMINGUEZ2015167}, we expect participants to get better at remembering, reflected in shorter reaction times in responding to congruent stimulis.
 
 \section{Materials/Methods}
-\label{sec:org124d61a}
+\label{sec:orgfdc026e}
 \subsection{Information from Pelegrina et. Al (2015)}
-\label{sec:org455ba38}
+\label{sec:orgc0b51fb}
 \cite{NormativeData}
 1
 
 \subsection{Python Code For}
-\label{sec:org066c509}
+\label{sec:org1f4abf8}
 \subsection{R-code}
-\label{sec:org7d68e89}
+\label{sec:org8fce3a7}
 \subsection{Inline usage}
-\label{sec:org3226767}
+\label{sec:org3cbd48e}
 
 \section{Results}
-\label{sec:orgf12252e}
+\label{sec:org788aa06}
 \subsection{Table}
-\label{sec:orgc9b86c7}
+\label{sec:org80256a4}
 \subsection{Simple summary statistics}
-\label{sec:org78e10bb}
+\label{sec:orgdab3b3b}
 \subsection{2 plots}
-\label{sec:orgee7ef18}
+\label{sec:orgea51341}
 
 \section{Discussion}
-\label{sec:orga2fca33}
+\label{sec:org8750a49}
 
 \section{Bibliography}
-\label{sec:org4562ee4}
+\label{sec:org4bd4b13}
 need to add the fpsyg-06-01544 citation!
 \bibliography{references}
 
 \section{Appendix}
-\label{sec:orgf11f30b}
+\label{sec:org6d6bc55}
 \subsection{Python Code for n-back test}
-\label{sec:orgb590c99}
+\label{sec:orgf3833db}
 \begin{verbatim}
 from psychopy import visual, event, core
 import pandas as pd
@@ -232,8 +232,6 @@ core.wait(3.0)
 
 print(press_times)
 
-# removed ptname, kept timestamp; timestamp is format Y(year)M(month)D(day)H(hour)M(minute)S(second)
-
 ts = systime.localtime()
 timestamp = str(systime.strftime("Y%yM%mD%dH%HM%MS%S",ts))
 datafile = open(f"datafile_{timestamp}.txt", "w+")
@@ -241,10 +239,6 @@ datafile = open(f"datafile_{timestamp}.txt", "w+")
 ################
 # writing file #
 ################
-
-# add datafile.write(trialconditions like time, n_trials, time per window, etc)
-
-
 for line in press_times:
     datafile.write(str(line))
     datafile.write("\n")

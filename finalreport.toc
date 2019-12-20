@@ -12,5 +12,5 @@
 \contentsline {subsection}{\numberline {4.3}2 plots}{2}{subsection.4.3}% 
 \contentsline {section}{\numberline {5}Discussion}{2}{section.5}% 
 \contentsline {section}{\numberline {6}Bibliography}{2}{section.6}% 
-\contentsline {section}{\numberline {7}Appendix}{2}{section.7}% 
-\contentsline {subsection}{\numberline {7.1}Python Code for n-back test}{2}{subsection.7.1}% 
+\contentsline {section}{\numberline {7}Appendix}{3}{section.7}% 
+\contentsline {subsection}{\numberline {7.1}Python Code for n-back test}{3}{subsection.7.1}% 
