@@ -1,4 +1,4 @@
-% Created 2019-12-20 Fri 13:48
+% Created 2019-12-20 Fri 15:22
 % Intended LaTeX compiler: pdflatex
 \documentclass{article}
 \usepackage[utf8]{inputenc}
@@ -33,50 +33,98 @@
 
 
 \section{Introduction}
-\label{sec:orge65c12a}
+\label{sec:orgb4e2f17}
 
 In 1958, Wayne Kirchner invented the n-back test \cite{COULACOGLOU201791}. The n-back test is a visuospatial task that has been shown to improve working memory and attentional skills \cite{COLOM2013712}. The basic mechanisms of the test involve the presentation of continuous stimulis in terms of letters or pictures – for every stimulus presented, the participant has to indicate whether it matches a stimulus that was presented n stimuli ago \cite{Kane}. There are different types of n-back tests known as loads: 3-back test, 2-back test and 1-back test \cite{Forns}.
 
 \section{Hypothesis}
-\label{sec:org62e39d4}
+\label{sec:orgef36647}
 
 Our hypothesis was that participants would have a more challenging time remembering things initially which would be reflected in a longer reaction time to congruent stimulis in the 2-back test compared to the reaction time of a 1-back test. However, as n-back tests are shown to improve working and short term memory \cite{LEONDOMINGUEZ2015167}, we expect participants to get better at remembering, reflected in shorter reaction times in responding to congruent stimulis.
 
 \section{Materials/Methods}
-\label{sec:orgfdc026e}
+\label{sec:org42d605a}
 \subsection{Information from Pelegrina et. Al (2015)}
-\label{sec:orgc0b51fb}
-\cite{NormativeData}
-1
+\label{sec:org7c984c0}
+From \cite{NormativeData}
+\subsubsection{{\bfseries\sffamily TODO} R code: ensure table aligns with a page upon generation in pdf (or insert sideways)}
+\label{sec:org245a0a8}
+\begin{verbatim}
+table4 <- read.csv("./dataFromPaper/csvfpsyg-06-01544.csv")
 
-\subsection{Python Code For}
-\label{sec:org1f4abf8}
-\subsection{R-code}
-\label{sec:org8fce3a7}
+
+\end{verbatim}
+
+\begin{center}
+\begin{tabular}{llrrrrrrrrrrrrrrr}
+ &  & nil & Age group &  &  &  &  &  &  & Age group &  &  &  &  &  & \\
+ &  & nil & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 7 & 8 & 9 & 10 & 11 & 12 & 13\\
+ &  & nil & ( n = 193) & ( n = 285) & ( n = 310) & ( n = 297) & ( n = 315) & ( n = 253) & ( n = 233) & ( n = 194) & ( n = 307) & ( n = 296) & ( n = 321) & ( n = 286) & ( n = 223) & ( n = 209)\\
+Total & M & nil & 14.45 & 16.71 & 17.63 & 20.23 & 21.94 & 22.5 & 24.82 & 14.25 & 15.58 & 18.7 & 21.07 & 23.24 & 24.7 & 27.2\\
+ & SD & nil & 8.49 & 9.2 & 9.17 & 9.44 & 9.9 & 9.66 & 9.85 & 8.58 & 8.41 & 9.29 & 9.1 & 9.28 & 9.21 & 8.74\\
+ & Percentile & 5 & 3 & 3 & 4 & 4 & 4 & 4 & 4 & 2 & 3 & 4 & 5 & 5 & 7 & 11\\
+ &  & 25 & 7 & 10 & 10 & 13 & 14 & 14 & 18 & 8 & 10 & 12 & 13 & 16 & 18 & 23\\
+ &  & 50 & 13 & 15 & 16 & 21 & 24 & 24 & 28 & 13 & 15 & 18 & 22 & 25 & 26 & 30\\
+ &  & 75 & 22 & 25 & 25 & 28 & 30 & 30 & 32 & 20 & 22 & 26 & 28 & 31 & 31 & 34\\
+ &  & 95 & 28 & 32 & 32 & 35 & 35 & 37 & 37 & 30 & 30 & 34 & 35 & 35 & 38 & 39\\
+1-back & M & nil & 8.05 & 8.82 & 9.14 & 9.72 & 10.01 & 10.2 & 10.28 & 8.21 & 8.6 & 9.54 & 10.11 & 10.41 & 10.73 & 11.29\\
+ & SD & nil & 3.04 & 3.09 & 2.82 & 2.96 & 2.98 & 2.96 & 2.96 & 3.29 & 3.09 & 3.12 & 2.86 & 2.77 & 2.55 & 2.34\\
+ & Percentile & 5 & 3 & 3 & 4 & 4 & 4 & 4 & 4 & 2 & 3 & 4 & 5 & 5 & 6 & 7\\
+ &  & 25 & 6 & 7 & 7 & 8 & 8 & 8 & 9 & 6 & 6 & 7 & 8 & 9 & 9 & 10\\
+ &  & 50 & 8 & 9 & 9 & 10 & 11 & 11 & 11 & 8 & 9 & 10 & 11 & 11 & 11 & 12\\
+ &  & 75 & 10 & 11 & 11 & 12 & 12 & 13 & 12 & 11 & 11 & 12 & 12 & 12 & 13 & 13\\
+ &  & 95 & 13 & 13 & 13 & 14 & 14 & 14 & 14 & 14 & 13 & 14 & 14 & 14 & 14 & 14\\
+2-back & M & nil & 4.1 & 5.02 & 5.23 & 6.29 & 6.96 & 7.26 & 8.16 & 3.96 & 4.53 & 5.74 & 6.52 & 7.44 & 7.93 & 9.11\\
+ & SD & nil & 3.64 & 3.67 & 3.81 & 3.78 & 4.08 & 3.91 & 3.99 & 3.59 & 3.49 & 3.76 & 3.5 & 3.68 & 3.77 & 3.75\\
+ & Percentile & 5 & – & – & – & – & – & – & – & – & – & – & – & – & – & 2\\
+ &  & 25 & – & 2 & 2 & 3 & 4 & 5 & 6 & – & 1 & 3 & 4 & 5 & 6 & 7\\
+ &  & 50 & 4 & 5 & 5 & 6 & 7 & 8 & 9 & 3 & 5 & 6 & 7 & 8 & 8 & 10\\
+ &  & 75 & 7 & 8 & 8 & 9 & 10 & 11 & 11 & 6 & 7 & 9 & 9 & 10 & 11 & 12\\
+ &  & 95 & 11 & 11 & 12 & 12 & 13 & 13 & 13 & 11 & 10 & 12 & 12 & 13 & 13 & 14\\
+3-back & M & nil & 2.3 & 2.87 & 3.26 & 4.23 & 4.97 & 5.04 & 6.37 & 2.07 & 2.45 & 3.41 & 4.44 & 5.38 & 6.05 & 6.8\\
+ & SD & nil & 3.41 & 3.81 & 3.91 & 4.15 & 4.27 & 4.12 & 4.27 & 3.46 & 3.46 & 3.98 & 4.24 & 4.28 & 4.36 & 4.11\\
+ & Percentile & 5 & – & – & – & – & – & – & – & – & – & – & – & – & – & –\\
+ &  & 25 & – & – & – & – & – & – & 2 & – & – & – & – & – & 1 & 5\\
+ &  & 50 & – & – & – & 4 & 6 & 6 & 7 & – & – & – & 5 & 6 & 7 & 8\\
+ &  & 75 & 5 & 6 & 7 & 8 & 9 & 8 & 10 & 4 & 5 & 7 & 8 & 9 & 10 & 10\\
+ &  & 95 & 9 & 10 & 11 & 11 & 11 & 11 & 12 & 10 & 10 & 10 & 11 & 12 & 12 & 13\\
+\end{tabular}
+\end{center}
+
+
+\subsubsection{Python Code For}
+\label{sec:orgd304c5c}
+\begin{verbatim}
+import pandas as pd
+t4pd = pd.read_csv("./dataFromPaper/csvfpsyg-06-01544.csv")
+for i in ['Boys','Girls']:
+    print(t4pd[i])
+\end{verbatim}
+
 \subsection{Inline usage}
-\label{sec:org3cbd48e}
+\label{sec:org34c5585}
 
 \section{Results}
-\label{sec:org788aa06}
+\label{sec:org39114a2}
 \subsection{Table}
-\label{sec:org80256a4}
+\label{sec:org56c4427}
 \subsection{Simple summary statistics}
-\label{sec:orgdab3b3b}
+\label{sec:org6bbef6a}
 \subsection{2 plots}
-\label{sec:orgea51341}
+\label{sec:org5e1c110}
 
 \section{Discussion}
-\label{sec:org8750a49}
+\label{sec:org772ad5f}
 
 \section{Bibliography}
-\label{sec:org4bd4b13}
+\label{sec:orgba8bb68}
 need to add the fpsyg-06-01544 citation!
 \bibliography{references}
 
 \section{Appendix}
-\label{sec:org6d6bc55}
+\label{sec:orge57888a}
 \subsection{Python Code for n-back test}
-\label{sec:orgf3833db}
+\label{sec:org7ddda4a}
 \begin{verbatim}
 from psychopy import visual, event, core
 import pandas as pd
@@ -254,4 +302,6 @@ for line in press_times:
 #     datafile.write("\n")
 
 \end{verbatim}
+\subsection{Data from Our Python Code}
+\label{sec:org8170de3}
 \end{document}
