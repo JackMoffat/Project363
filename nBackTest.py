@@ -66,7 +66,7 @@ initial_letters = [random.choice(alphabet) for i in range(n_trials)]
 
 trial_list = makeMatches(initial_letters, trials=n_trials,
                          threshold=match_frequency_threshold, keep_list_stats=False)
-ptt = 1.2
+ptt = 0.8
 # ptt is the amount of time between trials, stands for "per time trial"
 
 ######################
@@ -93,7 +93,7 @@ if intro:
             mywin, text=msg, pos=(0.5, 0))
         mywin.flip()
         displayMsg.draw()
-        core.wait(3.5)
+        core.wait(3.0)
 
     countdownMessage = visual.TextStim(
 	mywin, text='The task will begin after this countdown.', pos=(0.5, 0))
@@ -115,7 +115,7 @@ for num in countdown:
 	mywin, text = num , alignHoriz='left', alignVert='center', pos=(0, 0))
     mywin.flip()
     txtDisplay.draw()
-    core.wait(1.0)
+    core.wait(0.5)
     
 
 ###################
