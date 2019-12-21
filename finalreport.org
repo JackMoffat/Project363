@@ -45,11 +45,6 @@ The following block pulls in
 
 #+END_SRC
 
-#+RESULTS:
-
-
-
-
 *** Python Code For 
 #+BEGIN_SRC python :session *python* :exports :results both
   import pandas as pd
@@ -68,6 +63,7 @@ The following block pulls in
 
 * Discussion
 
+Our experiment was done with the hypothesis that the reaction time to stimuli in a 1-Back test would be shorter than the reaction time to stimuli in a 2-Back test. This was based off of the fact that there is one extra letter presented between letter stimuli to remember during 2-Back tests. This test is a working memory task, but it could also potentially be used to test the recency effect, which has been shown to be eliminated when another stimulus is presented. \cite cohen1989effects
 * Bibliography
  need to add the fpsyg-06-01544 citation!
 #+latex: \bibliography{references}
