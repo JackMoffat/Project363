@@ -1,4 +1,4 @@
-% Created 2019-12-21 Sat 00:47
+% Created 2019-12-21 Sat 17:51
 % Intended LaTeX compiler: pdflatex
 \documentclass{article}
 \usepackage[utf8]{inputenc}
@@ -18,10 +18,10 @@
 \bibliographystyle{plain}
 \author{Jackm}
 \date{\today}
-\title{The N-back Test}
+\title{The n-back Test}
 \hypersetup{
  pdfauthor={Jackm},
- pdftitle={The N-back Test},
+ pdftitle={The n-back Test},
  pdfkeywords={},
  pdfsubject={},
  pdfcreator={Emacs 27.0.50 (Org mode 9.1.9)}, 
@@ -33,81 +33,143 @@
 
 
 \section{Introduction}
-\label{sec:org85dd691}
+\label{sec:org8b8b6b2}
 
 In 1958, Wayne Kirchner invented the n-back test \cite{COULACOGLOU201791}. The n-back test is a visuospatial task that has been shown to improve working memory and attentional skills \cite{COLOM2013712}. The basic mechanisms of the test involve the presentation of continuous stimulis in terms of letters or pictures – for every stimulus presented, the participant has to indicate whether it matches a stimulus that was presented n stimuli ago \cite{Kane}. There are different types of n-back tests known as loads: 3-back test, 2-back test and 1-back test \cite{Forns}.
 
 \section{Hypothesis}
-\label{sec:org53ed98f}
+\label{sec:orga6f14ff}
 
 Our hypothesis was that participants would have a more challenging time remembering things initially which would be reflected in a longer reaction time to congruent stimulis in the 2-back test compared to the reaction time of a 1-back test. However, as n-back tests are shown to improve working and short term memory \cite{LEONDOMINGUEZ2015167}, we expect participants to get better at remembering, reflected in shorter reaction times in responding to congruent stimulis.
 
 \section{Materials/Methods}
-\label{sec:orgfb6c50b}
-\subsection{Information from Pelegrina et. Al (2015)}
-\label{sec:orgd24ac4d}
-From \cite{NormativeData}
-\subsubsection{{\bfseries\sffamily TODO} R code: transfer mf tables to next python block for renaming, insert full tables for both m and f?}
-\label{sec:org086fc08}
-The following block pulls in 
-\begin{verbatim}
-
-  library('dplyr')
-  library('ggplot2')
-  library('tidyr')
-
-  d <- read.csv("./dataFromPaper/csvfpsyg-06-01544.csv")
-  tbl_df(d)
-  oneback<-slice(d,11:12)
-  twoback<-slice(d,18:19)
-  threeback<-slice(d,25:26)
-
-  mean_sd <- tbl_df(bind_rows(oneback,twoback,threeback))
-  rename(mean_sd,"Var"=X)
-  m_mean_sd <- tbl_df(select(mean_sd,X:X.8,-X.2))
-  f_mean_sd <- tbl_df(select(mean_sd,X:X.1,Girls:X.14))
-
-write.csv(m_mean_sd, 'maleMeanSd.csv')
-write.csv(f_mean_sd, 'femaleMeanSd.csv')
-
-\end{verbatim}
-
-
-
-
-\subsubsection{Python Code For}
-\label{sec:org69be266}
-\begin{verbatim}
-import pandas as pd
-t4pd = pd.read_csv("./dataFromPaper/csvfpsyg-06-01544.csv")
-for i in ['Boys','Girls']:
-    print(t4pd[i])
-\end{verbatim}
+\label{sec:org394e780}
 
 \subsection{Inline usage}
-\label{sec:orgaef707c}
+\label{sec:org6eaf17d}
 
 \section{Results}
-\label{sec:orgf442622}
+\label{sec:org5ec0dbd}
+\subsection{Information from Pelegrina et. Al (2015)}
+\label{sec:org0acac0a}
+
+\subsubsection{R code}
+\label{sec:org5e63440}
+Our results are not particularly well suited for demonstrating the capabilities of org-mode. 
+The following block pulls in normative data from \cite{NormativeData} and store it in the \textbf{tables} session
+\begin{verbatim}
+    ## install.packages('dplyr')
+    ## install.packages('ggplot2')
+    ## install.packages('tidyr')
+    library('dplyr')
+    library('tidyr')
+
+    d <- read.csv("./dataFromPaper/csvfpsyg-06-01544.csv")
+    tbl_df(d)
+    oneback<-slice(d,11:12)
+    twoback<-slice(d,18:19)
+    threeback<-slice(d,25:26)
+
+    mean_sd <- tbl_df(bind_rows(oneback,twoback,threeback))
+    rename(mean_sd,"Var"=X)
+    mMeanSD <- tbl_df(select(mean_sd,X:X.8,-X.2))
+    fMeanSD <- tbl_df(select(mean_sd,X:X.1,Girls:X.14))
+mMeanSD
+
+\end{verbatim}
+
+Org-mode block as a function to rename column names prior to plotting
+\begin{verbatim}
+newColNames <- c("n-back","M_or_SD","7","8","9","10","11","12","13")
+names(df) <- newColNames
+df
+\end{verbatim}
+
+
+
+
+
+
+
+
+
+
+\subsubsection{Python Code}
+\label{sec:org60f279b}
+This code adds headers back into the data
+\begin{verbatim}
+import numpy as np
+import pandas as pd
+dArr = np.array(data)
+headers = ["n-back","statistic"]
+[headers.append(i) for i in range(7,14)]
+headers = np.array(headers)
+dArr = np.vstack((headers,dArr))
+
+dArr
+\end{verbatim}
+
+\begin{verbatim}
+
+import matplotlib.pyplot as plt
+data=np.array(data)
+
+
+\end{verbatim}
+
+
+
 \subsection{Table}
-\label{sec:orgfa1b9ee}
+\label{sec:orgf9661ed}
+\begin{verbatim}
+
+    data=np.array(data)
+    tuples=[]
+    for idx, val in enumerate(data[:,0]):
+        if val != "":
+            tuples.append((data[idx,0],data[idx,1]))
+        else:
+            tuples.append((data[idx-1,0],data[idx,1]))
+    del tuples[0]
+
+
+    pandf = pd.DataFrame(
+        data=data[1:,2:],
+        columns=data[0,:],
+        index=pd.MultiIndex.from_tuples(
+            tuples,
+            names=[data[0,0],data[0,1]])
+
+        )
+pandf
+
+\end{verbatim}
+
 \subsection{Simple summary statistics}
-\label{sec:org59c782b}
+\label{sec:orge7d929c}
+\begin{verbatim}
+data=pd.Dataframe(pandarray)
+data
+\end{verbatim}
+
 \subsection{2 plots}
-\label{sec:orgdbc3ee3}
+\label{sec:orgfb8513c}
+
+
 
 \section{Discussion}
-\label{sec:org1e117c4}
+\label{sec:org5544c14}
 
+Our experiment was done with the hypothesis that the reaction time to stimuli in a 1-Back test would be shorter than the reaction time to stimuli in a 2-Back test. This was based off of the fact that there is one extra letter presented between letter stimuli to remember during 2-Back tests. This test is a working memory task, but it could also potentially be used to test the recency effect, which has been shown to be eliminated when another stimulus is presented. \cite cohen1989effects
 \section{Bibliography}
-\label{sec:org105e75a}
-need to add the fpsyg-06-01544 citation!
+\label{sec:org67a3cb2}
+
 \bibliography{references}
 
 \section{Appendix}
-\label{sec:org84447a9}
+\label{sec:org4bdb128}
 \subsection{Python Code for n-back test}
-\label{sec:org5414b77}
+\label{sec:orgebf3c91}
 \begin{verbatim}
 from psychopy import visual, event, core
 import pandas as pd
@@ -286,5 +348,5 @@ for line in press_times:
 
 \end{verbatim}
 \subsection{Data from Our Python Code}
-\label{sec:orga50dd5a}
+\label{sec:org65fd546}
 \end{document}
