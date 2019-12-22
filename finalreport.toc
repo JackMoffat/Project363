@@ -1,0 +1,15 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Important Note}{2}{subsection.1.1}% 
+\contentsline {section}{\numberline {2}Hypothesis}{2}{section.2}% 
+\contentsline {section}{\numberline {3}Materials/Methods}{2}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Inline usage}{2}{subsection.3.1}% 
+\contentsline {subsubsection}{\numberline {3.1.1}R code}{2}{subsubsection.3.1.1}% 
+\contentsline {section}{\numberline {4}Results}{3}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Python Code}{3}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}2 plots}{3}{subsection.4.2}% 
+\contentsline {section}{\numberline {5}Discussion}{5}{section.5}% 
+\contentsline {section}{\numberline {6}Bibliography}{5}{section.6}% 
+\contentsline {section}{\numberline {7}Appendix}{6}{section.7}% 
+\contentsline {subsection}{\numberline {7.1}Python Code for n-back test}{6}{subsection.7.1}% 
+\contentsline {subsection}{\numberline {7.2}Example data collected from our python code}{10}{subsection.7.2}% 

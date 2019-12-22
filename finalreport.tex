@@ -1,4 +1,4 @@
-% Created 2019-12-21 Sat 17:51
+% Created 2019-12-21 Sat 22:59
 % Intended LaTeX compiler: pdflatex
 \documentclass{article}
 \usepackage[utf8]{inputenc}
@@ -15,12 +15,13 @@
 \usepackage{capt-of}
 \usepackage{hyperref}
 \usepackage[english]{babel}
+\author{Max Andric Su, Shameem Hedoo , Jack Moffat}
 \bibliographystyle{plain}
-\author{Jackm}
+\author{Jack Moffat}
 \date{\today}
 \title{The n-back Test}
 \hypersetup{
- pdfauthor={Jackm},
+ pdfauthor={Jack Moffat},
  pdftitle={The n-back Test},
  pdfkeywords={},
  pdfsubject={},
@@ -33,52 +34,51 @@
 
 
 \section{Introduction}
-\label{sec:org8b8b6b2}
+\label{sec:org5c96cef}
 
 In 1958, Wayne Kirchner invented the n-back test \cite{COULACOGLOU201791}. The n-back test is a visuospatial task that has been shown to improve working memory and attentional skills \cite{COLOM2013712}. The basic mechanisms of the test involve the presentation of continuous stimulis in terms of letters or pictures – for every stimulus presented, the participant has to indicate whether it matches a stimulus that was presented n stimuli ago \cite{Kane}. There are different types of n-back tests known as loads: 3-back test, 2-back test and 1-back test \cite{Forns}.
 
+\subsection{Important Note}
+\label{sec:org4f05c74}
+During compilation from the .tex file, if 'unresolved citations' encountered after repeated compiling with \LaTeX{}, compile with bibtex.
+(latex,latex,latex,bibtex,latex,latex works reliably)
 \section{Hypothesis}
-\label{sec:orga6f14ff}
+\label{sec:org7fd8c26}
 
 Our hypothesis was that participants would have a more challenging time remembering things initially which would be reflected in a longer reaction time to congruent stimulis in the 2-back test compared to the reaction time of a 1-back test. However, as n-back tests are shown to improve working and short term memory \cite{LEONDOMINGUEZ2015167}, we expect participants to get better at remembering, reflected in shorter reaction times in responding to congruent stimulis.
 
 \section{Materials/Methods}
-\label{sec:org394e780}
+\label{sec:orgcfe3467}
 
 \subsection{Inline usage}
-\label{sec:org6eaf17d}
-
-\section{Results}
-\label{sec:org5ec0dbd}
-\subsection{Information from Pelegrina et. Al (2015)}
-\label{sec:org0acac0a}
-
+\label{sec:org4bd68db}
 \subsubsection{R code}
-\label{sec:org5e63440}
+\label{sec:org2d533c3}
 Our results are not particularly well suited for demonstrating the capabilities of org-mode. 
-The following block pulls in normative data from \cite{NormativeData} and store it in the \textbf{tables} session
+The following block pulls in normative data from \cite{NormativeData} and stores it in the \textbf{tables} session
 \begin{verbatim}
-    ## install.packages('dplyr')
-    ## install.packages('ggplot2')
-    ## install.packages('tidyr')
-    library('dplyr')
-    library('tidyr')
+## install.packages('dplyr')
+## install.packages('ggplot2')
+## install.packages('tidyr')
+library('dplyr')
+library('tidyr')
 
-    d <- read.csv("./dataFromPaper/csvfpsyg-06-01544.csv")
-    tbl_df(d)
-    oneback<-slice(d,11:12)
-    twoback<-slice(d,18:19)
-    threeback<-slice(d,25:26)
+d <- read.csv("./dataFromPaper/csvfpsyg-06-01544.csv")
+tbl_df(d)
+oneback<-slice(d,11:12)
+twoback<-slice(d,18:19)
+threeback<-slice(d,25:26)
 
-    mean_sd <- tbl_df(bind_rows(oneback,twoback,threeback))
-    rename(mean_sd,"Var"=X)
-    mMeanSD <- tbl_df(select(mean_sd,X:X.8,-X.2))
-    fMeanSD <- tbl_df(select(mean_sd,X:X.1,Girls:X.14))
+mean_sd <- tbl_df(bind_rows(oneback,twoback,threeback))
+rename(mean_sd,"Var"=X)
+mMeanSD <- tbl_df(select(mean_sd,X:X.8,-X.2))
+fMeanSD <- tbl_df(select(mean_sd,X:X.1,Girls:X.14))
 mMeanSD
 
 \end{verbatim}
 
-Org-mode block as a function to rename column names prior to plotting
+Org-mode block as a function to rename columns prior to plotting
+Note: Glitch wherein specifying header ``:colnames yes'' replaces the first row of table
 \begin{verbatim}
 newColNames <- c("n-back","M_or_SD","7","8","9","10","11","12","13")
 names(df) <- newColNames
@@ -88,14 +88,11 @@ df
 
 
 
+\section{Results}
+\label{sec:org1c8646d}
 
-
-
-
-
-
-\subsubsection{Python Code}
-\label{sec:org60f279b}
+\subsection{Python Code}
+\label{sec:orgcca38cd}
 This code adds headers back into the data
 \begin{verbatim}
 import numpy as np
@@ -109,67 +106,84 @@ dArr = np.vstack((headers,dArr))
 dArr
 \end{verbatim}
 
-\begin{verbatim}
-
-import matplotlib.pyplot as plt
-data=np.array(data)
 
 
-\end{verbatim}
-
-
-
-\subsection{Table}
-\label{sec:orgf9661ed}
-\begin{verbatim}
-
-    data=np.array(data)
-    tuples=[]
-    for idx, val in enumerate(data[:,0]):
-        if val != "":
-            tuples.append((data[idx,0],data[idx,1]))
-        else:
-            tuples.append((data[idx-1,0],data[idx,1]))
-    del tuples[0]
-
-
-    pandf = pd.DataFrame(
-        data=data[1:,2:],
-        columns=data[0,:],
-        index=pd.MultiIndex.from_tuples(
-            tuples,
-            names=[data[0,0],data[0,1]])
-
-        )
-pandf
-
-\end{verbatim}
-
-\subsection{Simple summary statistics}
-\label{sec:orge7d929c}
-\begin{verbatim}
-data=pd.Dataframe(pandarray)
-data
-\end{verbatim}
 
 \subsection{2 plots}
-\label{sec:orgfb8513c}
+\label{sec:orgfb7e985}
+Here is a plot of how improvement on various n-backs improves with age
+\begin{verbatim}
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+data=np.array(data)
+datafloat=data[0:,2:].astype(np.float32)
+ages=datafloat[0,:]
+plt.cla()
+plt.clf()
+plt.plot(ages,datafloat[1,:],label=data[1,0])
+plt.plot(ages,datafloat[3,:],label=data[3,0])
+plt.plot(ages,datafloat[5,:],label=data[5,0])
+plt.title(label="Age vs Mean Performance on various n-back tests for Adolescent Males")
+plt.ylim(np.min(datafloat[5,:]),np.max(datafloat[1,:]))
+plt.xlabel("Age (years)")
+plt.ylabel("Mean hits")
+plt.legend()
+plt.savefig('./pyplot1.png')
+'./pyplot1.png'
+
+\end{verbatim}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./pyplot1.png}
+\end{center}
+
+\begin{verbatim}
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+data=np.array(data)
+datafloat=data[0:,2:].astype(np.float32)
+ages=datafloat[0,:]
+plt.cla()
+plt.clf()
+fig=plt.figure(figsize=(6,3))
+plt.errorbar(ages-0.1,datafloat[1,:],yerr=datafloat[2,:],linestyle='None',fmt='o',capsize=3,label=data[1,0])
+plt.errorbar(ages,datafloat[3,:],yerr=datafloat[4,:],linestyle='None',fmt='v',capsize=3,label=data[3,0])
+plt.errorbar(ages+0.1,datafloat[5,:],yerr=datafloat[6,:],linestyle='None',fmt='s',capsize=3,label=data[5,0])
+plt.title(label="Age vs Mean Performance on various n-back tests for Adolescent Males, Including Error")
+plt.ylim((datafloat[5,0]-datafloat[6,0]),(datafloat[0,6]+datafloat[1,6]))
+plt.xlabel("Age (years)")
+plt.ylabel("Mean hits")
+plt.legend()
+fig.tight_layout()
+plt.savefig('./pyplot2.png')
+'./pyplot2.png'
+\end{verbatim}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./pyplot2.png}
+\end{center}
+
+
+
+
 
 
 
 \section{Discussion}
-\label{sec:org5544c14}
+\label{sec:org3460640}
 
-Our experiment was done with the hypothesis that the reaction time to stimuli in a 1-Back test would be shorter than the reaction time to stimuli in a 2-Back test. This was based off of the fact that there is one extra letter presented between letter stimuli to remember during 2-Back tests. This test is a working memory task, but it could also potentially be used to test the recency effect, which has been shown to be eliminated when another stimulus is presented. \cite cohen1989effects
+Our experiment was done with the hypothesis that the reaction time to stimuli in a 1-Back test would be shorter than the reaction time to stimuli in a 2-Back test. This was based off of the fact that there is one extra letter presented between letter stimuli to remember during 2-Back tests. This test is a working memory task, but it could also potentially be used to test the recency effect, which has been shown to be eliminated when another stimulus is presented. \cite{cohen1989effects}
 \section{Bibliography}
-\label{sec:org67a3cb2}
+\label{sec:org3661a13}
 
 \bibliography{references}
 
 \section{Appendix}
-\label{sec:org4bdb128}
+\label{sec:org98e1a86}
 \subsection{Python Code for n-back test}
-\label{sec:orgebf3c91}
+\label{sec:org710c01e}
 \begin{verbatim}
 from psychopy import visual, event, core
 import pandas as pd
@@ -347,6 +361,24 @@ for line in press_times:
 #     datafile.write("\n")
 
 \end{verbatim}
-\subsection{Data from Our Python Code}
-\label{sec:org65fd546}
+\subsection{Example data collected from our python code}
+\label{sec:org97f66f0}
+The output file's name was datafile\(_{\text{Y19M12D03H16M01S43.txt}}\)
+\begin{verbatim}
+[[], -0.004664508000132628, 'D']
+[[], -0.004164268000749871, 'Z']
+[[], -0.00399026299965044, 'D']
+[[], -0.0038331880004989216, 'B']
+[[], -0.00503896499867551, 'Q']
+[[], -0.003854009999486152, 'B']
+[[], -0.0046000490001461, 'O']
+[[], -0.004559805000099004, 'C']
+[[], -0.003853826001432026, 'O']
+[[], -0.004379994001283194, 'G']
+[[], -0.0045756989984511165, 'K']
+[[], -0.004432972000358859, 'E']
+[[], -0.003947705999962636, 'K']
+[[], -0.003957068000090658, 'D']
+[[], -0.004081728999153711, 'C']
+\end{verbatim}
 \end{document}

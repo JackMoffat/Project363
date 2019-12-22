@@ -1,4 +1,3 @@
-
 #+LATEX_CLASS: article
 #+LATEX_CLASS_OPTIONS:
 #+LATEX_HEADER:
@@ -8,12 +7,16 @@
 #+SUBTITLE:
 #+LATEX_COMPILER: pdflatex
 #+Title: The n-back Test
+#+latex_header: \author{Max Andric Su, Shameem Hedoo , Jack Moffat}
 #+Latex_header: \bibliographystyle{plain}
 
 * Introduction
 
 In 1958, Wayne Kirchner invented the n-back test \cite{COULACOGLOU201791}. The n-back test is a visuospatial task that has been shown to improve working memory and attentional skills \cite{COLOM2013712}. The basic mechanisms of the test involve the presentation of continuous stimulis in terms of letters or pictures – for every stimulus presented, the participant has to indicate whether it matches a stimulus that was presented n stimuli ago \cite{Kane}. There are different types of n-back tests known as loads: 3-back test, 2-back test and 1-back test \cite{Forns}.
 
+** Important Note
+During compilation from the .tex file, if 'unresolved citations' encountered after repeated compiling with LaTeX, compile with bibtex.
+(latex,latex,latex,bibtex,latex,latex works reliably)
 * Hypothesis
 
 Our hypothesis was that participants would have a more challenging time remembering things initially which would be reflected in a longer reaction time to congruent stimulis in the 2-back test compared to the reaction time of a 1-back test. However, as n-back tests are shown to improve working and short term memory \cite{LEONDOMINGUEZ2015167}, we expect participants to get better at remembering, reflected in shorter reaction times in responding to congruent stimulis.
@@ -21,61 +24,46 @@ Our hypothesis was that participants would have a more challenging time remember
 * Materials/Methods
 
 ** Inline usage
-
-* Results
-** Information from Pelegrina et. Al (2015)
-
 *** R code
 Our results are not particularly well suited for demonstrating the capabilities of org-mode. 
-The following block pulls in normative data from \cite{NormativeData} and store it in the *tables* session
+The following block pulls in normative data from \cite{NormativeData} and stores it in the *tables* session
 #+NAME: normdata
 #+BEGIN_SRC R :session *tables* :results silent
-      ## install.packages('dplyr')
-      ## install.packages('ggplot2')
-      ## install.packages('tidyr')
-      library('dplyr')
-      library('tidyr')
+  ## install.packages('dplyr')
+  ## install.packages('ggplot2')
+  ## install.packages('tidyr')
+  library('dplyr')
+  library('tidyr')
 
-      d <- read.csv("./dataFromPaper/csvfpsyg-06-01544.csv")
-      tbl_df(d)
-      oneback<-slice(d,11:12)
-      twoback<-slice(d,18:19)
-      threeback<-slice(d,25:26)
+  d <- read.csv("./dataFromPaper/csvfpsyg-06-01544.csv")
+  tbl_df(d)
+  oneback<-slice(d,11:12)
+  twoback<-slice(d,18:19)
+  threeback<-slice(d,25:26)
 
-      mean_sd <- tbl_df(bind_rows(oneback,twoback,threeback))
-      rename(mean_sd,"Var"=X)
-      mMeanSD <- tbl_df(select(mean_sd,X:X.8,-X.2))
-      fMeanSD <- tbl_df(select(mean_sd,X:X.1,Girls:X.14))
+  mean_sd <- tbl_df(bind_rows(oneback,twoback,threeback))
+  rename(mean_sd,"Var"=X)
+  mMeanSD <- tbl_df(select(mean_sd,X:X.8,-X.2))
+  fMeanSD <- tbl_df(select(mean_sd,X:X.1,Girls:X.14))
   mMeanSD
 
 #+END_SRC
 
-Org-mode block as a function to rename column names prior to plotting
+Org-mode block as a function to rename columns prior to plotting
+Note: Glitch wherein specifying header ":colnames yes" replaces the first row of table
 #+NAME:renamecolumns
-#+BEGIN_SRC R :session *tables* :var df=normdata :results table
+#+BEGIN_SRC R :session *tables* :var df=normdata :results inline
   newColNames <- c("n-back","M_or_SD","7","8","9","10","11","12","13")
   names(df) <- newColNames
   df
 #+END_SRC
 
-#+RESULTS: renamecolumns
-| 1-back | M  | 8.05 | 8.82 | 9.14 | 9.72 | 10.01 | 10.2 | 10.28 |
-|        | SD | 3.04 | 3.09 | 2.82 | 2.96 |  2.98 | 2.96 |  2.96 |
-| 2-back | M  |  4.1 | 5.02 | 5.23 | 6.29 |  6.96 | 7.26 |  8.16 |
-|        | SD | 3.64 | 3.67 | 3.81 | 3.78 |  4.08 | 3.91 |  3.99 |
-| 3-back | M  |  2.3 | 2.87 | 3.26 | 4.23 |  4.97 | 5.04 |  6.37 |
-|        | SD | 3.41 | 3.81 | 3.91 | 4.15 |  4.27 | 4.12 |  4.27 |
 
 
 
+* Results
 
-
-
-
-
-
-
-*** Python Code 
+** Python Code 
 This code adds headers back into the data
 #+NAME: pyarray 
 #+BEGIN_SRC python :session *python* :var data=renamecolumns :results inline
@@ -90,94 +78,79 @@ This code adds headers back into the data
     dArr
 #+END_SRC
 
-#+RESULTS: pyarray
-| n-back | statistic |    7 |    8 |    9 |   10 |    11 |   12 |    13 |
-| 1-back | M         | 8.05 | 8.82 | 9.14 | 9.72 | 10.01 | 10.2 | 10.28 |
-|        | SD        | 3.04 | 3.09 | 2.82 | 2.96 |  2.98 | 2.96 |  2.96 |
-| 2-back | M         |  4.1 | 5.02 | 5.23 | 6.29 |  6.96 | 7.26 |  8.16 |
-|        | SD        | 3.64 | 3.67 | 3.81 | 3.78 |  4.08 | 3.91 |  3.99 |
-| 3-back | M         |  2.3 | 2.87 | 3.26 | 4.23 |  4.97 | 5.04 |  6.37 |
-|        | SD        | 3.41 | 3.81 | 3.91 | 4.15 |  4.27 | 4.12 |  4.27 |
-
-#+BEGIN_SRC python :session *python* :var data=pyarray
-
-import matplotlib.pyplot as plt
-data=np.array(data)
 
 
-#+END_SRC
-
-#+RESULTS:
-| n-back | statistic |    7 |    8 |    9 |   10 |    11 |   12 |    13 |
-| 1-back | M         | 8.05 | 8.82 | 9.14 | 9.72 | 10.01 | 10.2 | 10.28 |
-|        | SD        | 3.04 | 3.09 | 2.82 | 2.96 |  2.98 | 2.96 |  2.96 |
-| 2-back | M         |  4.1 | 5.02 | 5.23 | 6.29 |  6.96 | 7.26 |  8.16 |
-|        | SD        | 3.64 | 3.67 | 3.81 | 3.78 |  4.08 | 3.91 |  3.99 |
-| 3-back | M         |  2.3 | 2.87 | 3.26 | 4.23 |  4.97 | 5.04 |  6.37 |
-|        | SD        | 3.41 | 3.81 | 3.91 | 4.15 |  4.27 | 4.12 |  4.27 |
-
-
-
-** Table
-#+name: pandarray
-#+BEGIN_SRC python :session *python* :results inline :var data=pyarray
-
-    data=np.array(data)
-    tuples=[]
-    for idx, val in enumerate(data[:,0]):
-        if val != "":
-            tuples.append((data[idx,0],data[idx,1]))
-        else:
-            tuples.append((data[idx-1,0],data[idx,1]))
-    del tuples[0]
-
-
-    pandf = pd.DataFrame(
-        data=data[1:,2:],
-        columns=data[0,:],
-        index=pd.MultiIndex.from_tuples(
-            tuples,
-            names=[data[0,0],data[0,1]])
-
-        )
-pandf
-
-#+END_SRC
-
-#+RESULTS: pandarray
-:                      7     8     9    10     11    12     13
-: n-back statistic                                            
-: 1-back M          8.05  8.82  9.14  9.72  10.01  10.2  10.28
-:        SD         3.04  3.09  2.82  2.96   2.98  2.96   2.96
-: 2-back M           4.1  5.02  5.23  6.29   6.96  7.26   8.16
-:        SD         3.64  3.67  3.81  3.78   4.08  3.91   3.99
-: 3-back M           2.3  2.87  3.26  4.23   4.97  5.04   6.37
-:        SD         3.41  3.81  3.91  4.15   4.27  4.12   4.27
 #+CAPTION: performance on various n-back tests for males between age 7 and 13
 
-** Simple summary statistics
-#+BEGIN_SRC python :session *python* :results inline :var data=pandarray
-data=pd.Dataframe(pandarray)
-data
+
+
+
+** 2 plots
+:PROPERTIES:
+:header-args:python: :session *python* :var data=pyarray
+:END:
+
+Here is a plot of how improvement on various n-backs improves with age
+#+BEGIN_SRC python :results value file :exports both
+  import matplotlib
+  matplotlib.use('Agg')
+  import matplotlib.pyplot as plt
+  data=np.array(data)
+  datafloat=data[0:,2:].astype(np.float32)
+  ages=datafloat[0,:]
+  plt.cla()
+  plt.clf()
+  plt.plot(ages,datafloat[1,:],label=data[1,0])
+  plt.plot(ages,datafloat[3,:],label=data[3,0])
+  plt.plot(ages,datafloat[5,:],label=data[5,0])
+  plt.title(label="Age vs Mean Performance on various n-back tests for Adolescent Males")
+  plt.ylim(np.min(datafloat[5,:]),np.max(datafloat[1,:]))
+  plt.xlabel("Age (years)")
+  plt.ylabel("Mean hits")
+  plt.legend()
+  plt.savefig('./pyplot1.png')
+  './pyplot1.png'
+
 #+END_SRC
 
 #+RESULTS:
-:                      7     8     9    10     11    12     13
-: n-back statistic                                            
-: 1-back M          8.05  8.82  9.14  9.72  10.01  10.2  10.28
-:        SD         3.04  3.09  2.82  2.96   2.98  2.96   2.96
-: 2-back M           4.1  5.02  5.23  6.29   6.96  7.26   8.16
-:        SD         3.64  3.67  3.81  3.78   4.08  3.91   3.99
-: 3-back M           2.3  2.87  3.26  4.23   4.97  5.04   6.37
-:        SD         3.41  3.81  3.91  4.15   4.27  4.12   4.27
+[[file:./pyplot1.png]]
 
-** 2 plots
+#+BEGIN_SRC python :results value file :exports both
+  import matplotlib
+  matplotlib.use('Agg')
+  import matplotlib.pyplot as plt
+  data=np.array(data)
+  datafloat=data[0:,2:].astype(np.float32)
+  ages=datafloat[0,:]
+  plt.cla()
+  plt.clf()
+  fig=plt.figure(figsize=(6,3))
+  plt.errorbar(ages-0.1,datafloat[1,:],yerr=datafloat[2,:],linestyle='None',fmt='o',capsize=3,label=data[1,0])
+  plt.errorbar(ages,datafloat[3,:],yerr=datafloat[4,:],linestyle='None',fmt='v',capsize=3,label=data[3,0])
+  plt.errorbar(ages+0.1,datafloat[5,:],yerr=datafloat[6,:],linestyle='None',fmt='s',capsize=3,label=data[5,0])
+  plt.title(label="Age vs Mean Performance on various n-back tests for Adolescent Males, Including Error")
+  plt.ylim((datafloat[5,0]-datafloat[6,0]),(datafloat[0,6]+datafloat[1,6]))
+  plt.xlabel("Age (years)")
+  plt.ylabel("Mean hits")
+  plt.legend()
+  fig.tight_layout()
+  plt.savefig('./pyplot2.png')
+  './pyplot2.png'
+#+END_SRC
+
+#+RESULTS:
+[[file:pyplot2.png]]
+
+
+
+
 
 
 
 * Discussion
 
-Our experiment was done with the hypothesis that the reaction time to stimuli in a 1-Back test would be shorter than the reaction time to stimuli in a 2-Back test. This was based off of the fact that there is one extra letter presented between letter stimuli to remember during 2-Back tests. This test is a working memory task, but it could also potentially be used to test the recency effect, which has been shown to be eliminated when another stimulus is presented. \cite cohen1989effects
+Our experiment was done with the hypothesis that the reaction time to stimuli in a 1-Back test would be shorter than the reaction time to stimuli in a 2-Back test. This was based off of the fact that there is one extra letter presented between letter stimuli to remember during 2-Back tests. This test is a working memory task, but it could also potentially be used to test the recency effect, which has been shown to be eliminated when another stimulus is presented. \cite{cohen1989effects}
 * Bibliography
 
 #+latex: \bibliography{references}
@@ -361,4 +334,23 @@ Our experiment was done with the hypothesis that the reaction time to stimuli in
   #     datafile.write("\n")
 
 #+END_SRC
-** Data from Our Python Code
+** Example data collected from our python code
+The output file's name was datafile_Y19M12D03H16M01S43.txt
+#+BEGIN_SRC raw
+[[], -0.004664508000132628, 'D']
+[[], -0.004164268000749871, 'Z']
+[[], -0.00399026299965044, 'D']
+[[], -0.0038331880004989216, 'B']
+[[], -0.00503896499867551, 'Q']
+[[], -0.003854009999486152, 'B']
+[[], -0.0046000490001461, 'O']
+[[], -0.004559805000099004, 'C']
+[[], -0.003853826001432026, 'O']
+[[], -0.004379994001283194, 'G']
+[[], -0.0045756989984511165, 'K']
+[[], -0.004432972000358859, 'E']
+[[], -0.003947705999962636, 'K']
+[[], -0.003957068000090658, 'D']
+[[], -0.004081728999153711, 'C']
+#+END_SRC
+
